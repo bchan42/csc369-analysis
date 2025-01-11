@@ -47,9 +47,14 @@ def process_csv(start_time, end_time):
 # '#FFFFFF', 
 # '1383,1271']
 
+
+# return most placed color during timeframe
+# return most placed pixel location during that timeframe
+
+
 def main():
 
-    start_time_input, end_time_input = sys.arg[0], sys.arg[1] # take in date arguments
+    start_time_input, end_time_input = sys.argv[0], sys.argv[1] # take in date arguments
 
     try:
         start_time = datetime.strptime(start_time_input, "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
@@ -66,5 +71,5 @@ def main():
 
     print() # debugger to check
 
-# if __name__: "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
