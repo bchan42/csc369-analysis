@@ -9,6 +9,7 @@ import csv
 from datetime import datetime
 import sys
 from collections import Counter
+import time
 
 # process csv function
 def process_csv(start_time, end_time):
@@ -22,21 +23,20 @@ def process_csv(start_time, end_time):
 
         for row in reader:
             # print(row) # print out each row of csv
-
             try:
-                timestamp = datetime.strptime(row[0], "%Y-%m-%d %H:%M:%S.%f UTC") # convert to YYYY-MM-DD HH format
+                timestamp = datetime.strptime(row[0], "%Y-%m-%d %H:%M:%S.%f UTC") # convert to datetime object for comparison
                 if start_time <= timestamp <= end_time: # check start before end hour
                     id, color, location = row[1], row[2], row[3]
 
                     color_count[color] += 1 # increment counter and add that color/location
                     pixel_count[location] += 1
 
-            except Exception as e:
+            except ValueError:
                 continue
 
     # find most common color & location
-    most_comm_color = color_count().most_common[1] # first most common color (need to still handle case DNE)
-    most_comm_pixel = pixel_count().most_common[1]
+    most_comm_color = color_count.most_common(1)[0][0] if color_count else "No Color Data" # first most common color & handles case DNE)
+    most_comm_pixel = pixel_count.most_common(1)[0][0] if pixel_count else "No Pixel Location Data"
 
 
     return most_comm_color, most_comm_pixel
@@ -47,29 +47,32 @@ def process_csv(start_time, end_time):
 # '#FFFFFF', 
 # '1383,1271']
 
-
-# return most placed color during timeframe
-# return most placed pixel location during that timeframe
-
-
 def main():
 
-    start_time_input, end_time_input = sys.argv[0], sys.argv[1] # take in date arguments
-
     try:
-        start_time = datetime.strptime(start_time_input, "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
-        end_time = datetime.strptime(end_time_input, "%Y-%m-%d %H")
-    except:
+        start_time = datetime.strptime(sys.argv[1], "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
+        end_time = datetime.strptime(sys.argv[2], "%Y-%m-%d %H")
+    except ValueError:
+        print("Error: Incorrect Date Format")
         sys.exit(1)
+
+    # start execution time
+    start = time.perf_counter_ns()
     
     # return most placed color during timeframe
     # return most placed pixel location during that timeframe
     most_comm_color, most_comm_pixel = process_csv(start_time, end_time) # process data
 
+    # end execution time
+    end = time.perf_counter_ns()
+    exec_time = (end - start) / 1_000_000 # convert from ns to ms
 
-    # save to md function for different timeframes
+    # print result
+    print(f'Timeframe: {start_time} to {end_time}')
+    print(f'Execution Time: {exec_time} ms')
+    print(f'Most Placed Color: {most_comm_color}')
+    print(f'Most Placed Pixel Location: ({most_comm_pixel})')
 
-    print() # debugger to check
 
 if __name__ == "__main__":
     main()
