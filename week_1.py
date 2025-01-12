@@ -21,6 +21,8 @@ def process_csv(start_time, end_time):
     with open("./2022_place_canvas_history.csv", "r") as file:
         reader = csv.reader(file, delimiter=',')
 
+        next(reader, None) # skip header
+
         for row in reader:
             # print(row) # print out each row of csv
             try:
@@ -32,9 +34,11 @@ def process_csv(start_time, end_time):
                     pixel_count[location] += 1
 
             except ValueError:
+                print(f'Skip row: {row}')
                 continue
 
     # find most common color & location
+    # if there is a tie, most_common returns the first one it encounters
     most_comm_color = color_count.most_common(1)[0][0] if color_count else "No Color Data" # first most common color & handles case DNE)
     most_comm_pixel = pixel_count.most_common(1)[0][0] if pixel_count else "No Pixel Location Data"
 
@@ -52,6 +56,10 @@ def main():
     try:
         start_time = datetime.strptime(sys.argv[1], "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
         end_time = datetime.strptime(sys.argv[2], "%Y-%m-%d %H")
+
+        if start_time >= end_time:
+            print("Error: End hour must be after the start hour.")
+
     except ValueError:
         print("Error: Incorrect Date Format")
         sys.exit(1)
