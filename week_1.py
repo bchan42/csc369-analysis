@@ -68,10 +68,10 @@ def main():
     exec_time = (end - start) / 1_000_000 # convert from ns to ms
 
     # print result
-    print(f'Timeframe: {start_time} to {end_time}')
-    print(f'Execution Time: {exec_time} ms')
-    print(f'Most Placed Color: {most_comm_color}')
-    print(f'Most Placed Pixel Location: ({most_comm_pixel})')
+    print(f"- **Timeframe:** {start_time.strftime('%Y-%m-%d %H')} to {end_time.strftime('%Y-%m-%d %H')}")
+    print(f"- **Execution Time:** {exec_time:.0f} ms")
+    print(f"- **Most Placed Color:** {most_comm_color}")
+    print(f"- **Most Placed Pixel Location:** {most_comm_pixel}")
 
 
 if __name__ == "__main__":
