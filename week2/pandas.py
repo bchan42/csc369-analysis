@@ -17,8 +17,11 @@ def process_csv_pd(start_time, end_time):
     df_timeframe = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
 
     # get results
-    most_comm_color = df_timeframe['color'].mode()[0] if not df_timeframe.empty else "no color data"
-    most_comm_pixel = df_timeframe['location'].model()[0] if not df_timeframe.empty else "no location data"
+    if df_timeframe.empty:
+        return "no color data", "no location data"
+    
+    most_comm_color = df_timeframe['pixel_color'].mode()[0]
+    most_comm_pixel = df_timeframe['coordinate'].mode()[0]
 
     return most_comm_color, most_comm_pixel
 
