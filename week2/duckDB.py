@@ -1,5 +1,5 @@
 # imports
-import duckDB
+import duckdb
 from datetime import datetime
 import sys
 import time
@@ -9,22 +9,23 @@ import time
 def process_csv_duckdb(start_time, end_time):
 
     # connect to duckDB
-    conn = duckDB.connect()
+    conn = duckdb.connect()
 
-    # load in csv
-    conn.execute(f"""
-        CREATE TABLE data AS 
-        SELECT * FROM read_csv_auto('./2022_place_canvas_history.csv');
-    """)
-
-    # convert timestamps to duckDB
+    # convert timestamps
     start_str = start_time.strftime("%Y-%m-%d %H:%M:%S")
     end_str = end_time.strftime("%Y-%m-%d %H:%M:%S")
 
+    # load in csv & save as table
+    conn.execute(f"CREATE TABLE data AS SELECT * FROM read_csv_auto('./2022_place_canvas_history.csv')")
+
     # query for most common color & pixel loc
     query = f"""
-
-
+        SELECT pixel_color AS color, coordinate AS location, COUNT(*) AS count
+        FROM data
+        WHERE timestamp BETWEEN '{start_str}' AND '{end_str}'
+        GROUP BY pixel_color, coordinate
+        ORDER BY count DESC
+        LIMIT 1;
     """
 
     # execute query
@@ -35,11 +36,9 @@ def process_csv_duckdb(start_time, end_time):
 
     # validation on whether color/pixel exists
     if result:
-        most_comm_color, most_comm_pixel = result[0]
+        return result[0][0], result[0][1] # most_comm_color, most_comm_pixel
     else:
-        most_comm_color, most_comm_pixel = "no color data", "no pixel loc data"
- 
-    return most_comm_color, most_comm_pixel
+        return "no color data", "no pixel loc data"
 
 
 # main
