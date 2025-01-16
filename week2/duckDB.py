@@ -19,11 +19,12 @@ def process_csv_duckdb(start_time, end_time):
     conn.execute(f"CREATE TABLE data AS SELECT * FROM read_csv_auto('./2022_place_canvas_history.csv')")
 
     # query for most common color & pixel loc
+    # header: ['timestamp', 'user_id', 'pixel_color', 'coordinate']
     query = f"""
         SELECT pixel_color AS color, coordinate AS location, COUNT(*) AS count
         FROM data
         WHERE timestamp BETWEEN '{start_str}' AND '{end_str}'
-        GROUP BY pixel_color, coordinate
+        GROUP BY color, location
         ORDER BY count DESC
         LIMIT 1;
     """
@@ -57,7 +58,7 @@ def main():
         sys.exit(1)
 
     # start execution time
-    start = time.perf_count_ns()
+    start = time.perf_counter_ns()
 
     # return most placed color during timeframe
     # return most placed pixel location during that timeframe
