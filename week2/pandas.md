@@ -13,4 +13,4 @@
 - **Timeframe:** 2022-04-01 12 to 2022-04-01 15
 - **Execution Time:** 457047 ms
 - **Most Placed Color:** #000000
-- **Most Placed Pixel Location:** 0,0
+- **Most Placed Pixel Location:** (0, 0)

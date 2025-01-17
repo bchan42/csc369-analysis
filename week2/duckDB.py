@@ -6,47 +6,44 @@ import time
 
 
 # process csv function
-def process_csv_duckdb(start_time, end_time):
+def process_csv(start_time, end_time):
 
     # connect to duckDB
-    conn = duckdb.connect()
+    con = duckdb.connect()
 
-    # convert timestamps
-    start_str = start_time.strftime("%Y-%m-%d %H:%M:%S")
-    end_str = end_time.strftime("%Y-%m-%d %H:%M:%S")
-
-    # load in csv & save as table
-    conn.execute(f"CREATE TABLE data AS SELECT * FROM read_csv_auto('./2022_place_canvas_history.csv')")
-
-    # query for most common color & pixel loc
-    # header: ['timestamp', 'user_id', 'pixel_color', 'coordinate']
+    # query to read in csv and filter by timestamp range
     query = f"""
-        SELECT pixel_color AS color, coordinate AS location, COUNT(*) AS count
-        FROM data
-        WHERE timestamp BETWEEN '{start_str}' AND '{end_str}'
-        GROUP BY color, location
-        ORDER BY count DESC
-        LIMIT 1;
+        SELECT pixel_color, coordinate
+        FROM read_csv_auto('./2022_place_canvas_history.csv', header=True)
+        WHERE timestamp >= '{start_time.strftime('%Y-%m-%d %H:%M:%S')}' AND timestamp <= '{end_time.strftime('%Y-%m-%d %H:%M:%S')}'
     """
-
-    # execute query
-    result = conn.execute(query).fetchall()
+    
+    # execute query and load data into results
+    result = con.execute(query).fetchall()
 
     # close connection
-    conn.close()
+    con.close()
 
-    # validation on whether color/pixel exists
-    if result:
-        return result[0][0], result[0][1] # most_comm_color, most_comm_pixel
-    else:
-        return "no color data", "no pixel loc data"
+    # initialize dictionary for color & location
+    color_count = {} 
+    pixel_count = {}
+
+    for row in result:
+        color, location = row
+        color_count[color] = color_count.get(color, 0) + 1 # increment num of colors and pixel locations
+        pixel_count[location] = pixel_count.get(location, 0) + 1
+
+    # find most common color and pixel location
+    most_comm_color = max(color_count, key=color_count.get, default="No Color Data")
+    most_comm_pixel = max(pixel_count, key=pixel_count.get, default="No Pixel Location Data")
+
+    return most_comm_color, most_comm_pixel
 
 
-# main
 def main():
 
     try:
-        start_time = datetime.strptime(sys.argv[1], "%Y-%m-%d %H")
+        start_time = datetime.strptime(sys.argv[1], "%Y-%m-%d %H")  # accept time in YYYY-MM-DD HH format
         end_time = datetime.strptime(sys.argv[2], "%Y-%m-%d %H")
 
         if start_time >= end_time:
@@ -60,15 +57,14 @@ def main():
     # start execution time
     start = time.perf_counter_ns()
 
-    # return most placed color during timeframe
-    # return most placed pixel location during that timeframe
-    most_comm_color, most_comm_pixel = process_csv_duckdb(start_time, end_time)
+    # process data
+    most_comm_color, most_comm_pixel = process_csv(start_time, end_time)
 
     # end execution time
     end = time.perf_counter_ns()
-    exec_time = (end - start) / 1_000_000 # convert from ns to ms
+    exec_time = (end - start) / 1_000_000  # convert from ns to ms
 
-    # print result
+    # print results
     print(f"- **Timeframe:** {start_time.strftime('%Y-%m-%d %H')} to {end_time.strftime('%Y-%m-%d %H')}")
     print(f"- **Execution Time:** {exec_time:.0f} ms")
     print(f"- **Most Placed Color:** {most_comm_color}")
