@@ -2,26 +2,32 @@
 import pandas as pd
 from datetime import datetime
 import sys
+from collections import Counter
 import time
 
+
 # process csv function
-def process_csv_pd(start_time, end_time):
+def process_csv(start_time, end_time):
 
-    # read in csv
-    df = pd.read_csv('./2022_place_canvas_history.csv')
+    color_count = Counter()
+    pixel_count = Counter()
 
-    # convert timestamp to datetime format
-    df['timestamp'] = pd.to_datetime(df['timestamp'], format="%Y-%m-%d %H:%M:%S.%f UTC")
+    # process csv in chunks
+    for chunk in pd.read_csv("./2022_place_canvas_history.csv", chunksize=1_000_000):
+        
+        # convert timestamps to datetime
+        chunk['timestamp'] = pd.to_datetime(chunk['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC', errors='coerce')
 
-    # filter df to given timeframe
-    df_timeframe = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
+        # filter rows within the timeframe
+        chunk_timestamp = chunk[(chunk['timestamp'] >= start_time) & (chunk['timestamp'] <= end_time)]
 
-    # get results
-    if df_timeframe.empty:
-        return "no color data", "no location data"
-    
-    most_comm_color = df_timeframe['pixel_color'].mode()[0]
-    most_comm_pixel = df_timeframe['coordinate'].mode()[0]
+        # increment num of colors and pixel locations
+        color_count.update(chunk_timestamp['pixel_color'])
+        pixel_count.update(chunk_timestamp['coordinate'])
+
+    # find most common color and location
+    most_comm_color = color_count.most_common(1)[0][0] if color_count else "No Color Data"
+    most_comm_pixel = pixel_count.most_common(1)[0][0] if pixel_count else "No Pixel Location Data"
 
     return most_comm_color, most_comm_pixel
 
@@ -34,6 +40,7 @@ def main():
 
         if start_time >= end_time:
             print("Error: End hour must be after the start hour.")
+            sys.exit(1)
 
     except ValueError:
         print("Error: Incorrect Date Format")
@@ -41,16 +48,15 @@ def main():
 
     # start execution time
     start = time.perf_counter_ns()
-    
-    # return most placed color during timeframe
-    # return most placed pixel location during that timeframe
-    most_comm_color, most_comm_pixel = process_csv_pd(start_time, end_time) # process data
+
+    # process data
+    most_comm_color, most_comm_pixel = process_csv(start_time, end_time)
 
     # end execution time
     end = time.perf_counter_ns()
-    exec_time = (end - start) / 1_000_000 # convert from ns to ms
+    exec_time = (end - start) / 1_000_000  # convert from ns to ms
 
-    # print result
+    # print results
     print(f"- **Timeframe:** {start_time.strftime('%Y-%m-%d %H')} to {end_time.strftime('%Y-%m-%d %H')}")
     print(f"- **Execution Time:** {exec_time:.0f} ms")
     print(f"- **Most Placed Color:** {most_comm_color}")

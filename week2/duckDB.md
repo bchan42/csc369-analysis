@@ -1,4 +1,4 @@
-# Week 2 Results
+# Week 2 Results: duckDB
 ## 1-Hour Timeframe
 - **Timeframe:** 2022-04-01 12 to 2022-04-01 13
 - **Execution Time:** 85649 ms
