@@ -10,6 +10,8 @@
 
 # imports
 import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
 from datetime import datetime
 import sys
 import time
@@ -17,9 +19,10 @@ import time
 # preprocess data function (use chunks)
 def preprocess_data():
 
-    processed_data = []
+    parquet_file = 'processed_canvas_history.parquet'
+    all_chunks = []
 
-    for chunk in pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000):
+    for i, chunk in enumerate(pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000)):
 
         chunk = chunk[['timestamp', 'user_id', 'pixel_color', 'coordinate']] # only relevant cols
 
@@ -28,10 +31,12 @@ def preprocess_data():
             '#00FF00': 'Green', '#0000FF': 'Blue', '#FFFF00': 'Yellow'
         }) # convert hex codes to plain English
 
-        processed_data.append(chunk) # append processed chunk
+        all_chunks.append(chunk)
+        df = pd.concat(all_chunks, ignore_index=True)
 
-    df = pd.concat(processed_data, ignore_index=True)
-    df.to_csv('processed_canvas_history.csv')
+        table = pa.Table.from_pandas(df)
+        pq.write_table(table, parquet_file, compression='snappy')
+
     return df
 
 
@@ -52,6 +57,8 @@ def calc_avg_session_length(df):
     # if user >1 pixel placement
     # time how long user spent 
     # take average
+
+    # NEED TO ADD 15 min session?
 
     session_lengths = []
 
@@ -81,18 +88,18 @@ def count_first_time_users():
 def main():
 
     try:
-        start_time = datetime.strp(sys.arg[1], "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
-        end_time = datetime.strp(sys.arg[2], "%Y-%m-%d %H")
+        start_time = datetime.strptime(sys.argv[1], "%Y-%m-%d %H") # accept time in YYYY-MM-DD HH format
+        end_time = datetime.strptime(sys.argv[2], "%Y-%m-%d %H")
 
         if start_time >= end_time:
             print("Error: End hour must be after start hour.")
             sys.exit(1)
 
-    except:
+    except ValueError:
         print("Error: Incorrect Date Format.")
         sys.exit(1)
 
-    df = preprocess_data
+    df = preprocess_data()
 
     df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC') # convert timestamp to format
     df = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
@@ -100,12 +107,16 @@ def main():
     start = time.perf_counter_ns() # start execution time
 
     # run tasks
+    color_rank = rank_colors_distinct_users(df)
+    avg_session_length = calc_avg_session_length(df)
 
     end = time.perf_counter_ns()
     exec_time = (end - start) / 1_000_000 # convert from ns to ms
 
     # print results
-    print(f"Execution Time: {exec_time:.0f} ms")
+    print(f"Ranking of Colors by Distinct Users: {color_rank}")
+    print("\nAverage Session Length: {avg_session_length:.2f} seconds")
+    print(f"\nExecution Time: {exec_time:.0f} ms")
 
 
 if __name__=="__main__":
