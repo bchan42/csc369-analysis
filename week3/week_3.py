@@ -15,6 +15,7 @@ import pyarrow.parquet as pq
 from datetime import datetime
 import sys
 import time
+import numpy as np
 
 # preprocess data function (use chunks)
 def preprocess_data():
@@ -22,7 +23,7 @@ def preprocess_data():
     parquet_file = 'processed_canvas_history.parquet'
     all_chunks = []
 
-    for i, chunk in enumerate(pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000)):
+    for i, chunk in pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000):
 
         chunk = chunk[['timestamp', 'user_id', 'pixel_color', 'coordinate']] # only relevant cols
 
@@ -32,10 +33,11 @@ def preprocess_data():
         }) # convert hex codes to plain English
 
         all_chunks.append(chunk)
-        df = pd.concat(all_chunks, ignore_index=True)
 
-        table = pa.Table.from_pandas(df)
-        pq.write_table(table, parquet_file, compression='snappy')
+    df = pd.concat(all_chunks, ignore_index=True) # concat chunks after processing data
+
+    table = pa.Table.from_pandas(df)
+    pq.write_table(table, parquet_file, compression='snappy') # write data to parquet file
 
     return df
 
@@ -46,42 +48,64 @@ def preprocess_data():
 # rank colors by distinct users function
 def rank_colors_distinct_users(df):
 
-    # groupby color (pixel_color), count num of users (user_id)
-    color_rank = df.groupby('pixel_color')['user_id'].nunique().sort_values(ascending=False)
+    color_rank = df.groupby('pixel_color')['user_id'].nunique().sort_values(ascending=False) # groupby color (pixel_color), count num of users (user_id)
     return color_rank
 
 
 # calc avg session length function
 def calc_avg_session_length(df):
 
-    # if user >1 pixel placement
-    # time how long user spent 
-    # take average
-
     # NEED TO ADD 15 min session?
 
     session_lengths = []
 
-    for user_id, group in df.group_by('user_id'):
+    for user_id, group in df.groupby('user_id'):
+
         group = group.sort_values('timestamp') # sort time for each user
+
         if len(group) > 1: # if user >1 pixel placement
+
             session_durations = group['timestamp'].diff().dt.total_seconds() # find time difference for each user
             session_lengths.extend(session_durations) # add each users duration to session lengths
-
-    if session_lengths: # not empty, take avg
-        return sum(session_lengths) / len(session_lengths)
-    else:
-        return 0
+    
+    return np.mean(session_lengths) if session_lengths else 0 # avg
 
 
 # pixel placement percentiles function
-def calc_pixel_percentile():
-    return
+def calc_pixel_percentile(df):
+
+    # count number of pixels each user has placed (groupby user_id)
+    # use np.percentile 
+
+    pixel_counts = df.groupby('user_id')['pixel_color'].count()
+    percentiles = np.percentile(pixel_counts, [50, 75, 90, 99])
+
+    output = (
+        f"50: {int(percentiles[0])} pixels\n"
+        f"75: {int(percentiles[1])} pixels\n"
+        f"90: {int(percentiles[2])} pixels\n"
+        f"99: {int(percentiles[3])} pixels\n"
+    )
+
+    return output
 
 
 # count first time users
-def count_first_time_users():
-    return
+def count_first_time_users(df):
+
+    # for each user in given timeframe, check if any appearnace of that user before timestamp
+    # if no appearance, increment count of first_time_user
+
+    first_time_user_count = 0
+    df_sorted = df.sort_values(by=['user_id', 'timestamp'])
+    seen_users_before = set()
+
+    for i, row in df_sorted.iterrows():
+        if row['user_id'] not in seen_users_before:
+            first_time_user_count += 1
+            seen_users_before.add(row['user_id'])
+
+    return first_time_user_count
 
 
 
@@ -109,14 +133,18 @@ def main():
     # run tasks
     color_rank = rank_colors_distinct_users(df)
     avg_session_length = calc_avg_session_length(df)
+    pixel_percentiles = calc_pixel_percentile(df)
+    first_time_user_count = count_first_time_users(df)
 
     end = time.perf_counter_ns()
     exec_time = (end - start) / 1_000_000 # convert from ns to ms
 
     # print results
-    print(f"Ranking of Colors by Distinct Users: {color_rank}")
-    print("\nAverage Session Length: {avg_session_length:.2f} seconds")
-    print(f"\nExecution Time: {exec_time:.0f} ms")
+    print(f"Ranking of Colors by Distinct Users:\n{color_rank}")
+    print(f"\nAverage Session Length: {avg_session_length:.2f} seconds")
+    print(f"\nPercentiles of Pixels Placed:\n{pixel_percentiles}")
+    print(f"\nCount of First-Time Users: {first_time_user_count}")
+    print(f"\nRuntime: {exec_time:.0f} ms")
 
 
 if __name__=="__main__":
