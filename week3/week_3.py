@@ -28,7 +28,7 @@ def preprocess_data():
             '#00FF00': 'Green', '#0000FF': 'Blue', '#FFFF00': 'Yellow'
         }) # convert hex codes to plain English
 
-        preprocess_data.append(chunk) # append processed chunk
+        processed_data.append(chunk) # append processed chunk
 
     df = pd.concat(processed_data, ignore_index=True)
     df.to_csv('processed_canvas_history.csv')
@@ -39,13 +39,32 @@ def preprocess_data():
 # compute tasks
 
 # rank colors by distinct users function
-def rank_colors_distinct_users():
-    return
+def rank_colors_distinct_users(df):
+
+    # groupby color (pixel_color), count num of users (user_id)
+    color_rank = df.groupby('pixel_color')['user_id'].nunique().sort_values(ascending=False)
+    return color_rank
 
 
 # calc avg session length function
-def calc_avg_session_length():
-    return
+def calc_avg_session_length(df):
+
+    # if user >1 pixel placement
+    # time how long user spent 
+    # take average
+
+    session_lengths = []
+
+    for user_id, group in df.group_by('user_id'):
+        group = group.sort_values('timestamp') # sort time for each user
+        if len(group) > 1: # if user >1 pixel placement
+            session_durations = group['timestamp'].diff().dt.total_seconds() # find time difference for each user
+            session_lengths.extend(session_durations) # add each users duration to session lengths
+
+    if session_lengths: # not empty, take avg
+        return sum(session_lengths) / len(session_lengths)
+    else:
+        return 0
 
 
 # pixel placement percentiles function
@@ -75,7 +94,7 @@ def main():
 
     df = preprocess_data
 
-    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC')
+    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC') # convert timestamp to format
     df = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
 
     start = time.perf_counter_ns() # start execution time
