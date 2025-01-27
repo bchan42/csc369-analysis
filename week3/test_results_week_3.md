@@ -7,58 +7,35 @@
 
 ### Ranking of Colors by Distinct Users
 - **Top **
-  1. Black: 152 users
-  2. Red: 120 users
-  3. Blue: 98 users
-etc.
+  1. Black: 411,863 users
+  2. Orange Red: 298,836 users
+  3. White: 270,045 users
+  4. Blue: 243,979 users
+  5. Bright Yellow: 200,899 users
+  6. Cyan: 117,023 users
+  7. Pink: 116,646 users
+  8. Lime Green: 101,946 users
+  9. Dark Green: 95,545 users
+  10. Dark Purple: 77,628 users
+  11. Amber: 76,939 users
+  12. Sky Blue: 69,545 users
+  13. Light Gray: 38,684 users
+  14. Gray: 37,112 users
+  15. Brown: 30,534 users
+  16. Medium Orchid: 29,513 users
 
 ### Average Session Length
-- **Output:** 2850.3 seconds
+- **Output:** 405.49 seconds
 
 ### Percentiles of Pixels Placed
 - **Output:**
-  - 50th Percentile: 3 pixels
-  - 75th Percentile: 7 pixels
-  - 90th Percentile: 12 pixels
-  - 99th Percentile: 20 pixels
+  - 50th Percentile: 2 pixels
+  - 75th Percentile: 4 pixels
+  - 90th Percentile: 11 pixels
+  - 99th Percentile: 33 pixels
 
 ### Count of First-Time Users
-- **Output:** 350 users
+- **Output:** 1062215 users
 
 ### Runtime
-3142.1 ms
-
-
-# Need to debug
-Ranking of Colors by Distinct Users:
-pixel_color
-Black      411863
-#FF4500    298836
-White      270045
-#2450A4    243979
-#FFD635    200899
-#51E9F4    117023
-#FF99AA    116646
-#7EED56    101946
-#00A368     95545
-#811E9F     77628
-#FFA800     76939
-#3690EA     69545
-#D4D7D9     38684
-#898D90     37112
-#9C6926     30534
-#B44AC0     29513
-Name: user_id, dtype: int64
-
-Average Session Length: nan seconds
-
-Percentiles of Pixels Placed:
-50: 2 pixels
-75: 4 pixels
-90: 11 pixels
-99: 33 pixels
-
-
-Count of First-Time Users: 1062215
-
-Runtime: 225102 ms
+19908 ms
