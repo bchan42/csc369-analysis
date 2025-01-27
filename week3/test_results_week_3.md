@@ -1,7 +1,7 @@
 # Week 3 Results
 
 ## Size of pre-processed results
-2.2 GB
+489 MB
 
 **Timeframe:** 2022-04-01 12 to 2022-04-01 18
 

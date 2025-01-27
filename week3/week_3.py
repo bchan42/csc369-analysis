@@ -17,29 +17,53 @@ import sys
 import time
 import numpy as np
 
-# preprocess data function (use chunks)
-def preprocess_data():
+# preprocess data function (use chunks and write incrementally to Parquet)
+def preprocess_data(start_time, end_time):
+
+    start_time = pd.to_datetime(start_time).tz_localize('UTC') # convert (already in UTC)
+    end_time = pd.to_datetime(end_time).tz_localize('UTC')
 
     parquet_file = 'processed_canvas_history.parquet'
-    all_chunks = []
+    parquet_writer = None  # intialize writer as None
 
-    for i, chunk in pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000):
+    # def schema explicitly for Parquet file
+    initial_schema = pa.schema([
+        ('timestamp', pa.timestamp('ns', tz='UTC')),
+        ('user_id', pa.string()),
+        ('pixel_color', pa.string()),
+        ('coordinate', pa.string()),
+        ('__index_level_0__', pa.int64())  # index column?
+    ])
 
-        chunk = chunk[['timestamp', 'user_id', 'pixel_color', 'coordinate']] # only relevant cols
+    for i, chunk in enumerate(pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000)):
+        chunk = chunk[['timestamp', 'user_id', 'pixel_color', 'coordinate']]  # only relevant cols
+
+        chunk['timestamp'] = pd.to_datetime(chunk['timestamp'], errors='coerce') # convert to datetime
+        chunk = chunk[(chunk['timestamp'] >= start_time) & (chunk['timestamp'] <= end_time)] # filter btwn start & end time
 
         chunk['pixel_color'] = chunk['pixel_color'].map({
             '#FFFFFF': 'White', '#000000': 'Black', '#FF0000': 'Red', 
-            '#00FF00': 'Green', '#0000FF': 'Blue', '#FFFF00': 'Yellow'
-        }) # convert hex codes to plain English
+            '#00FF00': 'Green', '#0000FF': 'Blue', '#FFFF00': 'Yellow' # convert hex codes to plain english
+        }).fillna(chunk['pixel_color'])  # keep og hex if mapping not def
 
-        all_chunks.append(chunk)
+        chunk['pixel_color'] = chunk['pixel_color'].astype(str)  # ensure consistent schema
+        chunk['__index_level_0__'] = chunk.index  # add index as col?
 
-    df = pd.concat(all_chunks, ignore_index=True) # concat chunks after processing data
+        table = pa.Table.from_pandas(chunk, schema=initial_schema) # convert to pyarrow table
 
-    table = pa.Table.from_pandas(df)
-    pq.write_table(table, parquet_file, compression='snappy') # write data to parquet file
+        # write data incrementally
+        if parquet_writer is None:
+            parquet_writer = pq.ParquetWriter(parquet_file, schema=initial_schema, compression='snappy')
 
-    return df
+        parquet_writer.write_table(table)
+
+        print(f"Chunk {i + 1} processed and written to Parquet.")
+
+    if parquet_writer:
+        parquet_writer.close() # close parquet writer
+        print(f"Data successfully written to {parquet_file}.")
+
+    return pd.read_parquet(parquet_file) # read & return as df
 
 
 
