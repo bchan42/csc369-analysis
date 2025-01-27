@@ -26,7 +26,7 @@ def preprocess_data(start_time, end_time):
     parquet_file = 'processed_canvas_history.parquet'
     parquet_writer = None  # intialize writer as None
 
-    # def schema explicitly for Parquet file
+    # def schema explicitly for parquet file
     initial_schema = pa.schema([
         ('timestamp', pa.timestamp('ns', tz='UTC')),
         ('user_id', pa.string()),
@@ -147,10 +147,10 @@ def main():
         print("Error: Incorrect Date Format.")
         sys.exit(1)
 
-    df = preprocess_data()
+    df = preprocess_data(start_time, end_time)
 
-    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC') # convert timestamp to format
-    df = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
+    # df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S.%f UTC') # convert timestamp to format
+    # df = df[(df['timestamp'] >= start_time) & (df['timestamp'] <= end_time)]
 
     start = time.perf_counter_ns() # start execution time
 

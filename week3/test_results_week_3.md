@@ -27,3 +27,38 @@ etc.
 
 ### Runtime
 3142.1 ms
+
+
+# Need to debug
+Ranking of Colors by Distinct Users:
+pixel_color
+Black      411863
+#FF4500    298836
+White      270045
+#2450A4    243979
+#FFD635    200899
+#51E9F4    117023
+#FF99AA    116646
+#7EED56    101946
+#00A368     95545
+#811E9F     77628
+#FFA800     76939
+#3690EA     69545
+#D4D7D9     38684
+#898D90     37112
+#9C6926     30534
+#B44AC0     29513
+Name: user_id, dtype: int64
+
+Average Session Length: nan seconds
+
+Percentiles of Pixels Placed:
+50: 2 pixels
+75: 4 pixels
+90: 11 pixels
+99: 33 pixels
+
+
+Count of First-Time Users: 1062215
+
+Runtime: 225102 ms
