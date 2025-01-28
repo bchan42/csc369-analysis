@@ -1,7 +1,7 @@
 # Week 3 Results
 
 ## Size of pre-processed results
-489 MB
+441 MB
 
 **Timeframe:** 2022-04-01 12 to 2022-04-01 18
 
@@ -25,7 +25,7 @@
   16. Medium Orchid: 29,513 users
 
 ### Average Session Length
-- **Output:** 405.49 seconds
+- **Output:** 1639.14 seconds
 
 ### Percentiles of Pixels Placed
 - **Output:**
@@ -38,4 +38,4 @@
 - **Output:** 1062215 users
 
 ### Runtime
-19908 ms
+13353 ms

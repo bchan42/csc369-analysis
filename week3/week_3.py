@@ -30,14 +30,12 @@ def preprocess_data(start_time, end_time):
     initial_schema = pa.schema([
         ('timestamp', pa.timestamp('ns', tz='UTC')),
         ('user_id', pa.string()),
-        ('pixel_color', pa.string()),
-        ('coordinate', pa.string()),
-        ('__index_level_0__', pa.int64())  # index column?
+        ('pixel_color', pa.string())
     ])
 
     for i, chunk in enumerate(pd.read_csv('./2022_place_canvas_history.csv', chunksize=1_000_000)):
-        
-        chunk = chunk[['timestamp', 'user_id', 'pixel_color', 'coordinate']]  # only relevant columns
+
+        chunk = chunk[['timestamp', 'user_id', 'pixel_color']]  # only relevant columns
 
         chunk['timestamp'] = pd.to_datetime(chunk['timestamp'], errors='coerce')
         chunk = chunk[(chunk['timestamp'] >= start_time) & (chunk['timestamp'] <= end_time)]
@@ -48,7 +46,6 @@ def preprocess_data(start_time, end_time):
         }).fillna(chunk['pixel_color'])  # keep original hex if not mapped
 
         chunk['pixel_color'] = chunk['pixel_color'].astype(str) # ensure consistent schema for pixel_color
-        chunk['__index_level_0__'] = chunk.index  # add index as column
 
         table = pa.Table.from_pandas(chunk, schema=initial_schema) # convert to pyarrow table
 
@@ -78,15 +75,17 @@ def rank_colors_distinct_users(df):
 
 
 # calc avg session length function
-def calc_avg_session_length(df):
-
-    df = df.sort_values(['user_id', 'timestamp']) # sort
-    df['time_diff'] = df['timestamp'].diff() # calc time diff
-    df['time_diff'] = df['time_diff'].where(df['user_id'] == df['user_id'].shift()) # et time_diff to NaT for rows where user_id changes
-    valid_sessions = df['time_diff'][df['time_diff'] <= pd.Timedelta(minutes=15)] # filter out sessions longer than 15 min
-    session_lengths = valid_sessions.dt.total_seconds() # convert to sec
+def calc_avg_session_length(df, max_gap_min=15):
+    df['timestamp'] = pd.to_datetime(df['timestamp']) # check datetime
+    df = df.sort_values(['user_id', 'timestamp']) # sort    
+    df['time_diff'] = df.groupby('user_id')['timestamp'].diff() # calc time diff    
+    df['session_break'] = df['time_diff'] > pd.Timedelta(minutes=max_gap_min) # 15 min sessions    
+    df['session_id'] = df.groupby('user_id')['session_break'].cumsum() # create session id for each user    
+    session_lengths = df.groupby(['user_id', 'session_id'])['timestamp'].agg(['min', 'max']) # calc session duration
+    session_lengths['session_length'] = (session_lengths['max'] - session_lengths['min']).dt.total_seconds()
     
-    return session_lengths.mean() if not session_lengths.empty else 0 # calc mean
+    valid_sessions = session_lengths[session_lengths['session_length'] > 0] # filter w valid sessions    
+    return valid_sessions['session_length'].mean() if not valid_sessions.empty else 0 # avg session
 
 
 # pixel placement percentiles function
