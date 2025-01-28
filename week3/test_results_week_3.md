@@ -8,10 +8,10 @@
 ### Ranking of Colors by Distinct Users
 - **Top **
   1. Black: 411,863 users
-  2. Orange Red: 298,836 users
+  2. OrangeRed/Vermillion: 298,836 users
   3. White: 270,045 users
   4. Blue: 243,979 users
-  5. Bright Yellow: 200,899 users
+  5. Yellow: 200,899 users
   6. Cyan: 117,023 users
   7. Pink: 116,646 users
   8. Lime Green: 101,946 users
@@ -22,7 +22,7 @@
   13. Light Gray: 38,684 users
   14. Gray: 37,112 users
   15. Brown: 30,534 users
-  16. Medium Orchid: 29,513 users
+  16. Purple: 29,513 users
 
 ### Average Session Length
 - **Output:** 1639.14 seconds
@@ -38,4 +38,4 @@
 - **Output:** 1062215 users
 
 ### Runtime
-13353 ms
+14558 ms

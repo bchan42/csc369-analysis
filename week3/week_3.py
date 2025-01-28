@@ -37,15 +37,30 @@ def preprocess_data(start_time, end_time):
 
         chunk = chunk[['timestamp', 'user_id', 'pixel_color']]  # only relevant columns
 
-        chunk['timestamp'] = pd.to_datetime(chunk['timestamp'], errors='coerce')
-        chunk = chunk[(chunk['timestamp'] >= start_time) & (chunk['timestamp'] <= end_time)]
+        chunk.loc[:, 'timestamp'] = pd.to_datetime(chunk['timestamp'], utc=True, errors='coerce') # ensure timestamp in correct format
+        chunk = chunk.loc[(chunk['timestamp'] >= start_time) & (chunk['timestamp'] <= end_time)]
 
-        chunk['pixel_color'] = chunk['pixel_color'].map({
-            '#FFFFFF': 'White', '#000000': 'Black', '#FF0000': 'Red', 
-            '#00FF00': 'Green', '#0000FF': 'Blue', '#FFFF00': 'Yellow'  # convert hex codes to names
+        chunk['pixel_color'] = chunk['pixel_color'].map({ # convert hex codes to names
+            '#FFFFFF': 'White', 
+            '#000000': 'Black', 
+            '#FF0000': 'Red', 
+            '#00FF00': 'Green', 
+            '#0000FF': 'Blue', 
+            '#FFFF00': 'Yellow', 
+            '#FFA500': 'Orange', 
+            '#800080': 'Purple', 
+            '#FFC0CB': 'Pink', 
+            '#808080': 'Gray', 
+            '#008000': 'DarkGreen', 
+            '#FFD700': 'Gold', 
+            '#A52A2A': 'Brown', 
+            '#000080': 'Navy', 
+            '#F0E68C': 'Khaki', 
+            '#B0C4DE': 'LightSteelBlue', 
+            '#ADFF2F': 'GreenYellow', 
+            '#D3D3D3': 'LightGray', 
+            '#4B0082': 'Indigo'
         }).fillna(chunk['pixel_color'])  # keep original hex if not mapped
-
-        chunk['pixel_color'] = chunk['pixel_color'].astype(str) # ensure consistent schema for pixel_color
 
         table = pa.Table.from_pandas(chunk, schema=initial_schema) # convert to pyarrow table
 
@@ -57,7 +72,7 @@ def preprocess_data(start_time, end_time):
         print(f"Chunk {i + 1} processed and written to Parquet.")
 
     if parquet_writer:
-        parquet_writer.close()  # close Parquet writer
+        parquet_writer.close()  # close parquet writer
         print(f"Data successfully written to {parquet_file}.")
 
     df_parquet = pd.read_parquet(parquet_file)
@@ -76,6 +91,7 @@ def rank_colors_distinct_users(df):
 
 # calc avg session length function
 def calc_avg_session_length(df, max_gap_min=15):
+    
     df['timestamp'] = pd.to_datetime(df['timestamp']) # check datetime
     df = df.sort_values(['user_id', 'timestamp']) # sort    
     df['time_diff'] = df.groupby('user_id')['timestamp'].diff() # calc time diff    
