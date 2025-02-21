@@ -21,7 +21,7 @@ I hypothesize that SLO has fewer and less varied food places compared to other c
 This is based on personal experience and what I've learned about for cities and geography. I know a smaller market leads to less options and diversity of goods, college town size matters, and geographical topography affect where structures are built.   
 
 ## 4. What is the primary dataset(s) you will use to answer the question?
-To anwer this question, I will use OpenStreetMap data, spceicifically the north-america-latest.osm.pbf file. This detailed geospatial dataset contains a bunch of information like addresses, coordinates, amenities, type of landuse, etc., but I will focus specifically on food-related businesses under amenities.
+To anwer this question, I will use OpenStreetMap data, specifically the north-america-latest.osm.pbf file. This detailed geospatial dataset contains a bunch of information like addresses, coordinates, amenities, type of landuse, etc., but I will focus specifically on food-related businesses under amenities.
 
 The OSM dataset is in PBF (Protocol Buffers) format, which I'm not entirely familiar with, but I plan to convert this binary format to Parquet, which is also a binary format, and something I'm more familiary with. A lot of the filtering can be done with command-line tools like **osmium**, so I can extract before converting it to a Parquet file. After preprocessing, I plan to use **polars** to perform data exploration and **folium** for map visualizations.
 
