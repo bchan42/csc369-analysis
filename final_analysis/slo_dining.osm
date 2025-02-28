@@ -1,0 +1,2679 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmium/1.17.0">
+  <node id="573859956" version="9" timestamp="2024-03-19T13:03:23Z" lat="35.2493387" lon="-120.6420324">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3940-1"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Jersey Mike&apos;s Subs"/>
+    <tag k="brand:wikidata" v="Q6184897"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="delivery" v="no"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Jersey Mike&apos;s Subs"/>
+    <tag k="opening_hours" v="10:00-21:00"/>
+    <tag k="short_name" v="Jersey Mike&apos;s"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.jerseymikes.com/20202/san-luis-obispo-ca"/>
+  </node>
+  <node id="573864452" version="13" timestamp="2024-06-20T01:42:44Z" lat="35.2505" lon="-120.642315">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3900"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="South Broad"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="bar" v="no"/>
+    <tag k="branch" v="Vons San Luis Obispo 2306"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="description" v="inside VONS"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-541-1055"/>
+    <tag k="ref" v="12215"/>
+    <tag k="reservation" v="yes"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/12215/vons-san-luis-obispo-2306-3900-s-broad-san-luis-obispo-ca-934017015-us"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="574262633" version="11" timestamp="2024-05-10T23:40:16Z" lat="35.249171" lon="-120.643033">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3970"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="1"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Broad Street, San Luis Obispo"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="opening_hours" v="05:00-18:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-542-0813"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/16305/broad-street-san-luis-obispo-3970-broad-street-1-san-luis-obispo-ca-934017097-u"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="574262980" version="9" timestamp="2024-05-10T21:22:16Z" lat="35.2500877" lon="-120.643591">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3810"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="1"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Taco Bell"/>
+    <tag k="brand:wikidata" v="Q752941"/>
+    <tag k="cuisine" v="tex-mex"/>
+    <tag k="delivery" v="no"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Taco Bell"/>
+    <tag k="phone" v="+1 805-593-0205"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.tacobell.com/ca/san-luis-obispo/3810-broad-street.html"/>
+  </node>
+  <node id="581585285" version="10" timestamp="2024-05-10T23:40:16Z" lat="35.3001765" lon="-120.6587601">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Grand Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="CSU San Luis Obispo Student Union"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="phone" v="+1 805-756-6527"/>
+    <tag k="ref" v="10668"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/10668/csu-san-luis-obispo-student-un-1-grand-ave-san-luis-obispo-ca-93407-us"/>
+  </node>
+  <node id="662579814" version="2" timestamp="2017-06-14T17:13:28Z" lat="35.284086" lon="-120.6572612">
+    <tag k="addr:housenumber" v="1255"/>
+    <tag k="addr:street" v="Monterey St"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="description" v="Suite B"/>
+    <tag k="name" v="SLO Provisions"/>
+  </node>
+  <node id="705731525" version="13" timestamp="2023-11-18T15:25:27Z" lat="35.2795072" lon="-120.6626807">
+    <tag k="addr:full" v="1117 Chorro Street"/>
+    <tag k="addr:housenumber" v="1117"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Black Sheep Bar &amp; Grill"/>
+    <tag k="website" v="https://www.blacksheepslo.com/"/>
+  </node>
+  <node id="748732681" version="3" timestamp="2023-07-25T21:48:48Z" lat="35.2813137" lon="-120.6607197">
+    <tag k="addr:housenumber" v="1000"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Woodstock&apos;s Pizza"/>
+    <tag k="phone" v="8055444532"/>
+  </node>
+  <node id="793706973" version="7" timestamp="2019-02-18T22:01:57Z" lat="35.282133" lon="-120.656508">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1203"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Marsh Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sushi"/>
+    <tag k="delivery" v="no"/>
+    <tag k="name" v="Yanagi Sushi"/>
+    <tag k="opening_hours" v="Mo-Sa 11:30-15:00,17:00-22:00; Su 11:30-02:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1-805-541-5282"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.yanagisushigrill.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="932525187" version="4" timestamp="2020-08-03T18:06:54Z" lat="35.275379" lon="-120.655783">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1819"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Osos Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="cajun"/>
+    <tag k="name" v="Bon Temps Creole Cafe"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1-805-544-2100"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://www.bontempscreolecafe.com/"/>
+  </node>
+  <node id="932527733" version="3" timestamp="2020-08-03T18:06:54Z" lat="35.275515" lon="-120.655911">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1815"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Osos Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="name" v="My Thai"/>
+    <tag k="phone" v="+1-805-545-5996"/>
+    <tag k="website" v="http://www.onlinemythai.com/"/>
+  </node>
+  <node id="932573584" version="9" timestamp="2023-02-13T17:46:08Z" lat="35.2767148" lon="-120.656643">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1638"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Osos Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="no"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Gus&apos;s Grocery"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-18:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="805-543-8684"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1241299740" version="6" timestamp="2023-11-18T15:24:59Z" lat="35.26894" lon="-120.670848">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:housenumber" v="158A"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="South Higuera Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="bagel"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="House of Bagels"/>
+    <tag k="phone" v="805-594-1818"/>
+    <tag k="website" v="https://www.houseofbagelscc.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1449700955" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.284631" lon="-120.657058">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1308 Monterey Street"/>
+    <tag k="addr:housenumber" v="1308"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mediterranean"/>
+    <tag k="name" v="Jaffa Cafe"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1537072245" version="10" timestamp="2024-05-10T23:40:16Z" lat="35.2937201" lon="-120.670955">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="addr:unit" v="D&apos;"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Chorro Street - San Luis Obisp"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-547-9054"/>
+    <tag k="ref" v="8828"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/8828/chorro-street-san-luis-obisp-17-chorro-street-suite-d-san-luis-obispo-ca-934051"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1542001431" version="2" timestamp="2022-10-30T20:09:34Z" lat="35.3002509" lon="-120.6621757">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="check_date" v="2022-10-30"/>
+  </node>
+  <node id="1542001449" version="6" timestamp="2022-11-20T23:35:46Z" lat="35.3011768" lon="-120.662892">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="delivery" v="no"/>
+    <tag k="diet:healthy" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="email" v="campusdining@calpoly.edu"/>
+    <tag k="name" v="Health Snacks"/>
+    <tag k="operator" v="Cal Poly Campus Dining"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="+1-805-756-5135"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="only"/>
+    <tag k="website" v="https://www.calpolydining.com/tutaco/"/>
+  </node>
+  <node id="1547728296" version="6" timestamp="2023-01-23T18:04:44Z" lat="35.3000165" lon="-120.6586819">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza;wine;beer"/>
+    <tag k="name" v="Mustang Station"/>
+  </node>
+  <node id="1775007826" version="7" timestamp="2023-09-12T02:21:35Z" lat="35.2545855" lon="-120.645724">
+    <tag k="addr:full" v="3590 Broad Street"/>
+    <tag k="addr:housenumber" v="3590"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Blackhorse Espresso and Bakery"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-19:00; Sa-Su 07:00-19:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1-805-439-1300"/>
+    <tag k="website" v="https://blackhorsecoffee.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1775718710" version="7" timestamp="2024-05-08T23:14:10Z" lat="35.2944046" lon="-120.670497">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="866"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="East Foothill Boulevard"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Domino&apos;s"/>
+    <tag k="brand:wikidata" v="Q839466"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Domino&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-01:00; Fr-Sa 11:00-02:00; Su 11:00-01:00"/>
+    <tag k="phone" v="+1 805-544-3636"/>
+    <tag k="ref" v="7890"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://pizza.dominos.com/california/san-luis-obispo/866-e-foothill-blvd"/>
+  </node>
+  <node id="1775725586" version="2" timestamp="2023-04-22T04:04:20Z" lat="35.2938677" lon="-120.668599">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Charlie&apos;s Place"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2004789694" version="7" timestamp="2024-05-19T11:55:47Z" lat="35.269265" lon="-120.670827">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="158"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="addr:unit" v="D"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Subway"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 08:00-20:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="+1 805-541-0855"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.subway.com/united-states/ca/san-luis-obispo/158-higuera-st"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2106517421" version="3" timestamp="2023-11-18T15:22:27Z" lat="35.2890646" lon="-120.6506291">
+    <tag k="amenity" v="pub"/>
+    <tag k="cuisine" v="irish"/>
+    <tag k="food" v="yes"/>
+    <tag k="name" v="Pappy McGregor&apos;s"/>
+    <tag k="website" v="https://pappymcgregors.com/"/>
+  </node>
+  <node id="2109028967" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.2797356" lon="-120.6615709">
+    <tag k="addr:full" v="892 Marsh Street"/>
+    <tag k="addr:housenumber" v="892"/>
+    <tag k="addr:street" v="Marsh Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Chronic Tacos"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="2112805921" version="3" timestamp="2023-03-20T18:07:46Z" lat="35.261321" lon="-120.650789">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3165"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="106"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="no"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Nucci&apos;s"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1-805-545-9444"/>
+    <tag k="reservation" v="no"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://nuccispizza.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2119523722" version="2" timestamp="2018-07-30T03:17:46Z" lat="35.3909967" lon="-120.6093804">
+    <tag k="amenity" v="restaurant"/>
+  </node>
+  <node id="2129478493" version="10" timestamp="2024-12-30T18:39:36Z" lat="35.275719" lon="-120.65579">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1804 Osos Street"/>
+    <tag k="addr:housenumber" v="1804"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Osos Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="check_date" v="2024-10-28"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Sally Loo&apos;s Wholesome Cafe"/>
+    <tag k="opening_hours" v="Su-Mo 06:30-17:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="smoking" v="outside"/>
+    <tag k="website" v="https://www.sallyloos.com/"/>
+  </node>
+  <node id="2196417717" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.284504" lon="-120.657206">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1308 Monterey Street"/>
+    <tag k="addr:housenumber" v="1308"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="ramen"/>
+    <tag k="name" v="Raku Ramen"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2213049089" version="3" timestamp="2019-03-08T07:07:51Z" lat="35.2890448" lon="-120.6649367">
+    <tag k="amenity" v="fast_food"/>
+  </node>
+  <node id="2261957364" version="3" timestamp="2023-11-18T15:20:40Z" lat="35.2938944" lon="-120.671971">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="791"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Capriottti&apos;s Sandwich Shop"/>
+    <tag k="opening_hours" v="Mo 10:00-20:30; Tu 11:30-20:45; We-Fr 10:00-20:45; Sa 11:00-20:45; Su 10:00-19:45"/>
+    <tag k="phone" v="(805) 439-1816"/>
+    <tag k="website" v="https://order.capriottis.com/"/>
+  </node>
+  <node id="2261957366" version="7" timestamp="2024-05-21T10:42:11Z" lat="35.293888" lon="-120.672352">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="789"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="East Foothill Boulevard"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Foothill &amp; Broad"/>
+    <tag k="brand" v="Panda Express"/>
+    <tag k="brand:wikidata" v="Q1358690"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Panda Express"/>
+    <tag k="opening_hours" v="Mo-Th 10:00-22:00; Fr 09:30-22:00; Su 10:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-784-0355"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.pandaexpress.com/locations/ca/san-luis-obispo/861"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2261957372" version="4" timestamp="2024-05-07T02:46:12Z" lat="35.2939034" lon="-120.673083">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="763"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Foothills Plaza"/>
+    <tag k="brand" v="Five Guys"/>
+    <tag k="brand:wikidata" v="Q1131810"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Five Guys"/>
+    <tag k="official_name" v="Five Guys Burgers and Fries"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-22:00"/>
+    <tag k="phone" v="+1 805-439-3622"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.fiveguys.com/Menu"/>
+  </node>
+  <node id="2261957381" version="3" timestamp="2023-08-21T23:28:45Z" lat="35.2936829" lon="-120.6723494">
+    <tag k="addr:housenumber" v="785"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2023-08-21"/>
+    <tag k="name" v="Nucci&apos;s Pizza"/>
+    <tag k="phone" v="+1 805-542-0152"/>
+  </node>
+  <node id="2262010442" version="6" timestamp="2024-01-16T00:53:57Z" lat="35.2913306" lon="-120.660189">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="brand" v="Redbox"/>
+    <tag k="brand:wikidata" v="Q7305489"/>
+    <tag k="covered" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="name" v="Redbox"/>
+    <tag k="vending" v="movies"/>
+  </node>
+  <node id="2262092650" version="1" timestamp="2013-04-10T21:57:32Z" lat="35.2931026" lon="-120.6740523">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="2293070345" version="3" timestamp="2024-07-11T04:26:22Z" lat="35.252567" lon="-120.685408">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="11982"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Los Osos Valley Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="El Pollo Loco"/>
+    <tag k="brand:wikidata" v="Q2353849"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="El Pollo Loco"/>
+    <tag k="not:craft" v="caterer"/>
+    <tag k="opening_hours" v="Mo-Su 10:00-21:00"/>
+    <tag k="operator" v="Vebo Ent"/>
+    <tag k="phone" v="+1-805-439-5060"/>
+    <tag k="ref" v="3836"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.elpolloloco.com/ca/san-luis-obispo/11982-los-osos-valley-rd"/>
+  </node>
+  <node id="2297725261" version="5" timestamp="2023-11-18T15:35:21Z" lat="35.282364" lon="-120.656177">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1231"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Johnson Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Pancho&apos;s Mexican Food"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="+1-805-545-0994"/>
+    <tag k="website" v="https://www.panchosdining.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2351553048" version="3" timestamp="2019-02-17T17:41:50Z" lat="35.279143" lon="-120.6624262">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1141"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Eureka! Burger"/>
+    <tag k="phone" v="(805) 903-1141"/>
+    <tag k="website" v="https://www.eurekarestaurantgroup.com/"/>
+  </node>
+  <node id="2361746538" version="3" timestamp="2017-06-21T17:27:05Z" lat="35.2808176" lon="-120.6615145">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="964"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="breakfast"/>
+    <tag k="name" v="Louisa&apos;s Place"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="2368933719" version="8" timestamp="2025-02-16T17:29:34Z" lat="35.2792164" lon="-120.6631775">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1110"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Garden Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Linnaea&apos;s Cafe"/>
+    <tag k="opening_hours" v="Sa, Su 08:00-20:00; Mo-We 07:30-17:00; Th, Fr 07:30-20:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+18055415888"/>
+    <tag k="website" v="https://www.linnaeas.com/"/>
+  </node>
+  <node id="2374228664" version="6" timestamp="2024-05-21T10:42:11Z" lat="35.252894" lon="-120.688398">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1508"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Froom Ranch Way"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Los Osos Valley &amp; Froom Ranch"/>
+    <tag k="brand" v="Panda Express"/>
+    <tag k="brand:wikidata" v="Q1358690"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Panda Express"/>
+    <tag k="opening_hours" v="Mo-Th 09:00-21:30; Fr 09:00-22:00; Sa 10:00-21:00; Su 09:30-21:30"/>
+    <tag k="phone" v="+1 805-546-8121"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.pandaexpress.com/locations/ca/san-luis-obispo/1339"/>
+  </node>
+  <node id="2390199015" version="3" timestamp="2021-02-14T23:04:19Z" lat="35.260954" lon="-120.648783">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3212"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="120"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Eddie&apos;s Grill"/>
+    <tag k="phone" v="+1-805-752-1228"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2390199300" version="2" timestamp="2021-02-14T23:04:19Z" lat="35.26085" lon="-120.648776">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3212"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="140"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="name" v="Thai Boat"/>
+    <tag k="website" v="https://thaiboatslo.com/"/>
+  </node>
+  <node id="2396485350" version="4" timestamp="2015-02-23T21:40:54Z" lat="35.293632" lon="-120.668885">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="977"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Kona&apos;s Deli"/>
+    <tag k="opening_hours" v="10:30-19:00"/>
+    <tag k="phone" v="805-546-0369"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2407226170" version="1" timestamp="2013-08-04T19:23:48Z" lat="35.251034" lon="-120.644123">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese"/>
+    <tag k="name" v="Kumi-Ko Japanese"/>
+  </node>
+  <node id="2418372541" version="7" timestamp="2024-09-25T14:53:20Z" lat="35.279831" lon="-120.662687">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="839"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="alt_name" v="Habit Burger Grill"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="The Habit Burger Grill"/>
+    <tag k="brand:wikidata" v="Q18158741"/>
+    <tag k="check_date" v="2024-09-25"/>
+    <tag k="check_date:opening_hours" v="2024-09-25"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="The Habit Burger Grill"/>
+    <tag k="opening_hours" v="Mo-Sa 10:30-22:00; Su 10:30-21:30"/>
+    <tag k="phone" v="+1 805-542-0105"/>
+    <tag k="short_name" v="Habit Burger"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.habitburger.com/locations/san-luis-obispo/"/>
+    <tag k="website:orders" v="https://order.habitburger.com/store/41/category"/>
+  </node>
+  <node id="2454735124" version="8" timestamp="2024-05-18T01:35:54Z" lat="35.2720732" lon="-120.668792">
+    <tag k="addr:full" v="2010 Parker Street"/>
+    <tag k="addr:housenumber" v="2010"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Parker"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="yes"/>
+    <tag k="internet_access" v="yes"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="name" v="Nautical Bean"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-16:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2454775892" version="5" timestamp="2021-02-27T00:17:41Z" lat="35.2788121" lon="-120.663068">
+    <tag k="addr:full" v="1137 Garden"/>
+    <tag k="addr:housenumber" v="1137"/>
+    <tag k="addr:street" v="Garden"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="La Locanda"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://www.lalocandaslo.com/"/>
+  </node>
+  <node id="2454776071" version="6" timestamp="2023-11-18T15:32:48Z" lat="35.2813183" lon="-120.6640188">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="942"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="diet:gluten_free" v="yes"/>
+    <tag k="diet:vegan" v="only"/>
+    <tag k="name" v="New Earth Superfoods"/>
+    <tag k="website" v="https://newearthsuperfoods.com/"/>
+  </node>
+  <node id="2456031034" version="6" timestamp="2024-10-05T21:45:15Z" lat="35.2754529" lon="-120.6558471">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1817 Osos"/>
+    <tag k="addr:housenumber" v="1817"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Osos"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/profile.php?id=100076162937091"/>
+    <tag k="contact:instagram" v="http://instagram.com/jansplaceslo"/>
+    <tag k="description" v="Vinyl Bar"/>
+    <tag k="email" v="hello@jansplaceslo.com"/>
+    <tag k="name" v="Jan&apos;s Place"/>
+    <tag k="opening_hours" v="We-Sa 8:00-13:00,15:00-20:00"/>
+    <tag k="phone" v="+1-805-439-1544‬"/>
+    <tag k="website" v="https://www.jansplaceslo.com/"/>
+  </node>
+  <node id="2456191184" version="8" timestamp="2024-12-30T03:08:53Z" lat="35.2817377" lon="-120.661082">
+    <tag k="addr:full" v="1005 Monterey Street"/>
+    <tag k="addr:housenumber" v="1005"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-12-29"/>
+    <tag k="cuisine" v="barbecue"/>
+    <tag k="name" v="CJ’s BBQ"/>
+    <tag k="not:brand:wikidata" v="Q17022303"/>
+  </node>
+  <node id="2456191191" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2811307" lon="-120.6616097">
+    <tag k="addr:full" v="1015 Court Street"/>
+    <tag k="addr:housenumber" v="1015"/>
+    <tag k="addr:street" v="Court Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="name" v="Thai Palace"/>
+  </node>
+  <node id="2456191202" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2818907" lon="-120.6608513">
+    <tag k="addr:full" v="1023 Monterey Street"/>
+    <tag k="addr:housenumber" v="1023"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sushi"/>
+    <tag k="name" v="Aisuru Sushi"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://aisurusushibar.com/index.html"/>
+  </node>
+  <node id="2456191216" version="4" timestamp="2022-10-20T01:14:19Z" lat="35.280396" lon="-120.6631585">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1028"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Bowl&apos;d"/>
+  </node>
+  <node id="2456191249" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.2802142" lon="-120.6629863">
+    <tag k="addr:full" v="1040 Chorro Street"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bull&apos;s Tavern"/>
+  </node>
+  <node id="2456191296" version="6" timestamp="2024-07-15T17:02:59Z" lat="35.2795017" lon="-120.6623935">
+    <tag k="addr:full" v="1122 Chorro"/>
+    <tag k="addr:housenumber" v="1122"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Pluto&apos;s"/>
+    <tag k="website" v="https://www.plutosfreshfood.com/"/>
+  </node>
+  <node id="2456191339" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2776446" lon="-120.6610615">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1345 Chorro"/>
+    <tag k="addr:housenumber" v="1345"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="asian"/>
+    <tag k="delivery" v="no"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Bings Bao Buns"/>
+    <tag k="opening_hours" v="21:00-1:00"/>
+    <tag k="operator" v="Private Parties Only"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="smoking" v="outside"/>
+    <tag k="takeaway" v="only"/>
+  </node>
+  <node id="2456191374" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2787752" lon="-120.6624763">
+    <tag k="addr:full" v="785 Marsh"/>
+    <tag k="addr:housenumber" v="785"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Marsh"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="UBATUBA, Acai bowls"/>
+  </node>
+  <node id="2456191404" version="4" timestamp="2022-10-20T01:14:19Z" lat="35.2806092" lon="-120.6631018">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="849"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="Giuseppe&apos;s Cucina Rustica"/>
+    <tag k="website" v="https://www.giuseppesrestaurant.com/"/>
+  </node>
+  <node id="2456191412" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.2802358" lon="-120.6625">
+    <tag k="addr:full" v="860 Higuera Street"/>
+    <tag k="addr:housenumber" v="860"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Doc Bernstein&apos;s Ice Cream Lab"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="2456191546" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2810007" lon="-120.662983">
+    <tag k="addr:full" v="868 Monterey"/>
+    <tag k="addr:housenumber" v="868"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Monterey"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="name" v="McConnell&apos;s Fine Ice Creams"/>
+  </node>
+  <node id="2456191971" version="7" timestamp="2024-03-10T17:11:34Z" lat="35.2800403" lon="-120.661687">
+    <tag k="addr:full" v="891 Higuera"/>
+    <tag k="addr:housenumber" v="891"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza"/>
+  </node>
+  <node id="2456192003" version="7" timestamp="2024-03-10T17:11:34Z" lat="35.2799574" lon="-120.661591">
+    <tag k="addr:full" v="893 Higuera Street"/>
+    <tag k="addr:housenumber" v="893"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich"/>
+  </node>
+  <node id="2456192294" version="4" timestamp="2023-11-18T15:23:26Z" lat="35.2807236" lon="-120.661666">
+    <tag k="addr:full" v="952 Higuera Street"/>
+    <tag k="addr:housenumber" v="952"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Urbane Cafe"/>
+    <tag k="website" v="https://urbanecafe.com/"/>
+  </node>
+  <node id="2464214862" version="1" timestamp="2013-09-19T18:09:58Z" lat="35.2934265" lon="-120.6681928">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Pancho Villa&apos;s Mexican Restaurant"/>
+  </node>
+  <node id="2487322299" version="6" timestamp="2023-09-12T02:21:35Z" lat="35.2797843" lon="-120.6632755">
+    <tag k="addr:full" v="782 Higuera Street"/>
+    <tag k="addr:housenumber" v="782"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="food" v="yes"/>
+    <tag k="name" v="Creeky Tiki"/>
+    <tag k="website" v="https://www.creekytiki.com/"/>
+  </node>
+  <node id="2501812415" version="8" timestamp="2024-06-05T10:31:12Z" lat="35.2936691" lon="-120.670875">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="17"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="addr:unit" v="C"/>
+    <tag k="alt_name" v="Jamba Juice"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Foothill S.L.O."/>
+    <tag k="brand" v="Jamba"/>
+    <tag k="brand:wikidata" v="Q3088784"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="diet" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Jamba"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-18:00; Su 08:30-18:00"/>
+    <tag k="phone" v="+1 805-549-0637"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.jamba.com/ca/san-luis-obispo/17-chorro-street"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2501812416" version="1" timestamp="2013-10-19T17:16:17Z" lat="35.2937714" lon="-120.6713924">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="indian"/>
+    <tag k="name" v="Taj Palace"/>
+    <tag k="website" v="http://www.tajpalaceslo.net/"/>
+  </node>
+  <node id="2509874479" version="4" timestamp="2024-01-16T00:53:57Z" lat="35.281795" lon="-120.655646">
+    <tag k="amenity" v="cafe"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="description" v="Inside Haggen"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="2511021917" version="9" timestamp="2024-05-10T23:40:16Z" lat="35.2631802" lon="-120.6766176">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="253 Madonna Road #120"/>
+    <tag k="addr:housenumber" v="253"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Madonna Road"/>
+    <tag k="addr:unit" v="120"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Madonna &amp; El Mercado"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-595-3482"/>
+    <tag k="ref" v="14774"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/14774/madonna-el-mercado-253-madonna-road-120-san-luis-obispo-ca-934055402-"/>
+  </node>
+  <node id="2522844354" version="10" timestamp="2023-10-28T19:41:01Z" lat="35.2609643" lon="-120.650579">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3211"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:yelp" v="http://www.yelp.com/biz/le-ciel-crepes-cafe-san-luis-obispo?nb=1#query:le%20ciel%20crepe"/>
+    <tag k="cuisine" v="crepe"/>
+    <tag k="name" v="Le Ciel Crepe Cafe"/>
+    <tag k="phone" v="805-783-2013"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://www.lecielcrepes.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2553439172" version="6" timestamp="2024-05-12T22:02:04Z" lat="35.2789276" lon="-120.6648049">
+    <tag k="addr:full" v="690 Higuera Street"/>
+    <tag k="addr:housenumber" v="690"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="Flour House"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2553439180" version="3" timestamp="2017-06-28T19:30:32Z" lat="35.2786161" lon="-120.6653052">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="barbecue"/>
+    <tag k="name" v="Old San Luis BBQ Co"/>
+  </node>
+  <node id="2553439212" version="7" timestamp="2023-09-12T02:21:35Z" lat="35.278988" lon="-120.664718">
+    <tag k="addr:full" v="698 Higuera Street"/>
+    <tag k="addr:housenumber" v="698"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Burger Village"/>
+  </node>
+  <node id="2564072695" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2857504" lon="-120.6553707">
+    <tag k="addr:full" v="1422 Monterey Street"/>
+    <tag k="addr:housenumber" v="1422"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Outspoken Cafe"/>
+    <tag k="website" v="http://www.outspokencafe.com/"/>
+  </node>
+  <node id="2576145822" version="5" timestamp="2015-02-03T03:05:00Z" lat="35.290616" lon="-120.659699">
+    <tag k="addr:housenumber" v="596"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Tacos De Acapulco"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="2576156315" version="2" timestamp="2013-12-12T16:16:54Z" lat="35.290836" lon="-120.6593799">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="The Bobastop"/>
+  </node>
+  <node id="2597642908" version="1" timestamp="2013-12-27T23:24:08Z" lat="35.261127" lon="-120.675955">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sushi"/>
+    <tag k="name" v="Sushi Kokku"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2597849163" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.284664" lon="-120.657011">
+    <tag k="addr:full" v="1330 Monterey Street"/>
+    <tag k="addr:housenumber" v="1330"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Taqueria Santa Cruz Express"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1-805-752-1016"/>
+  </node>
+  <node id="2677249892" version="8" timestamp="2024-06-05T10:31:12Z" lat="35.2796742" lon="-120.661499">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="890 Marsh Street"/>
+    <tag k="addr:housenumber" v="890"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Marsh Street"/>
+    <tag k="alt_name" v="Jamba Juice"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Downtown S.L.O."/>
+    <tag k="brand" v="Jamba"/>
+    <tag k="brand:wikidata" v="Q3088784"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Jamba"/>
+    <tag k="opening_hours" v="08:00-18:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-549-0733"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.jamba.com/ca/san-luis-obispo/890-marsh-street"/>
+  </node>
+  <node id="2890433201" version="3" timestamp="2019-03-03T07:40:50Z" lat="35.2782887" lon="-120.6667404">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese"/>
+    <tag k="name" v="Goshi Japanese Restaurant"/>
+    <tag k="website" v="http://www.goshislo.com/"/>
+  </node>
+  <node id="2890438017" version="1" timestamp="2014-05-31T03:38:17Z" lat="35.2578226" lon="-120.6909918">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Laguna Bar and Grill"/>
+  </node>
+  <node id="2908246024" version="3" timestamp="2019-02-17T17:41:24Z" lat="35.2483856" lon="-120.6832476">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="12308"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:street" v="Los Osos Valley Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Ribline"/>
+    <tag k="website" v="https://www.ribline.com/"/>
+  </node>
+  <node id="2908246025" version="3" timestamp="2019-02-22T08:22:57Z" lat="35.2482604" lon="-120.6834829">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="12300"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:street" v="Los Osos Valley Road"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Blackhorse Espresso and Bakery"/>
+    <tag k="opening_hours" v="06:00-20:00"/>
+    <tag k="website" v="https://blackhorsecoffee.com/"/>
+  </node>
+  <node id="2908246026" version="3" timestamp="2019-02-18T21:59:10Z" lat="35.2483331" lon="-120.6833455">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="craft" v="caterer"/>
+    <tag k="cuisine" v="french"/>
+    <tag k="name" v="Et Voilà"/>
+    <tag k="website" v="https://www.etvoilarestaurant.com/"/>
+  </node>
+  <node id="3278610661" version="1" timestamp="2015-01-09T16:38:32Z" lat="35.257801" lon="-120.668087">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3121"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="South Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Budget Cafe"/>
+  </node>
+  <node id="3317648617" version="1" timestamp="2015-01-28T22:53:23Z" lat="35.299926" lon="-120.6586438">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Red Radish"/>
+  </node>
+  <node id="3436084693" version="1" timestamp="2015-04-03T22:51:25Z" lat="35.24829" lon="-120.683394">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Tacos de Aculpuco"/>
+  </node>
+  <node id="3639544132" version="6" timestamp="2024-05-19T11:55:47Z" lat="35.3008774" lon="-120.6632937">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Subway"/>
+    <tag k="phone" v="+1 805-756-7829"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.subway.com/united-states/ca/san-luis-obispo/dexter-building"/>
+  </node>
+  <node id="3645164858" version="7" timestamp="2023-09-12T02:21:35Z" lat="35.2795685" lon="-120.662456">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1118 Chorro Street"/>
+    <tag k="addr:housenumber" v="1118"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="international"/>
+    <tag k="internet_access" v="yes"/>
+    <tag k="name" v="Sweetie Cup Tea House"/>
+    <tag k="opening_hours" v="Mo-Sa 10:00-21:00, Su 10:00-20:00"/>
+    <tag k="smoking" v="no"/>
+    <tag k="website" v="http://sweetiecupteahouse.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3785441607" version="5" timestamp="2023-11-18T15:28:38Z" lat="35.2602564" lon="-120.6484612">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="3230 Broad Street #130"/>
+    <tag k="addr:housenumber" v="3230"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="130"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="brewery" v="various"/>
+    <tag k="cuisine" v="german"/>
+    <tag k="name" v="Beda&apos;s Biergarten"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="https://bedasbiergarten.com/"/>
+  </node>
+  <node id="3785441608" version="7" timestamp="2023-09-16T14:58:29Z" lat="35.2613948" lon="-120.650624">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="3165 Broad Street #102"/>
+    <tag k="addr:housenumber" v="3165"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="102"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="no"/>
+    <tag k="cocktails" v="yes"/>
+    <tag k="cuisine" v="burger;diner"/>
+    <tag k="name" v="Cool Cat Cafe"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://coolcatcafe.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3785441611" version="7" timestamp="2024-05-19T11:55:47Z" lat="35.2597708" lon="-120.648437">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3240"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Subway"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-21:00; Sa-Su 08:00-20:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-788-0558"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.subway.com/united-states/ca/san-luis-obispo/3240-broad-street"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3785441612" version="3" timestamp="2023-03-19T17:00:07Z" lat="35.2604831" lon="-120.6486606">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3230"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Taco Roco"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-21:00"/>
+    <tag k="phone" v="+1-805-543-2810"/>
+    <tag k="website" v="https://tacoroco.com/"/>
+  </node>
+  <node id="3841819017" version="1" timestamp="2015-11-17T22:11:41Z" lat="35.2604177" lon="-120.6783169">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Tahoe Joe&apos;s"/>
+  </node>
+  <node id="3847420559" version="7" timestamp="2024-05-18T11:55:21Z" lat="35.294412" lon="-120.670983">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="840"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="East Foothill Boulevard"/>
+    <tag k="addr:street:type" v="Boulevard"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Popeyes"/>
+    <tag k="brand:wikidata" v="Q1330910"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Popeyes"/>
+    <tag k="official_name" v="Popeyes Louisiana Kitchen"/>
+    <tag k="opening_hours" v="Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00"/>
+    <tag k="phone" v="+1 805-548-1767"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.popeyes.com/ca/san-luis-obispo/11979/"/>
+  </node>
+  <node id="3857193102" version="3" timestamp="2023-02-13T17:46:08Z" lat="35.2902609" lon="-120.649381">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="no"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Apple Farm"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3857898561" version="4" timestamp="2022-10-20T01:14:19Z" lat="35.2818136" lon="-120.6615329">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="998"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Koberl at Blue"/>
+    <tag k="website" v="https://www.epkoberl.com/"/>
+  </node>
+  <node id="4049015939" version="5" timestamp="2024-01-16T00:53:57Z" lat="35.2800745" lon="-120.66317">
+    <tag k="addr:full" v="1035 Chorro Street"/>
+    <tag k="addr:housenumber" v="1035"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Superior Sandwiches"/>
+    <tag k="brand" v="Which Wich?"/>
+    <tag k="brand:wikidata" v="Q7993556"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Which Wich?"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="4075572651" version="4" timestamp="2024-07-15T17:02:54Z" lat="35.2577042" lon="-120.6908117">
+    <tag k="addr:full" v="11560 Los Osos Valley Road"/>
+    <tag k="addr:housenumber" v="11560"/>
+    <tag k="addr:street" v="Los Osos Valley Road"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Nautical Bean Espresso Cafe"/>
+    <tag k="website" v="https://www.nauticalcafecoffeehouse.com/"/>
+  </node>
+  <node id="4076926919" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2814043" lon="-120.6600581">
+    <tag k="addr:full" v="1021 Higuera Street"/>
+    <tag k="addr:housenumber" v="1021"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Luis Wine Bar"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="4261751562" version="4" timestamp="2023-11-18T15:28:02Z" lat="35.252683" lon="-120.6705656">
+    <tag k="addr:full" v="3566 South Higuera Street #100"/>
+    <tag k="addr:housenumber" v="3566"/>
+    <tag k="addr:street" v="South Higuera Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Coastal Peaks Roasters"/>
+    <tag k="website" v="https://www.coastalpeakscoffee.com/"/>
+  </node>
+  <node id="4313567508" version="1" timestamp="2016-07-20T21:18:52Z" lat="35.2586027" lon="-120.6485818">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="4313567529" version="1" timestamp="2016-07-20T21:18:52Z" lat="35.2587949" lon="-120.6485818">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="4325513243" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2784155" lon="-120.6641721">
+    <tag k="addr:full" v="1127 Broad Street"/>
+    <tag k="addr:housenumber" v="1127"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cocktails" v="yes"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Sidecar"/>
+  </node>
+  <node id="4423745891" version="5" timestamp="2023-09-12T02:21:35Z" lat="35.2944168" lon="-120.669871">
+    <tag k="addr:full" v="880 Foothill Boulevard"/>
+    <tag k="addr:housenumber" v="880"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Scout Coffee Co."/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="https://scoutcoffeeco.com/"/>
+  </node>
+  <node id="4436986554" version="5" timestamp="2024-05-10T23:40:16Z" lat="35.3033415" lon="-120.662752">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Grand Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="CSU San Luis Obispo Marketplac"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="description" v="inside Campus Market"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="phone" v="+1 805-756-7827"/>
+    <tag k="ref" v="91138"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/91138/csu-san-luis-obispo-marketplac-1-grand-avenue-san-luis-obispo-ca-93407-us"/>
+  </node>
+  <node id="4444817526" version="1" timestamp="2016-10-12T23:39:14Z" lat="35.2689148" lon="-120.6554653">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Oki Momo"/>
+  </node>
+  <node id="4444817527" version="4" timestamp="2024-05-23T18:38:09Z" lat="35.2689722" lon="-120.655508">
+    <tag k="addr:full" v="2256 Broad Street Suite 110"/>
+    <tag k="addr:housenumber" v="Suite 110"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="yes"/>
+    <tag k="brand" v="Round Table Pizza"/>
+    <tag k="brand:wikidata" v="Q7371139"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Round Table Pizza"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4446285154" version="4" timestamp="2023-04-16T04:41:06Z" lat="35.2700128" lon="-120.657103">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="no"/>
+    <tag k="name" v="Fatte&apos;s Pizza"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="reservation" v="no"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="only"/>
+    <tag k="toilets" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4446308336" version="2" timestamp="2019-02-18T22:02:34Z" lat="35.2936171" lon="-120.6690572">
+    <tag k="addr:full" v="973 Foothill Boulevard Suite 107"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="coffee" v="no"/>
+    <tag k="description" v="juice_bar"/>
+    <tag k="drink:juice" v="served"/>
+    <tag k="name" v="The Neighborhood"/>
+    <tag k="website" v="https://www.neighborhoodacai.com/"/>
+  </node>
+  <node id="4446333907" version="4" timestamp="2024-01-16T00:53:57Z" lat="35.2945937" lon="-120.669802">
+    <tag k="addr:full" v="892 E. Foothill Boulevard"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Blaze Pizza"/>
+    <tag k="brand:wikidata" v="Q23016666"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Blaze Pizza"/>
+    <tag k="website" v="http://blazepizza.com/"/>
+  </node>
+  <node id="4454362341" version="2" timestamp="2022-04-12T16:18:17Z" lat="35.2968687" lon="-120.665094">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="4454362342" version="2" timestamp="2022-04-12T16:18:17Z" lat="35.2987749" lon="-120.672061">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="4462352795" version="1" timestamp="2016-10-24T19:27:42Z" lat="35.2964359" lon="-120.6577498">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="4915195854" version="1" timestamp="2017-06-14T16:34:38Z" lat="35.2764032" lon="-120.6668638">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="San Luis Fish BBQ"/>
+  </node>
+  <node id="4915202339" version="2" timestamp="2023-09-12T02:21:35Z" lat="35.2857943" lon="-120.6556696">
+    <tag k="addr:full" v="1422 Monterey Street"/>
+    <tag k="addr:housenumber" v="1422"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="craft" v="brewery"/>
+    <tag k="description" v="unit B100"/>
+    <tag k="name" v="Central Coast Brewing"/>
+    <tag k="phone" v="+1-805-783-2739"/>
+  </node>
+  <node id="4915321268" version="3" timestamp="2024-09-20T19:57:50Z" lat="35.2838522" lon="-120.6582043">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="1234 Monterey Street"/>
+    <tag k="addr:housenumber" v="1234"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="addr:unit" v="#120"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Hoagies"/>
+    <tag k="website" v="https://hoagiesca.com/"/>
+  </node>
+  <node id="4915649329" version="1" timestamp="2017-06-14T21:43:10Z" lat="35.2776793" lon="-120.6648669">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="McCarthy&apos;s Irish Pub"/>
+  </node>
+  <node id="4917195526" version="5" timestamp="2024-05-12T21:59:04Z" lat="35.2785962" lon="-120.6647166">
+    <tag k="addr:floor" v="1"/>
+    <tag k="addr:housenumber" v="685"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Kreuzberg"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="source" v="survey"/>
+    <tag k="website" v="https://www.kreuzbergcalifornia.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4917351871" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2777052" lon="-120.6631926">
+    <tag k="addr:full" v="1234 Broad Street"/>
+    <tag k="addr:housenumber" v="1234"/>
+    <tag k="addr:street" v="Broad"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="craft" v="brewery"/>
+    <tag k="name" v="The Libertine Brewing Company and Coffee Bar"/>
+    <tag k="website" v="http://libertinebrewing.com/"/>
+  </node>
+  <node id="4917413176" version="2" timestamp="2023-09-12T02:21:35Z" lat="35.2790457" lon="-120.6639702">
+    <tag k="addr:full" v="725 Higuera Street"/>
+    <tag k="addr:housenumber" v="725"/>
+    <tag k="addr:street" v="Higuera"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="food" v="yes"/>
+    <tag k="name" v="Mother&apos;s Tavern"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="website" v="http://motherstavern.com/"/>
+  </node>
+  <node id="4917413177" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2789272" lon="-120.6641538">
+    <tag k="addr:full" v="717 Higuera"/>
+    <tag k="addr:housenumber" v="717"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Higuera"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="food" v="yes"/>
+    <tag k="name" v="Buffalo Pub and Grill"/>
+  </node>
+  <node id="4917413178" version="9" timestamp="2023-09-30T23:47:20Z" lat="35.278897" lon="-120.664207">
+    <tag k="addr:full" v="715 Higuera"/>
+    <tag k="addr:housenumber" v="715"/>
+    <tag k="addr:number" v="715"/>
+    <tag k="addr:street" v="Higuera"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="check_date" v="2023-09-30"/>
+    <tag k="cuisine" v="turkish"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="LOKUM"/>
+    <tag k="opening_hours" v="Mo-Fr,Su 10:00-21:00; Sa 10:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4917413179" version="2" timestamp="2017-06-15T18:34:22Z" lat="35.2787023" lon="-120.6641415">
+    <tag k="addr:full" v="1108 Broad Street"/>
+    <tag k="addr:number" v="1108"/>
+    <tag k="addr:street" v="Broad"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="name" v="Batch"/>
+  </node>
+  <node id="4917450065" version="4" timestamp="2023-09-12T02:21:35Z" lat="35.2789474" lon="-120.66293">
+    <tag k="addr:full" v="1130 Garden Street"/>
+    <tag k="addr:housenumber" v="1130"/>
+    <tag k="addr:street" v="Garden Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Scout Coffee Company"/>
+    <tag k="shop" v="coffee"/>
+    <tag k="website" v="https://scoutcoffeeco.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4917471229" version="5" timestamp="2024-05-12T21:38:12Z" lat="35.2783546" lon="-120.664124">
+    <tag k="addr:floor" v="1"/>
+    <tag k="addr:full" v="1131 Broad Street"/>
+    <tag k="addr:housenumber" v="1131"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Tacos Y Birria Sinalos"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+1 805-439-1020"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.tacosbirriasinaloa.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4919512925" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2792085" lon="-120.6641935">
+    <tag k="addr:full" v="726 Higuera Street"/>
+    <tag k="addr:housenumber" v="726"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="international"/>
+    <tag k="name" v="Novo Restaurant &amp; Lounge"/>
+    <tag k="website" v="https://www.novorestaurant.com/"/>
+  </node>
+  <node id="4919512927" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2793251" lon="-120.6647216">
+    <tag k="addr:full" v="1040 Broad Street"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="craft" v="brewery"/>
+    <tag k="name" v="Metro Brewing Company"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="http://www.metrobrewco.com/index.html"/>
+  </node>
+  <node id="4919723162" version="5" timestamp="2024-05-13T02:02:18Z" lat="35.2821121" lon="-120.6605227">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:floor" v="1"/>
+    <tag k="addr:housenumber" v="1037"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="highchair" v="yes"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="internet_access:fee" v="customers"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Buona Tavola"/>
+    <tag k="opening_hours" v="Mo-Fr 11:30-14:00, 17:30-21:30; Sa-Su 17:30-21:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+1 805-545-8000"/>
+    <tag k="reservation" v="recommended"/>
+    <tag k="source" v="survey"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="toilets:wheelchair" v="limited"/>
+    <tag k="website" v="http://btslo.com/san-luis-obispo/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4919754529" version="4" timestamp="2023-11-18T15:24:31Z" lat="35.2808373" lon="-120.6632736">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="848"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Mint and Craft"/>
+    <tag k="website" v="https://mintandcraft.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4919754530" version="2" timestamp="2022-10-20T01:14:19Z" lat="35.281471" lon="-120.6639216">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="815"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:street" v="Palm Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Mee Heng Low Noodle House"/>
+  </node>
+  <node id="4929203584" version="3" timestamp="2024-06-15T01:14:51Z" lat="35.2813252" lon="-120.661629">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1020"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Court Street"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="name" v="SLO Sweets"/>
+    <tag k="phone" v="+18055437933"/>
+    <tag k="website" v="https://slosweets.com/"/>
+  </node>
+  <node id="4929252232" version="4" timestamp="2024-01-16T00:53:57Z" lat="35.2807623" lon="-120.6616035">
+    <tag k="addr:full" v="956 Higuera Street"/>
+    <tag k="addr:housenumber" v="956"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="brand" v="Yogurtland"/>
+    <tag k="brand:wikidata" v="Q8054428"/>
+    <tag k="cuisine" v="frozen_yogurt"/>
+    <tag k="name" v="Yogurtland"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="4929341319" version="7" timestamp="2024-05-18T14:52:14Z" lat="35.2811459" lon="-120.660239">
+    <tag k="addr:full" v="1001 Higuera"/>
+    <tag k="addr:housenumber" v="1001"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="yes"/>
+    <tag k="cuisine" v="barbecue"/>
+    <tag k="name" v="Firestone Grill"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="reservation" v="no"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.firestonegrill.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4929368803" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2814615" lon="-120.6598669">
+    <tag k="addr:full" v="1065 Higuera Street"/>
+    <tag k="addr:housenumber" v="1065"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Blackhorse Espresso &amp; Bakery - Uptown"/>
+    <tag k="website" v="https://blackhorsecoffee.com/"/>
+  </node>
+  <node id="4929514982" version="2" timestamp="2022-12-25T00:21:05Z" lat="35.2802259" lon="-120.6612081">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1126"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Morro Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Granada Hotel &amp; Bistro"/>
+  </node>
+  <node id="4929624649" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2796026" lon="-120.66387">
+    <tag k="addr:full" v="746 Higuera"/>
+    <tag k="addr:housenumber" v="746"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Higuera"/>
+    <tag k="addr:unit" v="4"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Mongo Madness"/>
+  </node>
+  <node id="4929649356" version="2" timestamp="2023-09-12T02:21:35Z" lat="35.2789512" lon="-120.6640108">
+    <tag k="addr:full" v="723 Higuera Street"/>
+    <tag k="addr:housenumber" v="723"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="The Library"/>
+  </node>
+  <node id="4931188564" version="3" timestamp="2023-09-12T02:21:35Z" lat="35.2788453" lon="-120.6630939">
+    <tag k="addr:full" v="1133 Garden"/>
+    <tag k="addr:housenumber" v="1133"/>
+    <tag k="addr:street" v="Garden"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Seeds"/>
+  </node>
+  <node id="5213367558" version="6" timestamp="2025-01-02T15:10:15Z" lat="35.2383856" lon="-120.637874">
+    <tag k="amenity" v="cafe"/>
+    <tag k="bar" v="no"/>
+    <tag k="check_date" v="2025-01-01"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="SLO Cafe &amp; Market Place"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="reservation" v="no"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="5305551270" version="2" timestamp="2024-07-15T17:03:08Z" lat="35.2584052" lon="-120.6443862">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cerro Caliente Cellars"/>
+    <tag k="website" v="https://cerrocalientecellars.com/"/>
+  </node>
+  <node id="5305551271" version="1" timestamp="2017-12-27T00:04:34Z" lat="35.2585909" lon="-120.6441145">
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="name" v="SLO Maid Ice Cream"/>
+  </node>
+  <node id="5305551275" version="1" timestamp="2017-12-27T00:04:34Z" lat="35.2593246" lon="-120.6437995">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Aloha Cafe"/>
+  </node>
+  <node id="6011129608" version="2" timestamp="2019-07-20T20:06:44Z" lat="35.2974573" lon="-120.6609555">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Front Porch"/>
+  </node>
+  <node id="6388436085" version="1" timestamp="2019-04-07T01:49:12Z" lat="35.2944197" lon="-120.6708181">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="poke"/>
+    <tag k="name" v="PokiRito"/>
+  </node>
+  <node id="6511564347" version="1" timestamp="2019-05-30T15:21:27Z" lat="35.2786188" lon="-120.6659566">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Tonita&apos;s"/>
+  </node>
+  <node id="7093901250" version="1" timestamp="2019-12-29T21:35:44Z" lat="35.2797031" lon="-120.6639699">
+    <tag k="addr:unit" v="6"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Le Petit Paris"/>
+  </node>
+  <node id="8368881182" version="4" timestamp="2023-03-19T17:00:08Z" lat="35.263896" lon="-120.645612">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1150"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Laurel Lane"/>
+    <tag k="addr:unit" v="130"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="brewery" v="various"/>
+    <tag k="cuisine" v="bakery"/>
+    <tag k="food" v="yes"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="level" v="1"/>
+    <tag k="microbrewery" v="yes"/>
+    <tag k="name" v="Bang the Drum Brewery"/>
+    <tag k="opening_hours" v="We-Th 12:00-20:00; Fr 12:00-21:00; Sa 11:00-21:00; Su 11:00-19:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="phone" v="+1-805-242-8372"/>
+    <tag k="smoking" v="no"/>
+    <tag k="website" v="https://bangthedrumbrewery.com/"/>
+  </node>
+  <node id="8426427124" version="2" timestamp="2021-02-15T17:58:02Z" lat="35.2602792" lon="-120.645661">
+    <tag k="access" v="residents"/>
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+    <tag k="fuel" v="gas"/>
+    <tag k="lit" v="yes"/>
+  </node>
+  <node id="8447596981" version="1" timestamp="2021-02-23T02:57:42Z" lat="35.2398417" lon="-120.6400363">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="8447596982" version="2" timestamp="2022-04-14T00:45:47Z" lat="35.2397119" lon="-120.63811">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="8462565580" version="2" timestamp="2023-03-19T17:00:09Z" lat="35.2816852" lon="-120.6636088">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="877"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Palm Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="yes"/>
+    <tag k="cuisine" v="steak_house"/>
+    <tag k="name" v="Ox &amp; Anchor"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://oxandanchor.com/"/>
+  </node>
+  <node id="8462565581" version="1" timestamp="2021-02-27T00:17:41Z" lat="35.2819742" lon="-120.6631113">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="yes"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Piadina"/>
+    <tag k="website" v="https://piadinaslo.com/"/>
+  </node>
+  <node id="8462565582" version="1" timestamp="2021-02-27T00:17:41Z" lat="35.2817888" lon="-120.66322">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="S.Low Bar"/>
+  </node>
+  <node id="8502211189" version="1" timestamp="2021-03-10T02:16:52Z" lat="35.2128251" lon="-120.6253149">
+    <tag k="amenity" v="bar"/>
+    <tag k="min_age" v="21"/>
+  </node>
+  <node id="8502211190" version="1" timestamp="2021-03-10T02:16:52Z" lat="35.2128902" lon="-120.6253864">
+    <tag k="amenity" v="restaurant"/>
+  </node>
+  <node id="8707825692" version="1" timestamp="2021-05-07T00:00:08Z" lat="35.2900187" lon="-120.6654001">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+    <tag k="fuel" v="charcoal"/>
+  </node>
+  <node id="9065266694" version="4" timestamp="2024-01-16T00:53:57Z" lat="35.2523485" lon="-120.690909">
+    <tag k="air_conditioning" v="no"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Costco"/>
+    <tag k="brand:wikidata" v="Q715583"/>
+    <tag k="cuisine" v="hot_dog;pizza;sandwich"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Costco Food Court"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9143463323" version="1" timestamp="2021-10-04T01:39:17Z" lat="35.293224" lon="-120.672844">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="water"/>
+  </node>
+  <node id="9143463326" version="1" timestamp="2021-10-04T01:39:17Z" lat="35.2781915" lon="-120.6661137">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="water"/>
+  </node>
+  <node id="9143463327" version="1" timestamp="2021-10-04T01:39:17Z" lat="35.2782436" lon="-120.6634151">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="water"/>
+  </node>
+  <node id="9153221172" version="1" timestamp="2021-10-06T21:13:18Z" lat="35.27842" lon="-120.6660938">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="La Esquina Taqueria"/>
+  </node>
+  <node id="9169748763" version="1" timestamp="2021-10-13T14:31:51Z" lat="35.3011427" lon="-120.6592742">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="food;drinks"/>
+  </node>
+  <node id="9179012030" version="1" timestamp="2021-10-18T01:03:01Z" lat="35.2944092" lon="-120.6705234">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican;burrito"/>
+    <tag k="name" v="Taqueria Santa Cruz Express 2"/>
+    <tag k="website" v="https://www.taqueriasantacruzexpress.com/"/>
+  </node>
+  <node id="9203468196" version="1" timestamp="2021-10-26T22:50:02Z" lat="35.2820036" lon="-120.6557994">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="water"/>
+  </node>
+  <node id="9657351542" version="2" timestamp="2023-02-05T22:34:14Z" lat="35.2673915" lon="-120.658778">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9657351553" version="1" timestamp="2022-04-11T02:39:11Z" lat="35.2677072" lon="-120.6621032">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9657351558" version="1" timestamp="2022-04-11T02:39:11Z" lat="35.2673754" lon="-120.664354">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="fee" v="yes"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9657351559" version="1" timestamp="2022-04-11T02:39:11Z" lat="35.2665387" lon="-120.6643816">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9657351585" version="1" timestamp="2022-04-11T02:39:11Z" lat="35.2673528" lon="-120.6621259">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658873058" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2388588" lon="-120.6402895">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="yes"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9658873066" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2647361" lon="-120.6857677">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="9658873082" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.274579" lon="-120.6548663">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658873085" version="2" timestamp="2024-07-21T00:41:12Z" lat="35.2694688" lon="-120.6524325">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="check_date" v="2024-07-20"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658873087" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2616919" lon="-120.6444448">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658873097" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2725992" lon="-120.6491279">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658873106" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2804389" lon="-120.663452">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9658873111" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2616849" lon="-120.6554103">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658926318" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2482984" lon="-120.6361199">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9658926324" version="1" timestamp="2022-04-11T16:13:24Z" lat="35.2499554" lon="-120.6259466">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9661207934" version="1" timestamp="2022-04-12T16:18:17Z" lat="35.2944572" lon="-120.6431371">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9661207958" version="1" timestamp="2022-04-12T16:18:17Z" lat="35.3026375" lon="-120.662293">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9661207972" version="1" timestamp="2022-04-12T16:18:17Z" lat="35.3070408" lon="-120.6594517">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9661207980" version="1" timestamp="2022-04-12T16:18:17Z" lat="35.307556" lon="-120.6639724">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="9661207983" version="1" timestamp="2022-04-12T16:18:17Z" lat="35.3076952" lon="-120.6671694">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="9661887819" version="2" timestamp="2022-04-14T00:45:47Z" lat="35.2690303" lon="-120.658877">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+    <tag k="fuel" v="charcoal"/>
+    <tag k="lit" v="no"/>
+  </node>
+  <node id="9662164661" version="1" timestamp="2022-04-13T04:16:03Z" lat="35.304006" lon="-120.6626512">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9662164667" version="1" timestamp="2022-04-13T04:16:03Z" lat="35.2990576" lon="-120.6605153">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9662164683" version="1" timestamp="2022-04-13T04:16:03Z" lat="35.3066232" lon="-120.6593185">
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+    <tag k="fuel" v="charcoal"/>
+    <tag k="lit" v="yes"/>
+  </node>
+  <node id="9662164688" version="1" timestamp="2022-04-13T04:16:03Z" lat="35.3018618" lon="-120.6633456">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="yes"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9662164693" version="1" timestamp="2022-04-13T04:16:03Z" lat="35.3012819" lon="-120.6582996">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9663572681" version="1" timestamp="2022-04-13T15:15:35Z" lat="35.3075579" lon="-120.6670408">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9663572694" version="1" timestamp="2022-04-13T15:15:35Z" lat="35.3029707" lon="-120.6578683">
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="9663572699" version="1" timestamp="2022-04-13T15:15:35Z" lat="35.3026624" lon="-120.660809">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News and New Times."/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9663572702" version="1" timestamp="2022-04-13T15:15:35Z" lat="35.3022863" lon="-120.6633022">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="Mustang News"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="operator" v="Cal Poly"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9664663829" version="1" timestamp="2022-04-14T00:45:47Z" lat="35.2760717" lon="-120.6548882">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9664891136" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2549414" lon="-120.6936748">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9664891149" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2859529" lon="-120.6545955">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9664891153" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2928707" lon="-120.6615564">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="New Times"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9664891167" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2447088" lon="-120.6736411">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="currency:USD" v="yes"/>
+    <tag k="drink:pepsi" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="drinks"/>
+  </node>
+  <node id="9664891168" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2447411" lon="-120.673643">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="yes"/>
+    <tag k="currency:USD" v="yes"/>
+    <tag k="drink:coca-cola" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="drinks"/>
+  </node>
+  <node id="9664891170" version="1" timestamp="2022-04-14T04:26:00Z" lat="35.2448088" lon="-120.6736469">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9666126073" version="1" timestamp="2022-04-14T14:46:36Z" lat="35.2796255" lon="-120.6614562">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="New Times"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9666126079" version="1" timestamp="2022-04-14T14:46:36Z" lat="35.2807492" lon="-120.6612624">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9666126082" version="1" timestamp="2022-04-14T14:46:36Z" lat="35.2808594" lon="-120.6613567">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9666126106" version="1" timestamp="2022-04-14T14:46:36Z" lat="35.2793237" lon="-120.6619669">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9666126116" version="1" timestamp="2022-04-14T14:46:36Z" lat="35.279456" lon="-120.6634174">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9667262197" version="1" timestamp="2022-04-15T04:13:23Z" lat="35.2631474" lon="-120.6511378">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9667262201" version="1" timestamp="2022-04-15T04:13:23Z" lat="35.2652723" lon="-120.6495461">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9667262212" version="1" timestamp="2022-04-15T04:13:23Z" lat="35.2543376" lon="-120.6978867">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9667262213" version="1" timestamp="2022-04-15T04:13:23Z" lat="35.2241014" lon="-120.6931295">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9668219960" version="1" timestamp="2022-04-15T14:24:53Z" lat="35.3043021" lon="-120.6572274">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="no"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9668219967" version="1" timestamp="2022-04-15T14:24:53Z" lat="35.3075171" lon="-120.6593593">
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+    <tag k="fuel" v="charcoal"/>
+    <tag k="lit" v="yes"/>
+  </node>
+  <node id="9668219974" version="1" timestamp="2022-04-15T14:24:53Z" lat="35.3082974" lon="-120.6571607">
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+    <tag k="fuel" v="charcoal"/>
+    <tag k="lit" v="yes"/>
+  </node>
+  <node id="10195974684" version="1" timestamp="2022-11-17T01:05:05Z" lat="35.2929476" lon="-120.6724982">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="773"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="bubble_tea"/>
+    <tag k="description" v="Coming Soon"/>
+    <tag k="name" v="Milk Tea Society"/>
+    <tag k="phone" v="(559) 240-9705"/>
+  </node>
+  <node id="10195974685" version="1" timestamp="2022-11-17T01:05:05Z" lat="35.293859" lon="-120.6711271">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="799"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="noodle;japanese;ramen"/>
+    <tag k="name" v="Raku Ramen"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-21:00"/>
+    <tag k="phone" v="(805) 439-3088"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://places.singleplatform.com/raku-ramen/menu?ref=google"/>
+  </node>
+  <node id="10195974691" version="1" timestamp="2022-11-17T01:05:05Z" lat="35.294416" lon="-120.6706114">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="858"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Foothill Boulevard"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="bubble_tea"/>
+    <tag k="name" v="Milk In It"/>
+    <tag k="opening_hours" v="Mo-Su 12:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="(805) 439-2510"/>
+    <tag k="website" v="milk-in-it.com"/>
+  </node>
+  <node id="10195974700" version="1" timestamp="2022-11-17T01:05:05Z" lat="35.2939121" lon="-120.6702798">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="22"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Chorro Street"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="brand" v="Insomnia Cookies"/>
+    <tag k="brand:wikidata" v="Q16997024"/>
+    <tag k="name" v="Insomnia Cookies"/>
+    <tag k="opening_hours" v="Mo-Fr 11:00-1:00; Sa-Su 11:00-3:00"/>
+    <tag k="phone" v="+18053605723"/>
+    <tag k="shop" v="pastry"/>
+  </node>
+  <node id="10195974704" version="1" timestamp="2022-11-17T01:05:05Z" lat="35.2907723" lon="-120.6593708">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="580"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="California Boulevard"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sushi;poke"/>
+    <tag k="name" v="Poke Chef"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-21:00; Su 11:30-21:00"/>
+    <tag k="phone" v="+18059960038"/>
+    <tag k="website" v="http://www.thepokechef.com/"/>
+  </node>
+  <node id="10195974706" version="2" timestamp="2023-11-18T15:25:00Z" lat="35.2906553" lon="-120.6595801">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="594"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="California Boulevard"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="american;mexican;ice_cream"/>
+    <tag k="diet:vegan" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Ziggy&apos;s"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-21:00"/>
+    <tag k="phone" v="+18054394399"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.eatziggys.com/"/>
+  </node>
+  <node id="10195974708" version="6" timestamp="2024-05-26T09:47:31Z" lat="35.2523345" lon="-120.685053">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="11990"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Los Osos Valley Road"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="bar" v="no"/>
+    <tag k="branch" v="Target San Luis Obispo 2759"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 805-858-9902"/>
+    <tag k="ref" v="63312"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/63312/target-san-luis-obispo-2759-11990-los-osos-valley-rd-san-luis-obispo-ca-934056"/>
+  </node>
+  <node id="10205291658" version="2" timestamp="2024-06-05T10:31:12Z" lat="35.2992172" lon="-120.6561414">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Grand Avenue"/>
+    <tag k="alt_name" v="Jamba Juice"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Cal Poly Vista Grande"/>
+    <tag k="brand" v="Jamba"/>
+    <tag k="brand:wikidata" v="Q3088784"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Jamba"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-21:00; Sa-Su 08:00-20:00"/>
+    <tag k="phone" v="+1 805-756-1955"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.jamba.com/ca/san-luis-obispo/1-grand-ave"/>
+  </node>
+  <node id="10205291660" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2994427" lon="-120.6559103">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="diet:allergen-free" v="yes"/>
+    <tag k="name" v="Balance Cafe"/>
+  </node>
+  <node id="10205291661" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2993533" lon="-120.6558611">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="Hearth"/>
+  </node>
+  <node id="10205291662" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2993812" lon="-120.6556963">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="breakfast"/>
+    <tag k="name" v="Brunch"/>
+  </node>
+  <node id="10205291663" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2994189" lon="-120.6557627">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="noodle"/>
+    <tag k="name" v="Noodles"/>
+  </node>
+  <node id="10205291665" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.299359" lon="-120.6560701">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="street_food;burger;mexican;american"/>
+    <tag k="name" v="Streats"/>
+  </node>
+  <node id="10205291666" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.299432" lon="-120.6558139">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Mingle + Nosh"/>
+  </node>
+  <node id="10205291688" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2992895" lon="-120.6539205">
+    <tag k="amenity" v="bbq"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="10205351967" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.2988988" lon="-120.6600408">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Shake Smart"/>
+  </node>
+  <node id="10205352017" version="1" timestamp="2022-11-20T23:35:46Z" lat="35.3019518" lon="-120.663522">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Julian&apos;s"/>
+  </node>
+  <node id="10205352042" version="2" timestamp="2024-05-19T11:55:47Z" lat="35.3072205" lon="-120.6593383">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="fixme:atp" v="no ATP match, check if still exists"/>
+    <tag k="name" v="Subway"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="10205352043" version="2" timestamp="2024-06-10T10:36:31Z" lat="35.3073523" lon="-120.6592536">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Grand Avenue"/>
+    <tag k="addr:unit" v="171B"/>
+    <tag k="alt_name" v="Einstein Brothers Bagels"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Cal Poly Tech"/>
+    <tag k="brand" v="Einstein Bros. Bagels"/>
+    <tag k="brand:wikidata" v="Q5349788"/>
+    <tag k="cuisine" v="bagel"/>
+    <tag k="name" v="Einstein Bros. Bagels"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa-Su 08:00-20:00"/>
+    <tag k="phone" v="+1 805-756-1953"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.einsteinbros.com/us/ca/san-luis-obispo/1-grand-ave"/>
+  </node>
+  <node id="10205352045" version="3" timestamp="2024-05-10T21:22:16Z" lat="35.3073695" lon="-120.6588459">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="93407"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Grand Avenue"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Taco Bell"/>
+    <tag k="brand:wikidata" v="Q752941"/>
+    <tag k="cuisine" v="tex-mex"/>
+    <tag k="name" v="Taco Bell"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.tacobell.com/ca/san-luis-obispo/1-grand-avenue.html"/>
+  </node>
+  <node id="10239647663" version="1" timestamp="2022-12-05T07:15:57Z" lat="35.2782835" lon="-120.6663443">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="La Esquina Distillery"/>
+    <tag k="phone" v="+18055471111"/>
+    <tag k="website" v="http://www.laesquinadistillery.com/"/>
+  </node>
+  <node id="10239647665" version="2" timestamp="2024-05-12T22:00:32Z" lat="35.2784853" lon="-120.664844">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="673"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Higuera Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="name" v="The Mark Bar &amp; Grill"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10240903941" version="5" timestamp="2024-09-29T20:47:52Z" lat="35.258247" lon="-120.6912206">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1350"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Madonna Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Subway"/>
+    <tag k="opening_hours" v="08:00-20:00"/>
+    <tag k="phone" v="+1 805-781-0749"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.subway.com/united-states/ca/san-luis-obispo/1350-madonna-rd"/>
+  </node>
+  <node id="10240903942" version="2" timestamp="2024-09-29T20:47:52Z" lat="35.2581965" lon="-120.6912992">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1352"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Madonna Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="frozen_yogurt"/>
+    <tag k="email" v="snofarifroyo@gmail.com"/>
+    <tag k="name" v="Snofari Frozen Yogurt"/>
+    <tag k="opening_hours" v="12:00-21:00"/>
+    <tag k="phone" v="+1-805-787-0190"/>
+    <tag k="website" v="http://snofarifroyo.com/"/>
+  </node>
+  <node id="10297449821" version="2" timestamp="2024-05-24T14:47:50Z" lat="35.2872511" lon="-120.6643635">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Mr. Pickle&apos;s Sandwich Shop"/>
+    <tag k="website" v="https://www.mrpickles.com/location/mr-pickles-san-luis-obispo-ca-olive-street/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10577576658" version="2" timestamp="2023-03-19T15:29:21Z" lat="35.2662604" lon="-120.639312">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="bar" v="yes"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Efren’s Mexican Restaurant"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="http://www.efrensmexicanrestaurant.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10808917039" version="1" timestamp="2023-04-13T17:42:33Z" lat="35.2674224" lon="-120.6747592">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="steak_house"/>
+    <tag k="name" v="Alex Madonna Gold Rush Steakhouse"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10808917040" version="1" timestamp="2023-04-13T17:42:33Z" lat="35.2672076" lon="-120.6746919">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Copper Cafe"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10808917041" version="1" timestamp="2023-04-13T17:42:33Z" lat="35.2674375" lon="-120.6746306">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Silver Bar Cocktail Lounge"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10876051744" version="1" timestamp="2023-05-07T15:54:25Z" lat="35.2479317" lon="-120.6725404">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="chicken;sandwich"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Jay Bird&apos;s"/>
+    <tag k="website" v="https://jaybirdschicken.com/"/>
+  </node>
+  <node id="11229752448" version="1" timestamp="2023-09-30T18:08:00Z" lat="35.2798693" lon="-120.6626129">
+    <tag k="addr:housenumber" v="847"/>
+    <tag k="addr:street" v="Higuera"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="check_date" v="2023-09-30"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Corazon Cafe SLO"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+  </node>
+  <node id="11353227317" version="1" timestamp="2023-11-16T02:23:53Z" lat="35.2676681" lon="-120.6543558">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="2324"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="My Friend Mike&apos;s"/>
+    <tag k="phone" v="+1-805-464-6438"/>
+    <tag k="website" v="https://www.myfriendmikes.com/"/>
+  </node>
+  <node id="11378760049" version="2" timestamp="2024-05-12T21:39:32Z" lat="35.2786145" lon="-120.6588559">
+    <tag k="addr:floor" v="1"/>
+    <tag k="addr:housenumber" v="1401"/>
+    <tag k="addr:street" v="Osos Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-05-12"/>
+    <tag k="cuisine" v="peruvian"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Coya Peruvian"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="11384945139" version="1" timestamp="2023-11-30T05:03:49Z" lat="35.2615218" lon="-120.6476927">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop;bistro"/>
+    <tag k="name" v="Nautical Bean - Bunker"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="https://www.thebunkerslo.com/"/>
+  </node>
+  <node id="11395162158" version="1" timestamp="2023-12-05T01:19:33Z" lat="35.2942642" lon="-120.671845">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="cookies"/>
+    <tag k="name" v="Cowboy Cookie and Ice Cream"/>
+  </node>
+  <node id="11766371858" version="1" timestamp="2024-03-27T15:05:30Z" lat="35.2634758" lon="-120.6837665">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="11767355847" version="1" timestamp="2024-03-27T21:19:39Z" lat="35.2677733" lon="-120.6471342">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="11767355852" version="1" timestamp="2024-03-27T21:19:39Z" lat="35.2672722" lon="-120.6465101">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="11767355860" version="1" timestamp="2024-03-27T21:19:39Z" lat="35.2674927" lon="-120.6433647">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="bin" v="yes"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="11874444668" version="1" timestamp="2024-05-02T16:18:22Z" lat="35.2615473" lon="-120.6463411">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="3197"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Duncan Road"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="brewery" v="various"/>
+    <tag k="name" v="Ancient Owl"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="https://www.ancientowlbeergarden.com/home"/>
+  </node>
+  <node id="11916074457" version="1" timestamp="2024-05-18T14:52:14Z" lat="35.278043" lon="-120.6636368">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="description" v="SLO New Times."/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11916083272" version="1" timestamp="2024-05-18T14:52:14Z" lat="35.2805339" lon="-120.6600527">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="description" v="SLO New Times"/>
+    <tag k="fee" v="no"/>
+    <tag k="indoor" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11916083274" version="1" timestamp="2024-05-18T14:52:14Z" lat="35.2807236" lon="-120.6596569">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="11916083275" version="1" timestamp="2024-05-18T14:52:14Z" lat="35.280766" lon="-120.6592812">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="parking_tickets"/>
+  </node>
+  <node id="11930836866" version="1" timestamp="2024-05-24T14:47:50Z" lat="35.2670775" lon="-120.6745661">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11930863369" version="1" timestamp="2024-05-24T14:47:50Z" lat="35.2635609" lon="-120.6775586">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11930863380" version="1" timestamp="2024-05-24T14:47:50Z" lat="35.2903113" lon="-120.664879">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="12188915846" version="1" timestamp="2024-09-20T19:57:50Z" lat="35.2840483" lon="-120.657849">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1242"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="addr:unit" v="Suite 110"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/kaffeincoffeecompany"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Kaffein Coffee Company"/>
+    <tag k="opening_hours" v="Mo-Su 07:00-15:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="12206368063" version="1" timestamp="2024-09-28T04:47:28Z" lat="35.250135" lon="-120.643562">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Pizza Republic"/>
+  </node>
+  <node id="12206377328" version="1" timestamp="2024-09-28T04:43:55Z" lat="35.25617" lon="-120.677686">
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="name" v="Negranti Creamery"/>
+  </node>
+  <node id="12307838650" version="1" timestamp="2024-11-02T19:37:39Z" lat="35.277469" lon="-120.6637346">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:full" v="667C Marsh"/>
+    <tag k="addr:housenumber" v="667"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Marsh"/>
+    <tag k="addr:unit" v="C"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sushi"/>
+    <tag k="name" v="Arigato Sushi"/>
+    <tag k="website" v="https://www.arigatosushislo.com/"/>
+  </node>
+  <node id="12338209306" version="1" timestamp="2024-11-14T00:19:23Z" lat="35.2911231" lon="-120.6594506">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1340"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Taft Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Deltina Coffee"/>
+    <tag k="phone" v="1 (805) 270-4744"/>
+  </node>
+  <node id="12338209308" version="1" timestamp="2024-11-14T00:19:23Z" lat="35.2911215" lon="-120.6595422">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1340"/>
+    <tag k="addr:postcode" v="93405"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Taft Street"/>
+    <tag k="addr:unit" v="114"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Tiki Hut"/>
+  </node>
+  <node id="12398760716" version="1" timestamp="2024-12-05T22:42:48Z" lat="35.2704023" lon="-120.6566482">
+    <tag k="amenity" v="cafe"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="12398760717" version="1" timestamp="2024-12-05T22:42:48Z" lat="35.2808792" lon="-120.6614347">
+    <tag k="amenity" v="cafe"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="12461913418" version="1" timestamp="2024-12-30T00:36:20Z" lat="35.2825648" lon="-120.6596868">
+    <tag k="addr:city" v="San Luis Obispo"/>
+    <tag k="addr:housenumber" v="1101"/>
+    <tag k="addr:postcode" v="93401"/>
+    <tag k="addr:state" v="CA"/>
+    <tag k="addr:street" v="Monterey Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="LureFishHouse"/>
+    <tag k="contact:instagram" v="lurefishhouse"/>
+    <tag k="cuisine" v="fish"/>
+    <tag k="delivery" v="no"/>
+    <tag k="name" v="Lure Fish House"/>
+    <tag k="opening_hours" v="Su-Th 11:30-21:00; Fr-Sa 11:30-22:00"/>
+    <tag k="phone" v="+1 805-586-1356"/>
+    <tag k="reservation" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.lurefishhouse.com/location/san-luis-obispo/"/>
+  </node>
+</osm>

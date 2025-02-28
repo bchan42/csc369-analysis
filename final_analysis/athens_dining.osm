@@ -1,0 +1,3362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmium/1.17.0">
+  <node id="477959350" version="7" timestamp="2023-06-11T17:16:07Z" lat="33.9595718" lon="-83.3795894">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="232"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Hancock Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="The National"/>
+    <tag k="phone" v="+1 706 549 3450"/>
+  </node>
+  <node id="1969887249" version="3" timestamp="2023-12-19T17:14:29Z" lat="33.9459652" lon="-83.4074457">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1480"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="C"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Jittery Joe&apos;s Coffee"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-20:00; Sa,Su 07:00-20:00"/>
+    <tag k="ref:athensclarkeaddress" v="2478"/>
+  </node>
+  <node id="2450043447" version="6" timestamp="2023-07-05T14:20:22Z" lat="33.9396861" lon="-83.3860413">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1591"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Baddies"/>
+    <tag k="ref:athensclarkeaddress" v="26179"/>
+  </node>
+  <node id="2450083821" version="4" timestamp="2024-10-11T22:40:12Z" lat="33.9605934" lon="-83.3856315">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="493"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="check_date" v="2024-10-11"/>
+    <tag k="name" v="Birdies"/>
+    <tag k="phone" v="+1 706 352 2060"/>
+    <tag k="ref:athensclarkeaddress" v="36957"/>
+    <tag k="source" v="Survey"/>
+  </node>
+  <node id="2450103032" version="5" timestamp="2022-06-26T23:47:23Z" lat="33.9593204" lon="-83.3840467">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="393"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Finley Street"/>
+    <tag k="addr:unit" v="Studio B"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="internet_access" v="no"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Big City Bread Cafe"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 706 353 0029"/>
+    <tag k="ref:athensclarkeaddress" v="33632"/>
+    <tag k="smoking" v="no"/>
+    <tag k="source" v="Survey"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.bigcitybreadcafe.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2451198598" version="1" timestamp="2013-09-09T02:03:38Z" lat="33.9657394" lon="-83.3816369">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="regional"/>
+    <tag k="name" v="Pulaski Heights BBQ"/>
+  </node>
+  <node id="2501917005" version="3" timestamp="2024-03-30T22:30:14Z" lat="33.9584943" lon="-83.3790162">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="269"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Hull Street"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TrappezePubAthens"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/trappezepub/"/>
+    <tag k="name" v="Trappeze Pub"/>
+    <tag k="opening_hours" v="Su-Th 11:00-22:00; Fr-Sa Fr-Sa 11:00-23:00"/>
+    <tag k="phone" v="(706) 543-8997"/>
+    <tag k="website" v="https://www.trappezepub.com/"/>
+  </node>
+  <node id="2501917037" version="4" timestamp="2023-06-10T04:40:16Z" lat="33.9589257" lon="-83.3790405">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="337"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Hull Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Manhattan Cafe"/>
+    <tag k="phone" v="(706) 369-9767"/>
+    <tag k="ref:athensclarkeaddress" v="35031"/>
+  </node>
+  <node id="2501917047" version="4" timestamp="2024-04-14T16:21:00Z" lat="33.9593751" lon="-83.379192">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="223"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Hancock Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/littlekingsshuffleclub"/>
+    <tag k="name" v="Little Kings Shuffle Club"/>
+    <tag k="opening_hours" v="Mo-Th 17:00-22:00; Fr-Sa 17:00-23:30"/>
+    <tag k="phone" v="(706) 369-3144"/>
+    <tag k="ref:athensclarkeaddress" v="35227"/>
+  </node>
+  <node id="2501917075" version="5" timestamp="2024-02-23T23:58:37Z" lat="33.9577666" lon="-83.3770666">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="137"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/RoadhouseDive"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/roadhouseathens"/>
+    <tag k="name" v="The Roadhouse"/>
+    <tag k="opening_hours" v="Mo-Sa 14:00-02:00"/>
+    <tag k="phone" v="(706) 613-2324"/>
+    <tag k="ref:athensclarkeaddress" v="5509"/>
+  </node>
+  <node id="2501917083" version="8" timestamp="2024-02-23T23:58:37Z" lat="33.9580389" lon="-83.3771515">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="199"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/globe.athens/"/>
+    <tag k="contact:instagram" v="http://instagram.com/globeathens"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="The Globe"/>
+    <tag k="opening_hours" v="11:00-22:00"/>
+    <tag k="phone" v="(706) 353-4721"/>
+    <tag k="ref:athensclarkeaddress" v="34478"/>
+    <tag k="website" v="https://www.globetavern.com/"/>
+  </node>
+  <node id="2501917096" version="7" timestamp="2024-02-25T00:45:40Z" lat="33.9589213" lon="-83.3771034">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="104"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/barsouthathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/barsouthathensga"/>
+    <tag k="contact:tiktok" v="https://www.tiktok.com/@barsouthathens"/>
+    <tag k="level" v="0"/>
+    <tag k="min_age" v="21"/>
+    <tag k="name" v="Bar South"/>
+    <tag k="opening_hours" v="Mo-We 21:00-02:00; Th-Sa 16:00-02:00"/>
+    <tag k="phone" v="(678) 372-0987"/>
+    <tag k="ref:athensclarkeaddress" v="50649"/>
+  </node>
+  <node id="2501917103" version="7" timestamp="2024-02-25T00:45:40Z" lat="33.9589661" lon="-83.3769091">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="120"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Woodford-Athens-100054483160191/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/woodford.athens"/>
+    <tag k="contact:twitter" v="https://twitter.com/woodfordathens"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Woodford"/>
+    <tag k="operator" v="Hospitality South"/>
+    <tag k="phone" v="(404) 271-8440"/>
+    <tag k="ref:athensclarkeaddress" v="35087"/>
+  </node>
+  <node id="2501958309" version="5" timestamp="2024-01-20T00:58:30Z" lat="33.9581406" lon="-83.3767168">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="120"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/CuttersPubAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/cuttersathens/"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Cutters Pub"/>
+    <tag k="opening_hours" v="Mo-Fr 14:00-02:00; Sa 12:00-02:00"/>
+    <tag k="phone" v="706-224-1187"/>
+    <tag k="ref:athensclarkeaddress" v="49757"/>
+    <tag k="website" v="https://cutterspub.com/"/>
+  </node>
+  <node id="2501958310" version="7" timestamp="2024-01-20T00:58:30Z" lat="33.958176" lon="-83.3765795">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="134"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:email" v="athenspauleys@gmail.com"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Pauley&apos;s Crepe Bar"/>
+    <tag k="phone" v="+1-706-549-0034"/>
+    <tag k="website" v="https://pauleyscrepebar.com/"/>
+  </node>
+  <node id="2501958311" version="3" timestamp="2022-04-22T17:10:50Z" lat="33.9580438" lon="-83.3763996">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="140"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Rye Bar"/>
+  </node>
+  <node id="2501958312" version="5" timestamp="2024-09-25T01:46:59Z" lat="33.9582302" lon="-83.3762751">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="164"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:tiktok" v="https://www.tiktok.com/@generalsathens"/>
+    <tag k="name" v="General Beauregard&apos;s"/>
+    <tag k="ref:athensclarkeaddress" v="34576"/>
+  </node>
+  <node id="2501958314" version="4" timestamp="2022-05-12T05:54:51Z" lat="33.9590101" lon="-83.3755182">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="220"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="City Bar"/>
+    <tag k="phone" v="+1-706-546-7612"/>
+    <tag k="website" v="https://www.facebook.com/athenscitybar"/>
+  </node>
+  <node id="2501958315" version="7" timestamp="2023-05-18T23:37:29Z" lat="33.9581251" lon="-83.3751813">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="128"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Walker&apos;s Coffee and Pub"/>
+    <tag k="opening_hours" v="Mo-We 9:00-21:00; Fr, Su 7:30-24:00; Sa 7:30-26:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="phone" v="706 543 1433"/>
+    <tag k="ref:athensclarkeaddress" v="34577"/>
+    <tag k="smoking" v="separated"/>
+    <tag k="website" v="http://www.walkerscoffee.com/"/>
+  </node>
+  <node id="2501958317" version="4" timestamp="2023-11-10T03:23:42Z" lat="33.9580019" lon="-83.3748638">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="128"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Blue Sky Bar"/>
+    <tag k="phone" v="(706) 850-3153"/>
+    <tag k="website" v="https://blueskyathens.com/"/>
+  </node>
+  <node id="2501958318" version="5" timestamp="2024-02-22T00:58:49Z" lat="33.9577695" lon="-83.3740897">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="312"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/magnoliasathens"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magnoliasathens"/>
+    <tag k="contact:twitter" v="https://twitter.com/magnoliasath"/>
+    <tag k="name" v="Magnolia&apos;s"/>
+    <tag k="opening_hours" v="Mo 19:30-02:00; We 20:00-02:00; Th-Sa 15:00-02:00"/>
+    <tag k="phone" v="+1-706-543-0797"/>
+    <tag k="ref:athensclarkeaddress" v="33304"/>
+    <tag k="website" v="https://www.magnoliasath.com/"/>
+  </node>
+  <node id="2501973695" version="6" timestamp="2024-11-29T14:59:27Z" lat="33.9581566" lon="-83.3740496">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="345"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/bourbonstreet.athens"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/bourbonstreetathens"/>
+    <tag k="contact:snapchat" v="bourbonstath"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Bourbon Street"/>
+    <tag k="phone" v="+1-706-369-1313"/>
+    <tag k="ref:athensclarkeaddress" v="71547"/>
+  </node>
+  <node id="2501973696" version="5" timestamp="2024-02-24T22:21:33Z" lat="33.9582739" lon="-83.3735192">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="431"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Buddha-Athens-100046970157221/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/buddha_athens/"/>
+    <tag k="contact:twitter" v="https://twitter.com/athensbuddhabar"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Buddha Bar"/>
+    <tag k="opening_hours" v="Mo-Sa 21:00-02:00"/>
+    <tag k="operator" v="Hospitality South"/>
+    <tag k="phone" v="+1-706-208-7017"/>
+    <tag k="ref:athensclarkeaddress" v="50971"/>
+  </node>
+  <node id="2501973697" version="7" timestamp="2024-09-25T01:46:59Z" lat="33.9588082" lon="-83.3737462">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="420"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/1785Athens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/1785athens"/>
+    <tag k="contact:snapchat" v="https://www.snapchat.com/add/athens1785"/>
+    <tag k="contact:twitter" v="https://twitter.com/1785Athens"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="1785 Bar &amp; Grill"/>
+    <tag k="opening_hours" v="Mo-We 19:00-02:00; Th-Sa 21:00-02:00; Su 18:00-00:00"/>
+    <tag k="phone" v="443-579-5566"/>
+    <tag k="ref:athensclarkeaddress" v="34962"/>
+    <tag k="website" v="http://www.1785Athens.com"/>
+  </node>
+  <node id="2501973702" version="7" timestamp="2024-02-25T00:45:40Z" lat="33.9589564" lon="-83.3745087">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="301"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/FlanagansAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/flanagans_athens"/>
+    <tag k="contact:tiktok" v="https://www.tiktok.com/@flans_athens"/>
+    <tag k="min_age" v="21"/>
+    <tag k="name" v="Flanagan&apos;s &amp; The Half Moon Pub"/>
+    <tag k="opening_hours" v="Tu-Sa 17:00-02:00"/>
+    <tag k="phone" v="+1-706-208-9711"/>
+    <tag k="ref:athensclarkeaddress" v="35175"/>
+    <tag k="website" v="http://flanagansathens.homestead.com/"/>
+  </node>
+  <node id="2501973703" version="7" timestamp="2024-01-13T23:31:17Z" lat="33.9585412" lon="-83.3748502">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="256"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:email" v="256eastclayton@gmail.com"/>
+    <tag k="level" v="0"/>
+    <tag k="min_age" v="21"/>
+    <tag k="name" v="Allgood Lounge"/>
+    <tag k="opening_hours" v="Mo-Th 16:00-02:00; Fr-Sa 15:00-02:00"/>
+    <tag k="phone" v="(706) 549-0166"/>
+    <tag k="ref:athensclarkeaddress" v="2397"/>
+    <tag k="website" v="https://www.allgoodlounge.com/"/>
+  </node>
+  <node id="2501973704" version="7" timestamp="2023-06-11T19:18:53Z" lat="33.9588238" lon="-83.3750288">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="255"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="On The Rocks"/>
+    <tag k="opening_hours" v="Mo-Sa 21:00-02:00"/>
+    <tag k="phone" v="+1-706-354-6666"/>
+    <tag k="ref:athensclarkeaddress" v="8123"/>
+  </node>
+  <node id="2501973705" version="6" timestamp="2024-02-25T00:45:40Z" lat="33.9592994" lon="-83.3750454">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="260"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Boars-Head-Lounge-100068780862428/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/boarsheadlounge"/>
+    <tag k="contact:twitter" v="https://twitter.com/boarsheadlounge"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Boar&apos;s Head Lounge"/>
+    <tag k="opening_hours" v="Mo-Sa 20:00-02:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="ref:athensclarkeaddress" v="8125"/>
+  </node>
+  <node id="2501973706" version="6" timestamp="2024-02-24T22:21:33Z" lat="33.959647" lon="-83.3752437">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="247"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="addr:unit" v="101"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="southkitchenbar"/>
+    <tag k="contact:instagram" v="southkitchenbar"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="delivery" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="South Kitchen + Bar"/>
+    <tag k="opening_hours" v="Mo-Fr 11:00-15:00; Su-Th 16:00-22:00; Fr-Sa 16:00-23:00; Sa-Su 10:00-15:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="(706) 850-6277"/>
+    <tag k="ref:athensclarkeaddress" v="69548"/>
+    <tag k="smoking" v="outside"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.southkitchenbar.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2589501887" version="6" timestamp="2024-11-19T19:03:43Z" lat="33.9389528" lon="-83.3861563">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1235"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="The Pine Bar &amp; The Root Basement"/>
+    <tag k="ref:athensclarkeaddress" v="64529"/>
+  </node>
+  <node id="2589501893" version="4" timestamp="2023-08-01T15:57:15Z" lat="33.9390636" lon="-83.3862152">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1225"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese"/>
+    <tag k="name" v="Sakura Hibachi &amp; Sushi Bar"/>
+    <tag k="ref:athensclarkeaddress" v="25931"/>
+  </node>
+  <node id="2589501896" version="5" timestamp="2023-07-05T14:20:22Z" lat="33.9395919" lon="-83.3860893">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1591"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="addr:unit" v="C"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mediterranean"/>
+    <tag k="name" v="Mediterranean Grill"/>
+    <tag k="ref:athensclarkeaddress" v="63108"/>
+  </node>
+  <node id="2589501898" version="4" timestamp="2024-11-19T19:03:43Z" lat="33.938396" lon="-83.3863477">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1230"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Jittery Joe&apos;s Coffee"/>
+    <tag k="opening_hours" v="Mo-Fr 6:30-22:00; Sa-Su 7:00-22:00"/>
+    <tag k="ref:athensclarkeaddress" v="63579"/>
+  </node>
+  <node id="2589501903" version="8" timestamp="2024-01-17T02:26:20Z" lat="33.939642" lon="-83.3860621">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1591"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Smoothie King"/>
+    <tag k="brand:wikidata" v="Q5491421"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Smoothie King"/>
+    <tag k="ref:athensclarkeaddress" v="63107"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="2624419491" version="3" timestamp="2023-06-11T17:16:07Z" lat="33.9596864" lon="-83.3793198">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="224"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Hancock Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="regional"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Dawg Gone Good BBQ"/>
+    <tag k="phone" v="+1 706 613 9799"/>
+    <tag k="ref:athensclarkeaddress" v="35344"/>
+  </node>
+  <node id="2823435100" version="2" timestamp="2024-05-28T16:09:55Z" lat="33.9634577" lon="-83.4004869">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1298"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/SquareOneFishCo"/>
+    <tag k="contact:twitter" v="https://twitter.com/squareonefishco"/>
+    <tag k="cuisine" v="seafood"/>
+    <tag k="name" v="Square One Fish Co."/>
+    <tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+    <tag k="website" v="https://www.squareonefishco.com/"/>
+  </node>
+  <node id="2984384808" version="2" timestamp="2023-03-19T10:29:30Z" lat="33.9696651" lon="-83.4144182">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Em&apos;s Kitchen"/>
+    <tag k="website" v="https://emskitchenathawthorne.com/"/>
+  </node>
+  <node id="2984384810" version="1" timestamp="2014-07-28T12:27:21Z" lat="33.9705027" lon="-83.4136976">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="La Cabana de Don Juan"/>
+  </node>
+  <node id="3115176850" version="5" timestamp="2023-04-26T19:43:58Z" lat="33.9592065" lon="-83.3732404">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="493"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese;japanese;thai;asian;fusion"/>
+    <tag k="name" v="Athens Wok"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-21:30"/>
+    <tag k="phone" v="7068502695"/>
+  </node>
+  <node id="3115176851" version="8" timestamp="2024-02-25T00:45:40Z" lat="33.9593649" lon="-83.3746522">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="268"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Jackson Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/athensbagel/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/athensbagel"/>
+    <tag k="contact:twitter" v="https://twitter.com/athensbagel"/>
+    <tag k="cuisine" v="bagel"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Athens Bagel Company"/>
+    <tag k="phone" v="+1-706-543-5001"/>
+    <tag k="ref:athensclarkeaddress" v="42287"/>
+    <tag k="website" v="https://www.athensbagel.com/"/>
+  </node>
+  <node id="3115176852" version="8" timestamp="2024-02-24T22:21:33Z" lat="33.9586978" lon="-83.3741304">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="320"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="addr:unit" v="201"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Mellow Mushroom"/>
+    <tag k="brand:wikidata" v="Q17021360"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MellowMushroomAthens/"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Mellow Mushroom"/>
+    <tag k="opening_hours" v="11:00-22:00"/>
+    <tag k="phone" v="706-613-0892"/>
+    <tag k="ref:athensclarkeaddress" v="2424"/>
+    <tag k="website" v="https://www.mellowmushroom.com/locations/ga/athens/320-e-clayton-st/"/>
+  </node>
+  <node id="3119147566" version="7" timestamp="2024-02-06T21:56:34Z" lat="33.9582101" lon="-83.375651">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="171"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/thegrillathens"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/thegrillathens"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="The Grill"/>
+    <tag k="opening_hours" v="Tu-Sa 11:00-23:00"/>
+    <tag k="phone" v="706-543-4770"/>
+    <tag k="ref:athensclarkeaddress" v="34574"/>
+    <tag k="website" v="https://www.thegrillathens.com/"/>
+  </node>
+  <node id="3162280461" version="8" timestamp="2024-05-20T15:14:56Z" lat="33.9164181" lon="-83.4429844">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1850"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Epps Bridge Parkway"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="The Markets at Epps Bridge"/>
+    <tag k="brand" v="Five Guys"/>
+    <tag k="brand:wikidata" v="Q1131810"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Five Guys"/>
+    <tag k="official_name" v="Five Guys Burgers and Fries"/>
+    <tag k="opening_hours" v="11:00-21:30"/>
+    <tag k="phone" v="+1 706-549-9081"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.fiveguys.com/1850-epps-ridge-parkway"/>
+  </node>
+  <node id="3173126061" version="4" timestamp="2022-06-26T23:47:23Z" lat="33.972424" lon="-83.416035">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2451"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Jefferson Road"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="leisure" v="bowling_alley"/>
+    <tag k="name" v="Ten Pins Tavern"/>
+    <tag k="ref:athensclarkeaddress" v="58100"/>
+    <tag k="sport" v="10pin"/>
+  </node>
+  <node id="3173147561" version="3" timestamp="2023-03-04T16:32:44Z" lat="33.9590445" lon="-83.379077">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Hull Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="The World Famous"/>
+    <tag k="website" v="https://theworldfamous.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3198637884" version="9" timestamp="2024-06-20T01:42:44Z" lat="33.9157875" lon="-83.446578">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1761"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Epps Bridge Parkway"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Epps Bridge Road @ Highway 316"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="phone" v="+1 706-353-2206"/>
+    <tag k="ref" v="6599"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/6599/epps-bridge-rd-hwy-316-1761-epps-bridge-pkwy-athens-ga-306066199-us"/>
+  </node>
+  <node id="3260848761" version="2" timestamp="2021-09-08T13:29:37Z" lat="33.963402" lon="-83.426678">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="drive_in" v="no"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="microbrewery" v="no"/>
+    <tag k="name" v="Sabor Latino"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3409340545" version="10" timestamp="2024-02-06T21:56:34Z" lat="33.9579683" lon="-83.3755658">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="105"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="brand" v="Ben &amp; Jerry&apos;s"/>
+    <tag k="brand:wikidata" v="Q816412"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/BenJerrysAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/benjerrysathens/"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Ben &amp; Jerry&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 13:00-21:30; Fr-Sa 13:00-22:30; Su 13:00-21:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="ref:athensclarkeaddress" v="49753"/>
+    <tag k="website" v="https://www.benjerry.com/athens"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4241187493" version="2" timestamp="2024-05-28T16:09:55Z" lat="33.96357" lon="-83.4007639">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1354"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/hilolounge/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/hilolounge/"/>
+    <tag k="contact:twitter" v="https://twitter.com/hilolounge"/>
+    <tag k="lgbtq" v="welcome"/>
+    <tag k="name" v="Hi-Lo Lounge"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-24:00"/>
+    <tag k="website" v="https://www.hiloathens.com/"/>
+  </node>
+  <node id="4241241689" version="2" timestamp="2024-05-28T16:09:55Z" lat="33.9634984" lon="-83.4005845">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1320"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/theoldpalathensga"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/theoldpal"/>
+    <tag k="name" v="The Old Pal"/>
+    <tag k="opening_hours" v="Mo-Th 17:00-01:00; Fr-Sa 16:00-02:00"/>
+    <tag k="website" v="http://theoldpal.com/"/>
+  </node>
+  <node id="5451730342" version="1" timestamp="2018-03-03T18:16:07Z" lat="33.9629326" lon="-83.413546">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="810"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Hawthorne Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="regional"/>
+    <tag k="name" v="JR Crickets"/>
+    <tag k="opening_hours" v="Mo-Fr 11:00-00:00"/>
+  </node>
+  <node id="5460039193" version="6" timestamp="2024-04-23T17:52:09Z" lat="33.9262539" lon="-83.3372631">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1055"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="107"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="ethiopian;eritrean"/>
+    <tag k="name" v="Mannaweenta"/>
+    <tag k="opening_hours" v="Mo 17:00-21:30; Tu-Th 11:00-21:30; Fr-Sa 11:00-22:00"/>
+    <tag k="phone" v="(706) 850-8422"/>
+    <tag k="ref:athensclarkeaddress" v="18038"/>
+    <tag k="website" v="https://mannaweenta.wixsite.com/"/>
+  </node>
+  <node id="5460073304" version="3" timestamp="2023-01-12T18:15:25Z" lat="33.9558055" lon="-83.3547461">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="585"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Vine Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="seafood"/>
+    <tag k="name" v="Lighthouse Seafood"/>
+  </node>
+  <node id="5460094124" version="1" timestamp="2018-03-06T19:37:17Z" lat="33.9438778" lon="-83.4755402">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Vanish Night Club"/>
+  </node>
+  <node id="5460127235" version="3" timestamp="2024-04-21T23:52:19Z" lat="33.9207812" lon="-83.3442888">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2301"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Station Road"/>
+    <tag k="addr:unit" v="A11"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger;american"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="name" v="Blind Pig Tavern"/>
+    <tag k="opening_hours" v="Su-Th 11:00-00:00, Fr-Sa 11:00-01:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="ref:athensclarkeaddress" v="62854"/>
+  </node>
+  <node id="5638754727" version="4" timestamp="2024-07-31T14:02:04Z" lat="33.9428186" lon="-83.3762419">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="130"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Carlton Street"/>
+    <tag k="alt_name" v="Einstein Brothers Bagels"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Einstein Bros. Bagels"/>
+    <tag k="brand:wikidata" v="Q5349788"/>
+    <tag k="cuisine" v="bagel"/>
+    <tag k="delivery" v="no"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Einstein Bros. Bagels"/>
+    <tag k="opening_hours" v="Mo-Th 07:30-19:30; Fr 07:30-18:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="5657167181" version="1" timestamp="2018-06-01T20:04:55Z" lat="33.9307991" lon="-83.3335587">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Taqueria La Parrilla"/>
+  </node>
+  <node id="5664218536" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9268832" lon="-83.336618">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese;korean"/>
+    <tag k="name" v="Choo Choo"/>
+  </node>
+  <node id="5664218537" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9268427" lon="-83.3366585">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1055"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="102"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="American Deli"/>
+    <tag k="brand:wikidata" v="Q119993570"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="American Deli"/>
+    <tag k="ref:athensclarkeaddress" v="18014"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="7674986262" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.920902" lon="-83.3422775">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2240"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Mama Sid&apos;s Pizza"/>
+    <tag k="opening_hours" v="Mo-Sa 11:30:00-21:00"/>
+    <tag k="phone" v="706-480-4290"/>
+    <tag k="ref:athensclarkeaddress" v="63718"/>
+    <tag k="website" v="https://www.mamasidspizza.com/"/>
+  </node>
+  <node id="7884135309" version="12" timestamp="2024-05-19T12:34:49Z" lat="33.9578464" lon="-83.3755329">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="101"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Downtown Athens In-Line"/>
+    <tag k="brand" v="Chick-fil-A"/>
+    <tag k="brand:wikidata" v="Q491516"/>
+    <tag k="contact:facebook" v="cfadowntownathens"/>
+    <tag k="contact:instagram" v="athens_cfa"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="indoor_seating" v="no"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Chick-fil-A"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+1 706-546-1009"/>
+    <tag k="ref" v="04234"/>
+    <tag k="ref:athensclarkeaddress" v="34400"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.chick-fil-a.com/locations/ga/downtown-athens-in-line"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7902896308" version="2" timestamp="2023-05-04T04:08:50Z" lat="33.9540427" lon="-83.3648627">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="7946202978" version="5" timestamp="2023-10-05T13:15:19Z" lat="33.9580603" lon="-83.3744566">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="297"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Downtown Athens"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Jittery Joe&apos;s"/>
+    <tag k="opening_hours" v="07:30-20:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="706-613-7449"/>
+    <tag k="ref:athensclarkeaddress" v="34605"/>
+    <tag k="website" v="https://jitteryjoes.com"/>
+  </node>
+  <node id="7946202979" version="4" timestamp="2024-02-24T22:34:54Z" lat="33.9580424" lon="-83.3728623">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="480"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/cravingsofathens/"/>
+    <tag k="name" v="Cravings"/>
+    <tag k="ref:athensclarkeaddress" v="69068"/>
+  </node>
+  <node id="7985449403" version="3" timestamp="2022-07-13T12:32:35Z" lat="33.9390122" lon="-83.3704048">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="7995294154" version="2" timestamp="2024-04-20T23:56:50Z" lat="33.938477" lon="-83.3868289">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1653"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="LRG Provisions"/>
+    <tag k="ref:athensclarkeaddress" v="25574"/>
+  </node>
+  <node id="8060669560" version="4" timestamp="2023-04-11T01:17:12Z" lat="33.9583764" lon="-83.3796626">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="259"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Washington Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="diet:vegan" v="yes"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Clocked"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-21:00; Sa-Su 11:00-21:00"/>
+    <tag k="phone" v="+1 706-548-9175"/>
+    <tag k="ref:athensclarkeaddress" v="5515"/>
+    <tag k="website" v="https://www.clockedathens.com/"/>
+  </node>
+  <node id="8067326638" version="6" timestamp="2024-01-17T02:26:30Z" lat="33.9601747" lon="-83.3826685">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Taziki&apos;s Mediterranean Cafe"/>
+    <tag k="brand:wikidata" v="Q19849840"/>
+    <tag k="cuisine" v="mediterranean"/>
+    <tag k="diet:vegetarian" v="yes"/>
+    <tag k="name" v="Taziki&apos;s Mediterranean Cafe"/>
+    <tag k="short_name" v="Taziki&apos;s"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="8322313833" version="2" timestamp="2023-06-17T18:40:44Z" lat="33.9507203" lon="-83.3747328">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="8388524418" version="4" timestamp="2024-02-25T00:45:40Z" lat="33.9587665" lon="-83.3777747">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="121"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Washington Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/DingTeaAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/dingteaathens/"/>
+    <tag k="cuisine" v="bubble_tea"/>
+    <tag k="name" v="Ding Tea"/>
+    <tag k="not:brand:wikidata" v="Q112123475"/>
+    <tag k="opening_hours" v="Su-Th 12:00-21:00; Fr-Sa 12:00-22:00"/>
+    <tag k="phone" v="(706) 850-3737"/>
+    <tag k="ref:athensclarkeaddress" v="69013"/>
+    <tag k="website:orders" v="https://www.clover.com/online-ordering/ding-tea-athens-athens"/>
+  </node>
+  <node id="8388524419" version="2" timestamp="2023-03-02T21:23:49Z" lat="33.9587104" lon="-83.3780356">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="The Office"/>
+  </node>
+  <node id="8441236851" version="8" timestamp="2024-11-01T15:37:19Z" lat="33.9617643" lon="-83.373765">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="510"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Thomas Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="check_date" v="2024-09-09"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/1000FacesCoffee/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/1000facescoffee"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="internet_access" v="no"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="1000 Faces Coffee"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-18:00; Sa-Su 09:00-17:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="706-534-8860"/>
+    <tag k="ref:athensclarkeaddress" v="37581"/>
+    <tag k="smoking" v="no"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.1000facescoffee.com/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="8512173350" version="4" timestamp="2023-07-27T18:39:36Z" lat="33.9679528" lon="-83.3868375">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Buvez!"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="8560426819" version="5" timestamp="2024-01-20T18:02:39Z" lat="33.9503148" lon="-83.3840934">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="510"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="dessert"/>
+    <tag k="name" v="Pelican’s Snoballs"/>
+    <tag k="opening_hours" v="Mo-Sa 12:00-21:00; Su 13:00-21:00"/>
+    <tag k="ref:athensclarkeaddress" v="63855"/>
+  </node>
+  <node id="8812317607" version="7" timestamp="2024-01-17T02:26:30Z" lat="33.9582145" lon="-83.3744878">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="123"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Jackson Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Pita Pit"/>
+    <tag k="brand:wikidata" v="Q7757289"/>
+    <tag k="cuisine" v="pita"/>
+    <tag k="diet:vegan" v="yes"/>
+    <tag k="diet:vegetarian" v="yes"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Pita Pit"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="ref:athensclarkeaddress" v="2412"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="8812317608" version="4" timestamp="2024-02-24T22:21:33Z" lat="33.9586433" lon="-83.3743994">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="320"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="addr:unit" v="200"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/TaqueriaTsunamiAthensDowntown"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Taqueria Tsunami"/>
+    <tag k="opening_hours" v="Su-Th 11:00-21:00; Fr-Sa 11:00-22:00"/>
+    <tag k="phone" v="(706) 621-7999"/>
+    <tag k="ref:athensclarkeaddress" v="2425"/>
+    <tag k="website" v="https://taqueriatsunami.com/"/>
+  </node>
+  <node id="8812317612" version="2" timestamp="2023-03-02T21:07:30Z" lat="33.9584578" lon="-83.3745643">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="179"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Jackson Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Cozy Bar"/>
+    <tag k="ref:athensclarkeaddress" v="2417"/>
+  </node>
+  <node id="8812354827" version="4" timestamp="2024-02-25T00:45:40Z" lat="33.959325" lon="-83.375362">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="240"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/wonderbarathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/wonderbarwonderbar"/>
+    <tag k="email" v="WonderbarAthens@gmail.com"/>
+    <tag k="leisure" v="amusement_arcade"/>
+    <tag k="min_age" v="21"/>
+    <tag k="name" v="Wonderbar"/>
+    <tag k="ref:athensclarkeaddress" v="36666"/>
+  </node>
+  <node id="8812364590" version="4" timestamp="2024-02-24T22:21:33Z" lat="33.9595282" lon="-83.3744422">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="312"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Washington Street"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/BlindPigTavern/"/>
+    <tag k="name" v="Blind Pig Tavern"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 12:00-22:00"/>
+    <tag k="phone" v="706-548-3442"/>
+    <tag k="ref:athensclarkeaddress" v="35277"/>
+    <tag k="website" v="https://blindpigtavern.com/location_downtown/"/>
+  </node>
+  <node id="8812369219" version="2" timestamp="2024-02-06T21:56:34Z" lat="33.9590551" lon="-83.3755364">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="220"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="addr:unit" v="101"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Sandbar-Athens-100057464469177/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sandbarathens/"/>
+    <tag k="name" v="SandBar"/>
+  </node>
+  <node id="8812369220" version="2" timestamp="2024-02-06T21:56:34Z" lat="33.9592225" lon="-83.3755859">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="262"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/silverdollarathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/silverdollarath/"/>
+    <tag k="name" v="The Silver Dollar Bar"/>
+    <tag k="ref:athensclarkeaddress" v="36659"/>
+  </node>
+  <node id="8812378423" version="9" timestamp="2024-01-17T02:26:30Z" lat="33.958494" lon="-83.3750816">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="228"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Insomnia Cookies"/>
+    <tag k="brand:wikidata" v="Q16997024"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Insomnia-Cookies-100089873924591"/>
+    <tag k="contact:phone" v="(706) 623-6277"/>
+    <tag k="contact:website" v="https://insomniacookies.com/locations/store/1069"/>
+    <tag k="cuisine" v="dessert"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Insomnia Cookies"/>
+    <tag k="ref:athensclarkeaddress" v="34770"/>
+    <tag k="shop" v="pastry"/>
+  </node>
+  <node id="8812416805" version="3" timestamp="2024-01-13T23:31:17Z" lat="33.9585257" lon="-83.3749338">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="246"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:email" v="badmoonbar@gmail.com"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/badmoonbar/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/badmoonbar/?hl=en"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Bad Moon"/>
+    <tag k="ref:athensclarkeaddress" v="2398"/>
+  </node>
+  <node id="8812420146" version="5" timestamp="2023-06-11T19:18:53Z" lat="33.9588687" lon="-83.3748289">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="275"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Moonshine Bar"/>
+    <tag k="opening_hours" v="Mo-Sa 21:00-02:00"/>
+    <tag k="phone" v="+1-443-579-5566"/>
+    <tag k="ref:athensclarkeaddress" v="59242"/>
+  </node>
+  <node id="8812420147" version="2" timestamp="2023-06-11T19:18:53Z" lat="33.9587724" lon="-83.3751933">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="227"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Eddie’s Calzones &amp; Drafts"/>
+    <tag k="ref:athensclarkeaddress" v="36631"/>
+  </node>
+  <node id="8812420149" version="2" timestamp="2023-06-11T19:18:53Z" lat="33.958793" lon="-83.3751011">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Amici"/>
+  </node>
+  <node id="8812420150" version="2" timestamp="2023-06-11T19:18:53Z" lat="33.9588473" lon="-83.3749241">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Barberitos"/>
+  </node>
+  <node id="8821450799" version="6" timestamp="2024-02-06T21:56:34Z" lat="33.9578176" lon="-83.3794241">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="254"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:phone" v="(706) 850-3668"/>
+    <tag k="contact:website" v="www.sisterlouisaschurch.com"/>
+    <tag k="level" v="0"/>
+    <tag k="lgbtq" v="primary"/>
+    <tag k="min_age" v="21"/>
+    <tag k="name" v="Sister Louisa&apos;s Church"/>
+    <tag k="name:etymology:wikipedia" v="https://en.wikipedia.org/wiki/Grant_Henry"/>
+    <tag k="official_name" v="Sister Louisa&apos;s Church of the Living Room and Ping Pong Emporium"/>
+    <tag k="opening_hours" v="Mo-Sa 17:00-02:00"/>
+    <tag k="ref:athensclarkeaddress" v="5513"/>
+    <tag k="start_date" v="2014"/>
+    <tag k="wikipedia" v="en:Sister Louisa&apos;s Church of the Living Room and Ping Pong Emporium"/>
+  </node>
+  <node id="8821450800" version="4" timestamp="2024-01-20T00:58:30Z" lat="33.9575933" lon="-83.3791605">
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/tropicalbarathensga"/>
+    <tag k="name" v="Tropical Bar"/>
+    <tag k="opening_hours" v="Fr-Sa 19:00-02:00"/>
+  </node>
+  <node id="8821450801" version="2" timestamp="2024-01-20T00:58:30Z" lat="33.9575405" lon="-83.3793904">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="251"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="West Clayton Street"/>
+    <tag k="addr:unit" v="117"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese"/>
+    <tag k="name" v="Shokitini"/>
+    <tag k="opening_hours" v="Su-Th 17:00-00:00; Fr-Sa 17:00-01:00"/>
+    <tag k="phone" v="706-353-7933"/>
+    <tag k="website" v="http://shokitini.com/"/>
+  </node>
+  <node id="8821497940" version="2" timestamp="2023-06-11T17:16:07Z" lat="33.9591198" lon="-83.3803597">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Creature Comforts"/>
+  </node>
+  <node id="8821586204" version="6" timestamp="2024-04-14T15:55:06Z" lat="33.9601814" lon="-83.3827313">
+    <tag k="addr:housenumber" v="237"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="contact:facebook" v="hendershots.athens"/>
+    <tag k="contact:instagram" v="hendershots_"/>
+    <tag k="name" v="Hendershot’s"/>
+    <tag k="opening_hours" v="Mo 07:30-17:00; Tu 07:30-22:00; We-Th 07:30-23:00; Fr-Sa 07:30-00:00; Su 09:00-14:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="https://hendershotsathens.com/"/>
+  </node>
+  <node id="8821592503" version="4" timestamp="2024-12-14T18:57:34Z" lat="33.9600889" lon="-83.3828179">
+    <tag k="addr:housenumber" v="247"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="name" v="Pretty Boy"/>
+  </node>
+  <node id="8821592509" version="3" timestamp="2024-04-07T14:48:22Z" lat="33.9602089" lon="-83.3830076">
+    <tag k="addr:housenumber" v="297"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="seabearoysterbar"/>
+    <tag k="contact:instagram" v="seabearoysterbar"/>
+    <tag k="contact:twitter" v="seabearoysters"/>
+    <tag k="name" v="Seabear Oyster Bar"/>
+    <tag k="opening_hours" v="Su, We-Th 16:00-22:00; Fr-Sa 16:00-23:00"/>
+    <tag k="phone" v="(706) 850-4367"/>
+    <tag k="website" v="https://seabearoysterbar.com/"/>
+  </node>
+  <node id="8833796080" version="5" timestamp="2024-03-01T15:59:06Z" lat="33.9497009" lon="-83.3841884">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="529"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="name" v="Ponko Chicken"/>
+    <tag k="opening_hours" v="11:00-21:00"/>
+    <tag k="phone" v="706-850-8283"/>
+  </node>
+  <node id="8833796081" version="5" timestamp="2024-03-01T15:59:06Z" lat="33.9497255" lon="-83.3840741">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="521"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="wings"/>
+    <tag k="name" v="Wingster"/>
+    <tag k="opening_hours" v="Su-Mo 12:00-00:30; We-Th 12:00-00:30; Fr-Sa 12:00-02:30"/>
+    <tag k="phone" v="(706) 583-9611"/>
+    <tag k="ref:athensclarkeaddress" v="63853"/>
+    <tag k="website" v="https://www.wingsterathensga.com/"/>
+  </node>
+  <node id="8907674324" version="8" timestamp="2024-09-24T15:53:03Z" lat="33.9582456" lon="-83.3776123">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="140"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="West Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Waffle House"/>
+    <tag k="brand:wikidata" v="Q1701206"/>
+    <tag k="check_date" v="2024-09-24"/>
+    <tag k="check_date:opening_hours" v="2024-09-24"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Waffle House"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="phone" v="(706) 353-2171"/>
+    <tag k="ref" v="1936"/>
+    <tag k="ref:athensclarkeaddress" v="64309"/>
+    <tag k="website" v="https://locations.wafflehouse.com/athens-ga-1936/"/>
+  </node>
+  <node id="9008675434" version="2" timestamp="2024-05-28T14:29:50Z" lat="33.9641328" lon="-83.4015771">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1428"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Journey Juice"/>
+    <tag k="ref:athensclarkeaddress" v="13311"/>
+  </node>
+  <node id="9008714151" version="2" timestamp="2024-05-28T16:09:55Z" lat="33.9636801" lon="-83.4010475">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1376"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Agua Linda"/>
+    <tag k="ref:athensclarkeaddress" v="57669"/>
+  </node>
+  <node id="9008729923" version="2" timestamp="2023-12-05T00:41:20Z" lat="33.963437" lon="-83.4012686">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1365"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Normal Bar"/>
+    <tag k="ref:athensclarkeaddress" v="12771"/>
+  </node>
+  <node id="9073944113" version="2" timestamp="2023-08-01T16:37:01Z" lat="33.9635205" lon="-83.426915">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1560"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Oglethorpe Avenue"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Oglethorpe Bar"/>
+    <tag k="ref:athensclarkeaddress" v="38308"/>
+  </node>
+  <node id="9105941338" version="3" timestamp="2024-05-22T19:06:40Z" lat="33.924049" lon="-83.3794634">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2026"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="addr:unit" v="D2"/>
+    <tag k="alt_name" v="China One"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="China 1"/>
+    <tag k="opening_hours" v="Tu-Th 11:00-22:00; Fr-Sa 11:00-22:30; Su 12:00-22:00"/>
+    <tag k="phone" v="706-850-7788"/>
+    <tag k="ref:athensclarkeaddress" v="69577"/>
+    <tag k="website" v="https://www.chinaoneathens.com/"/>
+  </node>
+  <node id="9105941342" version="3" timestamp="2024-05-22T19:06:40Z" lat="33.9241142" lon="-83.3791938">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2026"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="addr:unit" v="D6"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza;wings"/>
+    <tag k="drive_through" v="yes"/>
+    <tag k="name" v="Bulldawg Pizza &amp; Wings"/>
+    <tag k="opening_hours" v="Mo 11:00-01:00; Tu-We 11:00-01:15; Th 11:00-01:45; Fr-Sa 11:00-02:45; Su 16:00-23:00"/>
+    <tag k="phone" v="706-355-3294"/>
+    <tag k="ref:athensclarkeaddress" v="61360"/>
+    <tag k="website" v="http://bulldawgpizzaandmore.com/"/>
+  </node>
+  <node id="9164862241" version="3" timestamp="2023-12-19T17:14:29Z" lat="33.9483949" lon="-83.4102839">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="126"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Golden Dragon"/>
+    <tag k="ref:athensclarkeaddress" v="64204"/>
+  </node>
+  <node id="9224626394" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9480619" lon="-83.3588711">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626395" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9480321" lon="-83.3589004">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626396" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9481031" lon="-83.3589381">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626397" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9480727" lon="-83.3589631">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626399" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9480039" lon="-83.3588518">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626400" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9481477" lon="-83.3589977">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626401" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.9481144" lon="-83.3590256">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9224626402" version="1" timestamp="2021-11-04T16:21:18Z" lat="33.948032" lon="-83.3588253">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="fuel"/>
+  </node>
+  <node id="9251415536" version="1" timestamp="2021-11-14T20:53:42Z" lat="33.9592538" lon="-83.338305">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9251426939" version="1" timestamp="2021-11-14T20:57:43Z" lat="33.9585315" lon="-83.3395988">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9251448633" version="1" timestamp="2021-11-14T21:14:21Z" lat="33.9480877" lon="-83.3564701">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="operator" v="Athens-Clarke County"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9251453850" version="1" timestamp="2021-11-14T21:17:53Z" lat="33.9482677" lon="-83.3572401">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="operator" v="Athens-Clarke County"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9251459715" version="1" timestamp="2021-11-14T21:25:36Z" lat="33.9527327" lon="-83.3629014">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="operator" v="Athens-Clarke County"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9251495635" version="1" timestamp="2021-11-14T21:52:05Z" lat="33.9551397" lon="-83.3664054">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="covered" v="no"/>
+    <tag k="operator" v="Athens-Clarke County"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9438788584" version="6" timestamp="2024-05-28T00:46:31Z" lat="33.9221673" lon="-83.4411652">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Little Caesars"/>
+    <tag k="brand:wikidata" v="Q1393809"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Little Caesars"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://littlecaesars.com/en-us/store/11038/"/>
+  </node>
+  <node id="9470447308" version="4" timestamp="2023-04-26T19:43:58Z" lat="33.9591902" lon="-83.3733208">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="489"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="japanese;hawaiian"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Ahi Hibachi and Poke"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-22:00"/>
+    <tag k="phone" v="7065438898"/>
+    <tag k="ref:athensclarkeaddress" v="13059"/>
+  </node>
+  <node id="9470480032" version="2" timestamp="2022-06-26T23:47:23Z" lat="33.9250911" lon="-83.3789027">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2024"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Milledge Avenue"/>
+    <tag k="addr:unit" v="Suite B"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Iguana&apos;s Mexican Grill"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="ref:athensclarkeaddress" v="21174"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9558929530" version="2" timestamp="2023-12-16T02:54:26Z" lat="33.938383" lon="-83.3872162">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1650"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="J. Christopher’s"/>
+  </node>
+  <node id="9592374229" version="1" timestamp="2022-03-20T16:36:13Z" lat="33.9663232" lon="-83.393114">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Heirloom Cafe"/>
+  </node>
+  <node id="9613537073" version="4" timestamp="2024-12-22T20:54:01Z" lat="33.9382559" lon="-83.3244028">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="50"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="8"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="email" v="Todounexito1@gmail.com"/>
+    <tag k="name" v="Vickars Nutritionist"/>
+    <tag k="opening_hours" v="07:00-13:00,17:00-20:00"/>
+    <tag k="phone" v="06 540 4611"/>
+    <tag k="website" v="https://asuccess.goherbalife.com/es-us"/>
+  </node>
+  <node id="9649626212" version="5" timestamp="2025-01-28T02:20:23Z" lat="33.9577666" lon="-83.3757978">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="171"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Chipotle"/>
+    <tag k="brand:wikidata" v="Q465751"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Chipotle"/>
+    <tag k="official_name" v="Chipotle Mexican Grill"/>
+    <tag k="opening_date" v="2024-08"/>
+    <tag k="opening_hours" v="Mo-Su 10:45-22:00"/>
+    <tag k="phone" v="706-240-8315"/>
+    <tag k="ref:athensclarkeaddress" v="34412"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.chipotle.com/ga/athens/171-e-broad-st"/>
+  </node>
+  <node id="9666989014" version="1" timestamp="2022-04-14T23:06:36Z" lat="33.9601717" lon="-83.3827892">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="fee" v="no"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9672606172" version="5" timestamp="2024-03-29T23:17:01Z" lat="33.9619699" lon="-83.3737999">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="520"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Thomas Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Lindsey’s Culinary Market"/>
+    <tag k="opening_hours" v="Mo-Fr 10:00-18:00"/>
+    <tag k="ref:athensclarkeaddress" v="70926"/>
+    <tag k="website" v="https://www.lindseysculinarymarket.com/"/>
+  </node>
+  <node id="9672672302" version="2" timestamp="2024-04-07T14:26:12Z" lat="33.9602942" lon="-83.3814974">
+    <tag k="addr:housenumber" v="100"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="farmburgerAthensGA"/>
+    <tag k="contact:instagram" v="farmburgerathens"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Farm Burger"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-21:00"/>
+    <tag k="phone" v="7068503184"/>
+    <tag k="website" v="https://www.farmburger.com/"/>
+  </node>
+  <node id="9672717183" version="2" timestamp="2024-03-29T22:14:11Z" lat="33.9610872" lon="-83.3778651">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="510"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Lumberjaxe"/>
+    <tag k="ref:athensclarkeaddress" v="70532"/>
+    <tag k="website" v="https://lumberjaxe.com"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="9686149777" version="4" timestamp="2024-05-28T13:58:23Z" lat="33.9580607" lon="-83.3783697">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="174;184"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="West Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/LastResortGrill/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/lastresortgrill"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Last Resort Grill"/>
+    <tag k="opening_hours" v="Mo-Fr 17:00-22:00; Sa-Su 10:00-14:00; Sa 17:00-23:00; Su 17:00-21:00"/>
+    <tag k="phone" v="706-549-0810"/>
+    <tag k="website" v="https://lastresortgrill.com/"/>
+  </node>
+  <node id="9686153610" version="3" timestamp="2024-03-30T20:32:30Z" lat="33.9583487" lon="-83.3797926">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="263"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="West Washington Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/flickerbar.athens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/flickertheatre"/>
+    <tag k="name" v="Flicker Theatre &amp; Bar"/>
+    <tag k="opening_hours" v="Mo-Sa 16:00-02:00"/>
+    <tag k="website" v="https://www.flickertheatreandbar.com/"/>
+  </node>
+  <node id="9686164740" version="7" timestamp="2024-02-22T00:58:49Z" lat="33.9578416" lon="-83.3737753">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="364"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/empouriumathens"/>
+    <tag k="name" v="Empourium Rooftop and Lounge"/>
+    <tag k="operator" v="Hospitality South"/>
+    <tag k="phone" v="4042718440"/>
+    <tag k="ref:athensclarkeaddress" v="33354"/>
+  </node>
+  <node id="9686174419" version="3" timestamp="2024-02-23T23:58:37Z" lat="33.9584812" lon="-83.3772964">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="225"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/clarkesstandard"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/clarkescollective"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Clarke&apos;s Collective"/>
+    <tag k="ref:athensclarkeaddress" v="34760"/>
+    <tag k="website" v="https://clarkescollective.com/"/>
+  </node>
+  <node id="9686180534" version="3" timestamp="2024-03-30T20:32:30Z" lat="33.958815" lon="-83.3801607">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="294"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="West Washington Street"/>
+    <tag k="addr:unit" v="300"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/rookandpawn/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/rooknpawn/"/>
+    <tag k="contact:twitter" v="https://twitter.com/rooknpawn"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9XbjqEqvxh32Up2meBMvgA"/>
+    <tag k="name" v="The Rook &amp; Pawn"/>
+    <tag k="opening_hours" v="Su-Th 11:00-23:00; Fr-Sa 11:00-01:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="ref:athensclarkeaddress" v="69780"/>
+    <tag k="website" v="https://www.therookandpawn.com/"/>
+  </node>
+  <node id="9686200597" version="3" timestamp="2022-06-26T23:47:23Z" lat="33.9613845" lon="-83.3736802">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="480"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Thomas Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="name" v="Alumni Cookie Dough"/>
+    <tag k="opening_hours" v="Tu-Su 13:00-22:00"/>
+    <tag k="phone" v="+1-762-400-2634"/>
+    <tag k="ref:athensclarkeaddress" v="37293"/>
+    <tag k="website" v="https://www.alumnicookiedough.com/"/>
+  </node>
+  <node id="9686230020" version="2" timestamp="2023-03-03T22:30:30Z" lat="33.9572761" lon="-83.3779508">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="180"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="West Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="DP Dough"/>
+  </node>
+  <node id="9686230027" version="4" timestamp="2024-02-23T23:58:37Z" lat="33.9578348" lon="-83.3770872">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="149"/>
+    <tag k="addr:postcode" v="30677"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/thaispoonathens/"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Thai Spoon"/>
+    <tag k="opening_hours" v="Mo-Fr 11:00-14:30; Mo-Th 16:00-21:45; Fr 16:00-22:00; Sa 11:30-22:00; Su 16:00-21:00"/>
+    <tag k="phone" v="706-548-9222"/>
+    <tag k="ref:athensclarkeaddress" v="5507"/>
+    <tag k="website" v="https://www.thaispoonathens.com/"/>
+  </node>
+  <node id="9686230028" version="4" timestamp="2024-01-19T22:39:46Z" lat="33.957701" lon="-83.3770446">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="125"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/littleitalyathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/littleitalyathens"/>
+    <tag k="cuisine" v="italian;pizza"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Little Italy"/>
+    <tag k="opening_hours" v="Mo-We 11:00-02:00; Th-Sa 11:00-03:00"/>
+    <tag k="phone" v="(706) 613-7100"/>
+    <tag k="ref:athensclarkeaddress" v="33005"/>
+  </node>
+  <node id="9686248596" version="4" timestamp="2024-02-24T22:21:33Z" lat="33.9582202" lon="-83.3737787">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="401"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="DePalma&apos;s Italian Cafe"/>
+    <tag k="opening_hours" v="Mo-Tu 17:00-21:30; We-Th 11:30-21:30; Fr-Sa 11:30-22:00; Su 12:00-21:30"/>
+    <tag k="phone" v="(706) 354-6966"/>
+    <tag k="ref:athensclarkeaddress" v="34618"/>
+    <tag k="website" v="https://depalmasitaliancafe.com/"/>
+  </node>
+  <node id="9686248597" version="4" timestamp="2024-02-24T22:21:33Z" lat="33.9582604" lon="-83.3735899">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="429"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/DoubleBarrelAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/doublebarrelathens"/>
+    <tag k="contact:twitter" v="https://twitter.com/doublebarrelath"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="The Double Barrel"/>
+    <tag k="name:etymology:wikidata" v="Q5299583"/>
+    <tag k="name:etymology:wikipedia" v="Double-barreled cannon"/>
+    <tag k="opening_hours" v="Mo-Sa 21:00-02:00"/>
+    <tag k="operator" v="Hospitality South"/>
+    <tag k="ref:athensclarkeaddress" v="5532"/>
+  </node>
+  <node id="9686248598" version="3" timestamp="2024-02-24T22:21:33Z" lat="33.9583078" lon="-83.3733879">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="459"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/porterhouseathens/"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Porterhouse Grill"/>
+    <tag k="phone" v="(706) 369-0990"/>
+    <tag k="ref:athensclarkeaddress" v="50972"/>
+    <tag k="website" v="https://www.porterhousegrillathens.com/"/>
+  </node>
+  <node id="9686248599" version="5" timestamp="2024-09-25T01:46:59Z" lat="33.9587746" lon="-83.3739295">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="400"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/updawgathens"/>
+    <tag k="contact:tiktok" v="https://www.tiktok.com/@updawgathens"/>
+    <tag k="name" v="Up Dawg"/>
+    <tag k="ref:athensclarkeaddress" v="34914"/>
+    <tag k="start_date" v="2024"/>
+    <tag k="website" v="https://whatsupdawg.net/"/>
+  </node>
+  <node id="9686248600" version="5" timestamp="2024-11-29T14:59:27Z" lat="33.9581747" lon="-83.3739695">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="351"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/jinyaramenbarathens/"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="JINYA Ramen Bar"/>
+    <tag k="not:brand:wikidata" v="Q16997755"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00"/>
+    <tag k="phone" v="706-478-0880"/>
+    <tag k="ref:athensclarkeaddress" v="34640"/>
+    <tag k="website" v="https://www.jinyaramenbar.com/locations/athens/"/>
+  </node>
+  <node id="9686248601" version="4" timestamp="2024-11-29T14:59:27Z" lat="33.9581411" lon="-83.3741299">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="323"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/drewcharlesmeyer1873/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/osteriaathena"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="email" v="contact@osteriaathena.com"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Osteria Athena"/>
+    <tag k="opening_hours" v="Tu-Th 17:00-21:00; Fr-Sa 17:00-22:00; Su 17:00-21:00"/>
+    <tag k="phone" v="(706) 353-3911"/>
+    <tag k="ref:athensclarkeaddress" v="2419"/>
+    <tag k="website" v="https://www.osteriaathena.com/"/>
+  </node>
+  <node id="9686248602" version="5" timestamp="2024-11-29T14:59:27Z" lat="33.9581234" lon="-83.3742163">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="311"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Bruxie"/>
+    <tag k="opening_hours" v="Mo-We 10:30-21:00; Th-Fr 09:00-02:00; Sa 09:00-22:00; Su 09:00-21:00"/>
+    <tag k="phone" v="(706) 850-1358"/>
+    <tag k="ref:athensclarkeaddress" v="34689"/>
+    <tag k="website" v="https://www.bruxie.com/location/bruxie-athens/"/>
+  </node>
+  <node id="9686258019" version="4" timestamp="2024-01-27T19:53:22Z" lat="33.9577873" lon="-83.3757039">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="175"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="themunchhut"/>
+    <tag k="contact:instagram" v="themunchhut"/>
+    <tag k="contact:twitter" v="MunchHut"/>
+    <tag k="cuisine" v="deli"/>
+    <tag k="email" v="eatwell@munch-hut.com"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Munch Hut"/>
+    <tag k="opening_hours" v="Mo-Th 21:00-03:30; Fr-Sa 21:00-04:00"/>
+    <tag k="phone" v="(706) 850-7150"/>
+    <tag k="ref:athensclarkeaddress" v="33338"/>
+    <tag k="website" v="https://munch-hut.com/"/>
+  </node>
+  <node id="9686258020" version="4" timestamp="2024-01-27T19:47:46Z" lat="33.9577426" lon="-83.3759226">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="167"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="alt_name" v="Mother Pho"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="MotherPho"/>
+    <tag k="contact:instagram" v="motherpho.athens"/>
+    <tag k="cuisine" v="vietnamese"/>
+    <tag k="email" v="motherphoathens@gmail.com"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Mother Phở"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-21:00"/>
+    <tag k="phone" v="(706) 354-6006"/>
+    <tag k="ref:athensclarkeaddress" v="34389"/>
+    <tag k="website" v="https://www.motherphoathensga.com/"/>
+  </node>
+  <node id="9686258022" version="3" timestamp="2023-03-04T16:32:44Z" lat="33.9577083" lon="-83.3760767">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="151"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Taichi Bubble Tea"/>
+    <tag k="ref:athensclarkeaddress" v="34367"/>
+  </node>
+  <node id="9701824028" version="2" timestamp="2023-03-02T04:08:16Z" lat="33.9494389" lon="-83.3851384">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="723"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Four Fat Cows"/>
+    <tag k="ref:athensclarkeaddress" v="69021"/>
+  </node>
+  <node id="9701825018" version="5" timestamp="2024-03-01T15:59:06Z" lat="33.94984" lon="-83.3857536">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="700"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="400"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/profile.php?id=100088380477250&amp;paipv=0&amp;eav=AfZ0SSzavva1wQhWJ69A7Mx_PF8Uy6kPehWBcJ37X9rCfkY9kA5n2uwvaXo8OmF0m4s"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/choco_pronto"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Choco Pronto"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00; Sa 08:00-16:00; Su 08:00-15:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="706-850-0622"/>
+    <tag k="ref:athensclarkeaddress" v="78600"/>
+    <tag k="website" v="https://www.choco-pronto.com/"/>
+  </node>
+  <node id="9701825019" version="2" timestamp="2023-03-02T04:08:16Z" lat="33.9497522" lon="-83.3861243">
+    <tag k="addr:housenumber" v="800"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="diet:vegan" v="yes"/>
+    <tag k="diet:vegetarian" v="yes"/>
+    <tag k="name" v="Slutty Vegan"/>
+  </node>
+  <node id="9701825023" version="3" timestamp="2024-03-01T15:59:06Z" lat="33.9498768" lon="-83.3856072">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="700"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="200"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Newk’s Eatery"/>
+    <tag k="opening_hours" v="10:30-21:00"/>
+    <tag k="phone" v="(706) 510-6545"/>
+    <tag k="ref:athensclarkeaddress" v="78602"/>
+    <tag k="website" v="https://locations.newks.com/ga/athens/700-baxter-street/"/>
+  </node>
+  <node id="9721558641" version="1" timestamp="2022-05-06T21:33:53Z" lat="33.9550784" lon="-83.366705">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="9727881764" version="3" timestamp="2024-05-08T16:50:36Z" lat="33.9768196" lon="-83.3646329">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="401"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Avenue"/>
+    <tag k="addr:unit" v="1"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Camino Real Taqueria"/>
+    <tag k="ref:athensclarkeaddress" v="64249"/>
+  </node>
+  <node id="9738137409" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9251189" lon="-83.3420452">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="304"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/inokoexpress/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/inoko_hibachi_express_east"/>
+    <tag k="cuisine" v="japanese"/>
+    <tag k="name" v="Inoko Hibachi Express Eastside"/>
+    <tag k="opening_hours" v="Tu-Su 11:00-21:00"/>
+    <tag k="phone" v="(706) 546-5662"/>
+    <tag k="ref:athensclarkeaddress" v="62668"/>
+    <tag k="website" v="https://www.inokoathens.com/"/>
+  </node>
+  <node id="9738151157" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9256877" lon="-83.3413156">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Athens - Eastside"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Barberitos"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-22:00; Su 11:00-21:00"/>
+    <tag k="phone" v="706-549-9954"/>
+    <tag k="ref:athensclarkeaddress" v="62671"/>
+    <tag k="website" v="https://barberitos.com/store/athens-eastside/"/>
+  </node>
+  <node id="9738151160" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9239294" lon="-83.3419067">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="101"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Beef O&apos;Brady&apos;s"/>
+    <tag k="brand:wikidata" v="Q4879745"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Beef O&apos;Brady&apos;s"/>
+    <tag k="opening_hours" v="Su-Th 11:00-23:00; Fr-Sa 11:00-23:30"/>
+    <tag k="phone" v="(706) 850-1916"/>
+    <tag k="ref:athensclarkeaddress" v="62663"/>
+    <tag k="website" v="https://www.beefobradys.com/athens"/>
+  </node>
+  <node id="9738179166" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9209856" lon="-83.3422399">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2230"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="The Taco Stand"/>
+    <tag k="ref:athensclarkeaddress" v="63698"/>
+    <tag k="website" v="https://www.thetacostandathens.com/"/>
+  </node>
+  <node id="9793837883" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9229483" lon="-83.3399421">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1985"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Locos Grill &amp; Pub"/>
+    <tag k="opening_hours" v="Su-Th 11:00-22:00; Fr-Sa 11:00-23:00"/>
+    <tag k="phone" v="706-208-0911"/>
+    <tag k="ref:athensclarkeaddress" v="59733"/>
+  </node>
+  <node id="9793837884" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.92306" lon="-83.3398832">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1965"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="branch" v="Eastside"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="Depalmas Italian Cafe"/>
+    <tag k="phone" v="(706) 369-0085"/>
+    <tag k="ref:athensclarkeaddress" v="12540"/>
+  </node>
+  <node id="9793837885" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9234513" lon="-83.3396804">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1935"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="asian"/>
+    <tag k="name" v="New Red Bowl Asian Bistro"/>
+    <tag k="opening_hours" v="We-Mo 11:00-15:00; Su-Mo 15:00-21:30; We-Th 15:00-21:30; Fr-Sa 15:00-22:30"/>
+    <tag k="phone" v="(706) 227-7888"/>
+    <tag k="ref:athensclarkeaddress" v="12535"/>
+    <tag k="website" v="http://newredbowl.com/"/>
+  </node>
+  <node id="9806745784" version="2" timestamp="2023-12-13T03:34:21Z" lat="33.9168923" lon="-83.4550671">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Groove Burgers"/>
+  </node>
+  <node id="9813339210" version="2" timestamp="2024-04-14T15:06:35Z" lat="33.9626228" lon="-83.3969088">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1180"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="breakfast"/>
+    <tag k="name" v="The Flying Biscuit Cafe"/>
+    <tag k="ref:athensclarkeaddress" v="77208"/>
+  </node>
+  <node id="9813339211" version="2" timestamp="2024-04-14T15:06:35Z" lat="33.9626327" lon="-83.3970037">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1180"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Barberitos"/>
+    <tag k="ref:athensclarkeaddress" v="77210"/>
+  </node>
+  <node id="9813342868" version="2" timestamp="2024-02-25T20:07:51Z" lat="33.9470007" lon="-83.397641">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1063"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/justphoandmore/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/justphoandmore/"/>
+    <tag k="cuisine" v="vietnamese"/>
+    <tag k="name" v="Just Phở ...and More"/>
+    <tag k="ref:athensclarkeaddress" v="63796"/>
+  </node>
+  <node id="9813342966" version="3" timestamp="2024-03-01T15:59:06Z" lat="33.9499032" lon="-83.3854958">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="700"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Surcheros"/>
+    <tag k="opening_hours" v="Mo-Th 10:30-21:00; Fr-Sa 10:30-22:00; Su 11:00-21:00"/>
+    <tag k="phone" v="706-842-6887"/>
+    <tag k="ref:athensclarkeaddress" v="78605"/>
+    <tag k="website" v="https://www.surcheros.com/location/surcheros-athens/"/>
+  </node>
+  <node id="9813357716" version="2" timestamp="2023-12-20T04:32:13Z" lat="33.946694" lon="-83.4144822">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2361"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="West Broad Street"/>
+    <tag k="addr:unit" v="3;4;5"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="seafood"/>
+    <tag k="name" v="The Juicy Crab"/>
+    <tag k="ref:athensclarkeaddress" v="70860;69749;69687"/>
+  </node>
+  <node id="9813360297" version="2" timestamp="2024-02-25T20:07:51Z" lat="33.9469374" lon="-83.3978712">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1063"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="400"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Little Caesars"/>
+    <tag k="brand:wikidata" v="Q1393809"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Little Caesars"/>
+    <tag k="ref:athensclarkeaddress" v="63816"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813363474" version="2" timestamp="2023-12-19T17:14:29Z" lat="33.9444109" lon="-83.4092729">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="3"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Your Pie"/>
+    <tag k="ref:athensclarkeaddress" v="453"/>
+  </node>
+  <node id="9813363875" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9277595" lon="-83.3375276">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="119"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="indian"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Taste of India"/>
+    <tag k="ref:athensclarkeaddress" v="61799"/>
+  </node>
+  <node id="9813364051" version="2" timestamp="2023-07-21T03:58:53Z" lat="33.9417571" lon="-83.4505565">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3190"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="11"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Brett&apos;s Restaurant"/>
+    <tag k="ref:athensclarkeaddress" v="12477"/>
+  </node>
+  <node id="9813365821" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9256466" lon="-83.3415099">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="408"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Mochinut"/>
+    <tag k="brand:wikidata" v="Q112757409"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/mochinut_athens/"/>
+    <tag k="cuisine" v="donut;bubble_tea"/>
+    <tag k="name" v="Mochinut"/>
+    <tag k="opening_hours" v="Su-Sa 10:00-21:00"/>
+    <tag k="ref:athensclarkeaddress" v="62673"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813366546" version="2" timestamp="2023-11-09T14:42:49Z" lat="33.9454971" lon="-83.4099293">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="36"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Willy&apos;s Mexicana Grill"/>
+    <tag k="ref:athensclarkeaddress" v="469"/>
+  </node>
+  <node id="9813366592" version="3" timestamp="2024-05-20T10:43:25Z" lat="33.9209239" lon="-83.3442652">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2301"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Station Road"/>
+    <tag k="addr:unit" v="A8"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Jimmy John&apos;s"/>
+    <tag k="brand:wikidata" v="Q1689380"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Jimmy John&apos;s"/>
+    <tag k="official_name" v="Jimmy John&apos;s Gourmet Sandwiches"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-22:00"/>
+    <tag k="phone" v="+1 706-543-5411"/>
+    <tag k="ref:athensclarkeaddress" v="62852"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.jimmyjohns.com/ga/athens/sandwiches-1978.html"/>
+  </node>
+  <node id="9813368367" version="4" timestamp="2024-05-08T23:58:17Z" lat="33.9272847" lon="-83.3371612">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1045"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="alt_name" v="Dunkin&apos; Donuts"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Dunkin&apos;"/>
+    <tag k="brand:wikidata" v="Q847743"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/DunkinAthensGA350737/"/>
+    <tag k="cuisine" v="donut;coffee_shop"/>
+    <tag k="drive_through" v="yes"/>
+    <tag k="name" v="Dunkin&apos;"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-21:00"/>
+    <tag k="phone" v="+1 706-353-7166"/>
+    <tag k="ref" v="350737"/>
+    <tag k="ref:athensclarkeaddress" v="69016"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.dunkindonuts.com/en/ga/athens/1045-gaines-school-rd/350737"/>
+  </node>
+  <node id="9813370426" version="2" timestamp="2023-11-09T14:42:49Z" lat="33.9462234" lon="-83.4093893">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="45"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Planet Smoothie"/>
+    <tag k="ref:athensclarkeaddress" v="69680"/>
+  </node>
+  <node id="9813371170" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9228244" lon="-83.3400067">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1993"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Planet Smoothie"/>
+    <tag k="brand:wikidata" v="Q7201170"/>
+    <tag k="cuisine" v="smoothie"/>
+    <tag k="name" v="Planet Smoothie"/>
+    <tag k="ref:athensclarkeaddress" v="12542"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813372584" version="2" timestamp="2023-11-09T14:42:49Z" lat="33.946003" lon="-83.4100137">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="42"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Chicken Salad Chick"/>
+    <tag k="brand:wikidata" v="Q19720749"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="name" v="Chicken Salad Chick"/>
+    <tag k="ref:athensclarkeaddress" v="69688"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813373101" version="4" timestamp="2025-01-06T22:58:59Z" lat="33.9227734" lon="-83.3400269">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1995"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/profile.php?id=61556892395392"/>
+    <tag k="contact:instagram" v="preachergreens"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Preacher Green’s"/>
+    <tag k="opening_hours" v="Tu-Sa 11:00-15:00; Tu-Sa 17:00-20:00; Sa 11:00-15:00"/>
+    <tag k="phone" v="706-215-9079"/>
+    <tag k="ref:athensclarkeaddress" v="12538"/>
+    <tag k="website" v="https://www.preachergreens.com"/>
+  </node>
+  <node id="9813373220" version="3" timestamp="2024-12-22T21:50:15Z" lat="33.9258526" lon="-83.3407116">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="501"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/The-CRAB-HUT-Athens-Ga-61555396235951/"/>
+    <tag k="cuisine" v="seafood;vietnamese"/>
+    <tag k="name" v="The Crab Hut"/>
+    <tag k="ref:athensclarkeaddress" v="62678"/>
+  </node>
+  <node id="9813373484" version="3" timestamp="2023-05-18T23:37:29Z" lat="33.9579433" lon="-83.3750107">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="229"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="The Place"/>
+    <tag k="ref:athensclarkeaddress" v="34456"/>
+  </node>
+  <node id="9813373593" version="2" timestamp="2023-12-19T17:14:29Z" lat="33.9486625" lon="-83.4103293">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="122"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Pizza Factory"/>
+    <tag k="brand:wikidata" v="Q39054369"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Pizza Factory"/>
+    <tag k="ref:athensclarkeaddress" v="64201"/>
+  </node>
+  <node id="9813373727" version="3" timestamp="2023-03-26T02:37:52Z" lat="33.9472963" lon="-83.3992602">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1080"/>
+    <tag k="addr:postcode" v="30606-6315"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="korean"/>
+    <tag k="name" v="D92 Korean BBQ"/>
+    <tag k="opening_hours" v="Mo-Su 11:30-00:00"/>
+    <tag k="phone" v="+1 706-850-7990"/>
+    <tag k="ref:athensclarkeaddress" v="28974"/>
+  </node>
+  <node id="9813375752" version="2" timestamp="2024-02-23T23:58:37Z" lat="33.9588101" lon="-83.3758307">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="225 1/2"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="OK! Coffee"/>
+    <tag k="ref:athensclarkeaddress" v="50589"/>
+  </node>
+  <node id="9813377579" version="3" timestamp="2024-03-27T19:23:46Z" lat="33.9578243" lon="-83.3699159">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="165"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Hickory Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/iheartmacandcheeseathens/"/>
+    <tag k="name" v="I Love Mac &amp; Cheese"/>
+    <tag k="opening_hours" v="Mo-Sa 12:00-20:00"/>
+    <tag k="ref:athensclarkeaddress" v="70507"/>
+  </node>
+  <node id="9813377867" version="2" timestamp="2023-07-21T13:02:55Z" lat="33.9482788" lon="-83.4185331">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2440"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="West Broad Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Blind Pig Tavern"/>
+    <tag k="ref:athensclarkeaddress" v="64260"/>
+  </node>
+  <node id="9813378199" version="2" timestamp="2024-02-06T21:56:34Z" lat="33.9580052" lon="-83.378728">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="269"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="North Hull Street"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="alt_name" v="The Five"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="branch" v="Athens"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Five Bar"/>
+    <tag k="opening_hours" v="Tu-Sa 16:00-22:00; Su 16:00-21:00; Sa-Su 10:00-15:00"/>
+    <tag k="ref:athensclarkeaddress" v="5522"/>
+    <tag k="website" v="https://www.five-bar.com/location/athens-georgia/"/>
+  </node>
+  <node id="9813378604" version="2" timestamp="2024-05-28T14:42:39Z" lat="33.9633456" lon="-83.3999222">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1280"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/martisatmidday"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/martisatmidday/"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="Marti&apos;s at Midday"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:30"/>
+    <tag k="ref:athensclarkeaddress" v="57674"/>
+    <tag k="website" v="https://www.martisatmidday.com/"/>
+  </node>
+  <node id="9813378668" version="2" timestamp="2023-12-19T17:14:29Z" lat="33.944401" lon="-83.4093678">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="4"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="wings"/>
+    <tag k="name" v="J. Buffalo Wings"/>
+    <tag k="ref:athensclarkeaddress" v="455"/>
+  </node>
+  <node id="9813379479" version="2" timestamp="2024-01-13T23:31:17Z" lat="33.95845" lon="-83.3752763">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="198"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="@local."/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="(678) 712-6299"/>
+    <tag k="ref:athensclarkeaddress" v="2401;69177"/>
+    <tag k="website" v="https://www.localonchurch.com/"/>
+  </node>
+  <node id="9813380260" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9272289" lon="-83.3372094">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1045"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Marco&apos;s Pizza"/>
+    <tag k="brand:wikidata" v="Q6757382"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Marco&apos;s Pizza"/>
+    <tag k="ref:athensclarkeaddress" v="69017"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813380314" version="2" timestamp="2024-03-30T04:20:24Z" lat="33.9260014" lon="-83.3404608">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="506"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/bondeparisathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/bondeparisathens"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Bon de Paris"/>
+    <tag k="phone" v="(706) 850 8289"/>
+    <tag k="ref:athensclarkeaddress" v="62680"/>
+    <tag k="website" v="http://www.bondeparis.us/"/>
+  </node>
+  <node id="9813380563" version="2" timestamp="2023-07-21T03:58:53Z" lat="33.9416109" lon="-83.4511074">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3190"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="5"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Cicis"/>
+    <tag k="brand:wikidata" v="Q2972189"/>
+    <tag k="cuisine" v="pizza;buffet"/>
+    <tag k="name" v="Cicis Pizza"/>
+    <tag k="ref:athensclarkeaddress" v="13383"/>
+  </node>
+  <node id="9813384457" version="2" timestamp="2024-02-21T21:03:58Z" lat="33.9504711" lon="-83.3831719">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="496"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="A"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Roll It Up"/>
+    <tag k="ref:athensclarkeaddress" v="63734"/>
+  </node>
+  <node id="9813384798" version="2" timestamp="2024-05-25T15:35:15Z" lat="33.9325995" lon="-83.3087298">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="4375"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Lexington Road"/>
+    <tag k="addr:unit" v="C11"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="wings;burger"/>
+    <tag k="name" v="WNB Factory"/>
+    <tag k="ref:athensclarkeaddress" v="59267"/>
+  </node>
+  <node id="9813386177" version="3" timestamp="2024-02-25T00:45:40Z" lat="33.9589975" lon="-83.3743375">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="335"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/the-Clayton-Social-100070415457340/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/claytonsocial"/>
+    <tag k="email" v="theclaytonsocial@gmail.com"/>
+    <tag k="name" v="The Clayton Social"/>
+    <tag k="phone" v="706-395-6575"/>
+    <tag k="ref:athensclarkeaddress" v="35199"/>
+  </node>
+  <node id="9813387372" version="2" timestamp="2024-05-25T15:35:15Z" lat="33.933145" lon="-83.3082599">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="4375"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Lexington Road"/>
+    <tag k="addr:unit" v="B1"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Golden Sun"/>
+    <tag k="ref:athensclarkeaddress" v="59253"/>
+  </node>
+  <node id="9813387377" version="2" timestamp="2024-05-25T15:35:15Z" lat="33.9327265" lon="-83.3086045">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="4375"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Lexington Road"/>
+    <tag k="addr:unit" v="C8"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Little Caesars"/>
+    <tag k="brand:wikidata" v="Q1393809"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Little Caesars"/>
+    <tag k="ref:athensclarkeaddress" v="59264"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="9813388216" version="4" timestamp="2024-05-19T11:56:27Z" lat="33.9401019" lon="-83.4753332">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="4005"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Subway"/>
+    <tag k="brand:wikidata" v="Q244457"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Subway"/>
+    <tag k="opening_hours" v="09:00-22:00"/>
+    <tag k="phone" v="+1 706-546-8545"/>
+    <tag k="ref:athensclarkeaddress" v="11567"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://restaurants.subway.com/united-states/ga/bogart/4005-atlanta-hwy"/>
+  </node>
+  <node id="9813388668" version="2" timestamp="2023-12-19T17:14:29Z" lat="33.9553115" lon="-83.4116961">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="400"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Hawthorne Avenue"/>
+    <tag k="addr:unit" v="12"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="El Bajio"/>
+    <tag k="ref:athensclarkeaddress" v="57918"/>
+  </node>
+  <node id="9813389702" version="3" timestamp="2024-05-08T23:14:49Z" lat="33.9426345" lon="-83.4472826">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3190"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="30"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Domino&apos;s"/>
+    <tag k="brand:wikidata" v="Q839466"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Domino&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00"/>
+    <tag k="phone" v="+1 706-354-1179"/>
+    <tag k="ref" v="4100"/>
+    <tag k="ref:athensclarkeaddress" v="13381"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://pizza.dominos.com/georgia/athens/3190-atlanta-hwy-ste-30"/>
+  </node>
+  <node id="9813392094" version="3" timestamp="2024-02-08T19:59:22Z" lat="33.9407276" lon="-83.4579899">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3654"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="I"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Chuck E. Cheese"/>
+    <tag k="brand:wikidata" v="Q2438391"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="leisure" v="amusement_arcade"/>
+    <tag k="name" v="Chuck E. Cheese"/>
+    <tag k="ref:athensclarkeaddress" v="60527"/>
+    <tag k="website" v="https://locations.chuckecheese.com/us/ga/athens/3654-i-atlanta-hwy."/>
+  </node>
+  <node id="9813395808" version="4" timestamp="2024-09-25T01:46:59Z" lat="33.9588221" lon="-83.3736752">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="440"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Clayton Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/utage.sushibar/"/>
+    <tag k="cuisine" v="sushi"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Utage"/>
+    <tag k="ref:athensclarkeaddress" v="5530"/>
+    <tag k="website" v="https://utagesushibar.restaurant/"/>
+  </node>
+  <node id="9813396715" version="2" timestamp="2024-03-04T19:00:09Z" lat="33.9654414" lon="-83.430251">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="175"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Tallassee Road"/>
+    <tag k="addr:unit" v="B"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Sr. Sol"/>
+    <tag k="phone" v="(706) 546-1570"/>
+    <tag k="ref:athensclarkeaddress" v="3483"/>
+    <tag k="website" v="https://www.srsolathens.com/"/>
+  </node>
+  <node id="9813397986" version="2" timestamp="2023-07-21T03:58:53Z" lat="33.9416344" lon="-83.4510213">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3190"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="7"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Inoko Express"/>
+    <tag k="ref:athensclarkeaddress" v="13385"/>
+  </node>
+  <node id="9813398822" version="2" timestamp="2024-02-06T21:56:34Z" lat="33.9580588" lon="-83.375159">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="114"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="College Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/gyrowrap"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/gyrowrap/"/>
+    <tag k="contact:twitter" v="https://twitter.com/gyrowrap/"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Gyro Wrap"/>
+    <tag k="opening_hours" v="Su-We 10:30-20:00; Th-Sa 10:30-21:00"/>
+    <tag k="phone" v="706-850-7442"/>
+    <tag k="ref:athensclarkeaddress" v="36494"/>
+    <tag k="website" v="https://www.gyrowrap.com/"/>
+  </node>
+  <node id="9813399468" version="3" timestamp="2024-05-13T03:08:38Z" lat="33.925103" lon="-83.3404421">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="602"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Papa John&apos;s"/>
+    <tag k="brand:wikidata" v="Q2759586"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Papa John&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00"/>
+    <tag k="phone" v="+1 706-354-4444"/>
+    <tag k="ref:athensclarkeaddress" v="62682"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.papajohns.com/united-states/ga/30605/athens/1860-barnett-shoals-rd"/>
+  </node>
+  <node id="9813400590" version="2" timestamp="2023-05-18T23:37:29Z" lat="33.9579955" lon="-83.3747633">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="269"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="Dooley&apos;s Bar &amp; Grill"/>
+    <tag k="ref:athensclarkeaddress" v="2409"/>
+  </node>
+  <node id="9813402548" version="7" timestamp="2024-06-20T01:42:49Z" lat="33.9461244" lon="-83.4093752">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="45A"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Alps and Baxter"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="opening_hours" v="Mo-Fr 05:30-21:00; Sa 06:00-21:00; Su 06:00-20:30"/>
+    <tag k="phone" v="+1 706-549-1418"/>
+    <tag k="ref" v="1020687"/>
+    <tag k="ref:athensclarkeaddress" v="69750"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/1020687/alps-and-baxter-196-alps-road-45-a-athens-ga-306064094-us"/>
+  </node>
+  <node id="9813403910" version="3" timestamp="2024-05-19T12:34:49Z" lat="33.9489138" lon="-83.3724072">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="280"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:street" v="East Campus Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="Sanford Stadium"/>
+    <tag k="brand" v="Chick-fil-A"/>
+    <tag k="brand:wikidata" v="Q491516"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="fixme:atp" v="no ATP match, check if still exists"/>
+    <tag k="name" v="Chick-fil-A"/>
+    <tag k="ref:athensclarkeaddress" v="8391"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.chick-fil-a.com/locations/ga/sanford-stadium"/>
+  </node>
+  <node id="9813404129" version="2" timestamp="2025-01-12T17:40:16Z" lat="33.9416542" lon="-83.3308133">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2824"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Lexington Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Domino&apos;s"/>
+    <tag k="brand:wikidata" v="Q839466"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Domino&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00"/>
+    <tag k="phone" v="+1 706-353-3737"/>
+    <tag k="ref" v="5753"/>
+    <tag k="ref:athensclarkeaddress" v="3784"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://pizza.dominos.com/georgia/athens/2824-lexington-rd"/>
+  </node>
+  <node id="9813404522" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9282511" lon="-83.337735">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="211"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Siri Thai Cuisine"/>
+    <tag k="ref:athensclarkeaddress" v="61787"/>
+  </node>
+  <node id="9813405168" version="2" timestamp="2024-04-21T23:52:19Z" lat="33.9250738" lon="-83.3404949">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1860"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Barnett Shoals Road"/>
+    <tag k="addr:unit" v="601"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Eastside Athens"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/eastsidejitteryjoes/"/>
+    <tag k="contact:twitter" v="https://twitter.com/eastsidejittery"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Jittery Joe&apos;s"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30:-20:00; Sa-Su 07:00-20:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="706-354-8000"/>
+    <tag k="ref:athensclarkeaddress" v="62681"/>
+    <tag k="website" v="https://jitteryjoes.com/"/>
+  </node>
+  <node id="9813406180" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9280976" lon="-83.3373887">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="218"/>
+    <tag k="alt_name" v="Lil&apos; Ice Cream Dude&apos;s Cool World Ice Cream Shop"/>
+    <tag k="amenity" v="ice_cream"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/lilicecreamdude/"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Cool World Ice Cream Shop"/>
+    <tag k="opening_hours" v="Tu-Sa 12:00-20:00; Su 13:00-19:00"/>
+    <tag k="ref:athensclarkeaddress" v="61793"/>
+    <tag k="website" v="https://coolworldicecreamshop.square.site/"/>
+  </node>
+  <node id="9813407958" version="2" timestamp="2023-05-18T23:37:29Z" lat="33.9579732" lon="-83.3748566">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="247"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="East Broad Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="bubble_tea;asian"/>
+    <tag k="name" v="Bubble Cafe"/>
+    <tag k="ref:athensclarkeaddress" v="34562"/>
+  </node>
+  <node id="9813408120" version="2" timestamp="2024-04-23T17:52:09Z" lat="33.9280543" lon="-83.3372249">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1040"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:street" v="Gaines School Road"/>
+    <tag k="addr:unit" v="219"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/JohnnysNYPizzaAthens/"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Johnny&apos;s Pizza"/>
+    <tag k="opening_hours" v="Su-Th 11:00-21:00; Fr-Sa 11:00-22:00"/>
+    <tag k="phone" v="706-354-1515"/>
+    <tag k="ref:athensclarkeaddress" v="61794"/>
+    <tag k="website" v="https://johnnyspizza.com/location/athens/"/>
+  </node>
+  <node id="9843940666" version="2" timestamp="2024-03-27T19:23:46Z" lat="33.9570539" lon="-83.3696033">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="115"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:street" v="Hickory Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Vampire Penguin Shaved Snow and Coffee"/>
+    <tag k="ref:athensclarkeaddress" v="70482"/>
+  </node>
+  <node id="9854468817" version="1" timestamp="2022-06-28T22:47:28Z" lat="33.914584" lon="-83.4448839">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Larry’s Giant Subs"/>
+  </node>
+  <node id="9862609622" version="1" timestamp="2022-07-02T16:59:41Z" lat="33.9136687" lon="-83.4470605">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Chef Ming"/>
+  </node>
+  <node id="9862609624" version="1" timestamp="2022-07-02T16:59:41Z" lat="33.9136104" lon="-83.4468863">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="WnB Factory: Wings &amp; Burger"/>
+  </node>
+  <node id="9885107660" version="1" timestamp="2022-07-13T12:32:35Z" lat="33.9579705" lon="-83.3752102">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9918066016" version="3" timestamp="2024-03-01T15:59:06Z" lat="33.9475963" lon="-83.3980406">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1072"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="alt_name" v="Homemade"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="home.made"/>
+    <tag k="opening_hours" v="closed"/>
+    <tag k="phone" v="706-206-9216"/>
+    <tag k="website" v="https://www.homemadeathens.com/"/>
+  </node>
+  <node id="9932206109" version="1" timestamp="2022-08-04T17:01:39Z" lat="33.9603619" lon="-83.3825649">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="9934550631" version="1" timestamp="2022-08-05T21:26:44Z" lat="33.9668477" lon="-83.3610927">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9934568387" version="1" timestamp="2022-08-05T21:32:55Z" lat="33.9613137" lon="-83.3630738">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="excrement_bags"/>
+  </node>
+  <node id="9953024845" version="7" timestamp="2024-06-20T01:42:49Z" lat="33.9217572" lon="-83.3433746">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="2301"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="College Station Road"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Kroger Athens 255"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-20:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="+1 706-353-8543"/>
+    <tag k="ref" v="255"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/18011/kroger-athens-255-2301-college-station-rd-athens-ga-306056609-us"/>
+  </node>
+  <node id="9995939769" version="1" timestamp="2022-09-02T21:36:40Z" lat="33.9597872" lon="-83.3745886">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="10021625594" version="3" timestamp="2024-05-10T20:58:54Z" lat="33.9947964" lon="-83.3347457">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="680"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="29 Highway North"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Pizza Hut"/>
+    <tag k="brand:wikidata" v="Q191615"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Pizza Hut"/>
+    <tag k="phone" v="+1 706-354-0225"/>
+    <tag k="website" v="https://locations.pizzahut.com/ga/athens/680-us-29-hwy-n"/>
+  </node>
+  <node id="10021625595" version="1" timestamp="2022-09-13T15:49:04Z" lat="33.9946835" lon="-83.3351411">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Barberitos"/>
+  </node>
+  <node id="10021625599" version="1" timestamp="2022-09-13T15:49:04Z" lat="33.9948316" lon="-83.334686">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Shane’s Rib Shack"/>
+  </node>
+  <node id="10021625600" version="1" timestamp="2022-09-13T15:49:04Z" lat="33.9947773" lon="-83.3348045">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Golden Panda"/>
+  </node>
+  <node id="10030415116" version="1" timestamp="2022-09-16T21:04:26Z" lat="33.9511473" lon="-83.369675">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="10030435717" version="1" timestamp="2022-09-16T21:04:26Z" lat="33.9512303" lon="-83.3697123">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="10030438944" version="1" timestamp="2022-09-16T21:07:41Z" lat="33.9523101" lon="-83.3693602">
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="10077769248" version="7" timestamp="2024-05-21T10:42:49Z" lat="33.9507324" lon="-83.3750482">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="45"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="addr:unit" v="362c"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="University of Georgia"/>
+    <tag k="brand" v="Panda Express"/>
+    <tag k="brand:wikidata" v="Q1358690"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Panda Express"/>
+    <tag k="opening_hours" v="Mo-Fr 10:30-20:00; Su 12:00-18:00"/>
+    <tag k="phone" v="(706) 542-1424"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.pandaexpress.com/locations/ga/athens/2741"/>
+  </node>
+  <node id="10077769249" version="5" timestamp="2024-05-19T12:34:49Z" lat="33.950758" lon="-83.3751704">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="45"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="University of Georgia"/>
+    <tag k="brand" v="Chick-fil-A"/>
+    <tag k="brand:wikidata" v="Q491516"/>
+    <tag k="cuisine" v="chicken"/>
+    <tag k="delivery" v="no"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="indoor_seating" v="no"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Chick-fil-A"/>
+    <tag k="opening_hours" v="Mo-Fr 7:30-20:00; Sa 12:00-16:00"/>
+    <tag k="phone" v="+1 706-542-1256"/>
+    <tag k="ref" v="80372"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.chick-fil-a.com/locations/ga/university-of-georgia"/>
+  </node>
+  <node id="10077769250" version="5" timestamp="2024-03-30T00:39:43Z" lat="33.9507065" lon="-83.374916">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="45"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="The Niche Pizza Company"/>
+    <tag k="opening_hours" v="Mo-Fr 10:30-20:00"/>
+    <tag k="phone" v="(706) 542-1256"/>
+    <tag k="website" v="https://dining.uga.edu/locations/niche-pizza-co/"/>
+  </node>
+  <node id="10077775477" version="4" timestamp="2024-05-10T23:41:09Z" lat="33.9502334" lon="-83.3747304">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="45"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Univ. of Georgia Tate Student"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="indoor" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-22:00; Sa-Su 08:00-22:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="+1 706-542-3165"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/1016673/univ-of-georgia-tate-student-45-baxter-street-athens-ga-30602-us"/>
+  </node>
+  <node id="10077995315" version="3" timestamp="2024-03-30T00:39:43Z" lat="33.9506998" lon="-83.375683">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="45"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="The Tate Student Center"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Barberitos"/>
+    <tag k="opening_hours" v="Mo-Fr 10:30-14:30"/>
+    <tag k="website" v="https://barberitos.com/store/athens-tate-center/"/>
+  </node>
+  <node id="10078036986" version="3" timestamp="2023-10-05T13:15:19Z" lat="33.9516347" lon="-83.3754206">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="48"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Baxter Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Miller Learning UGA"/>
+    <tag k="name" v="Jittery Joe&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 07:30-22:00; Fr 07:30-17:00; Sa 13:00-18:00; Su 13:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="706-549-2124"/>
+    <tag k="website" v="https://jitteryjoes.com/"/>
+  </node>
+  <node id="10705281882" version="4" timestamp="2024-02-25T00:45:40Z" lat="33.9586846" lon="-83.3771232">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="240"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/NowhereBarAthens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/nowherebarathensga"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCGRpok38DfBHnjGc3LW3h1w"/>
+    <tag k="name" v="Nowhere Bar"/>
+    <tag k="phone" v="(706) 546-4742"/>
+    <tag k="ref:athensclarkeaddress" v="34915"/>
+    <tag k="website" v="https://www.nowherebarlive.com/"/>
+  </node>
+  <node id="10802772607" version="2" timestamp="2024-03-30T00:39:43Z" lat="33.9507287" lon="-83.3756579">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="mediterranean"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Athena Mediterranean Kitchen"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="11010937874" version="1" timestamp="2023-06-27T19:15:38Z" lat="33.957446" lon="-83.37577">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11028031241" version="1" timestamp="2023-07-05T14:56:48Z" lat="33.9411838" lon="-83.3858482">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1540"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="addr:unit" v="4"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="ZZ &amp; Simone&apos;s"/>
+    <tag k="phone" v="706-395-6556"/>
+  </node>
+  <node id="11028031245" version="1" timestamp="2023-07-05T14:56:48Z" lat="33.9413164" lon="-83.385783">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1540"/>
+    <tag k="addr:postcode" v="30605"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Lumpkin Street"/>
+    <tag k="addr:unit" v="3"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Billy &amp; Beau&apos;s Coffee"/>
+  </node>
+  <node id="11057906729" version="2" timestamp="2024-05-13T03:08:38Z" lat="33.9404555" lon="-83.454935">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3620"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="addr:unit" v="100"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Papa John&apos;s"/>
+    <tag k="brand:wikidata" v="Q2759586"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Papa John&apos;s"/>
+    <tag k="opening_hours" v="Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00"/>
+    <tag k="phone" v="+1 706-613-7272"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.papajohns.com/united-states/ga/30606/athens/3620-atlanta-hwy"/>
+  </node>
+  <node id="11059407424" version="1" timestamp="2023-07-21T13:02:55Z" lat="33.9477865" lon="-83.4157876">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Another Broken Egg Cafe"/>
+  </node>
+  <node id="11084261622" version="1" timestamp="2023-08-02T19:52:04Z" lat="33.9476515" lon="-83.3970608">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="ice_cubes"/>
+  </node>
+  <node id="11248615137" version="1" timestamp="2023-10-08T17:21:55Z" lat="33.9390583" lon="-83.3707399">
+    <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="80"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Carlton Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="fast_food" v="cafeteria"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="Village Summit Dining Commons"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-21:00; Sa-Su 08:30-21:00"/>
+    <tag k="operator" v="University of Georgia"/>
+    <tag k="phone" v="(706) 542-4386"/>
+    <tag k="website" v="https://dining.uga.edu/locations/village-summit//"/>
+  </node>
+  <node id="11248711482" version="2" timestamp="2024-06-10T10:36:31Z" lat="33.9543383" lon="-83.3737064">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="320"/>
+    <tag k="addr:postcode" v="30602"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="South Jackson Street"/>
+    <tag k="alt_name" v="Einstein Brothers Bagels"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="branch" v="UGA Main Library"/>
+    <tag k="brand" v="Einstein Bros. Bagels"/>
+    <tag k="brand:wikidata" v="Q5349788"/>
+    <tag k="cuisine" v="bagel"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Einstein Bros. Bagels"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-18:00; Su 13:00-19:00"/>
+    <tag k="phone" v="+1 706-542-3863"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://locations.einsteinbros.com/us/ga/athens/320-s-jackson-st"/>
+  </node>
+  <node id="11413930717" version="2" timestamp="2024-02-02T16:32:50Z" lat="33.9170328" lon="-83.4556355">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="brand" v="Clean Eatz"/>
+    <tag k="brand:wikidata" v="Q124412638"/>
+    <tag k="name" v="Clean Eatz"/>
+    <tag k="website" v="https://locations.cleaneatz.com/ga/athens/meal-prep-98.html"/>
+  </node>
+  <node id="11413930723" version="1" timestamp="2023-12-13T03:34:21Z" lat="33.9159653" lon="-83.455402">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Poké Bar"/>
+  </node>
+  <node id="11413930725" version="1" timestamp="2023-12-13T03:34:21Z" lat="33.9159332" lon="-83.4552435">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Taqueria Tsunami"/>
+  </node>
+  <node id="11413930727" version="2" timestamp="2024-10-06T17:02:59Z" lat="33.9160422" lon="-83.4547927">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1791"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Oconee Connector"/>
+    <tag k="addr:unit" v="420"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/p/Killer-Crust-Pizza-61558771093589/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/killercrustpizza/"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Killer Crust Pizza Company"/>
+    <tag k="opening_hours" v="Su-Th 11:00-21:00; Fr-Sa 11:00-22:00"/>
+    <tag k="phone" v="706-850-0125"/>
+    <tag k="website" v="https://killercrustpizza.com/"/>
+  </node>
+  <node id="11413930728" version="1" timestamp="2023-12-13T03:34:21Z" lat="33.9167467" lon="-83.454857">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Wok&apos;s Up"/>
+  </node>
+  <node id="11413930729" version="2" timestamp="2024-10-06T17:02:59Z" lat="33.916917" lon="-83.455148">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Planet Smoothie"/>
+    <tag k="brand:wikidata" v="Q7201170"/>
+    <tag k="cuisine" v="smoothie"/>
+    <tag k="name" v="Planet Smoothie"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="11423083720" version="1" timestamp="2023-12-16T16:35:30Z" lat="33.9368543" lon="-83.4541878">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Dos Palmas"/>
+  </node>
+  <node id="11433614021" version="1" timestamp="2023-12-20T04:32:13Z" lat="33.9505581" lon="-83.4144537">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="drinks"/>
+  </node>
+  <node id="11433614022" version="1" timestamp="2023-12-20T04:32:13Z" lat="33.9505617" lon="-83.4144583">
+    <tag k="amenity" v="vending_machine"/>
+  </node>
+  <node id="11616874350" version="1" timestamp="2024-02-12T22:04:20Z" lat="33.9487036" lon="-83.3957743">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bbq"/>
+  </node>
+  <node id="11681915564" version="1" timestamp="2024-03-01T15:22:18Z" lat="33.9556378" lon="-83.3861245">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="The Bar @ Saucehouse"/>
+    <tag k="opening_hours" v="We-Fr 15:00-23:00; Sa-Su 11:00-23:00"/>
+  </node>
+  <node id="11701388903" version="1" timestamp="2024-03-07T17:14:47Z" lat="33.9102694" lon="-83.4020952">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="8851"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Macon Highway"/>
+    <tag k="addr:unit" v="403"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="branch" v="Falls of Oconee Shopping Center"/>
+    <tag k="cuisine" v="southern"/>
+    <tag k="name" v="Mama&apos;s Boy"/>
+    <tag k="opening_hours" v="Mo-Su 07:00-15:30"/>
+    <tag k="phone" v="+1 706-850-8550"/>
+    <tag k="reservation" v="no"/>
+    <tag k="website" v="https://www.mamasboyathens.com/curbside-pickup-falls"/>
+  </node>
+  <node id="11701388904" version="2" timestamp="2024-03-12T02:13:06Z" lat="33.910358" lon="-83.4018701">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="8851"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Macon Highway"/>
+    <tag k="addr:unit" v="501"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="branch" v="The Falls of Oconee"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/amiciatthefalls"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/amici_atthefalls/"/>
+    <tag k="cuisine" v="pizza;wings"/>
+    <tag k="name" v="Amici"/>
+    <tag k="opening_hours" v="Tu-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 12:00-20:00"/>
+    <tag k="phone" v="+1 706-850-1027"/>
+    <tag k="website" v="https://amici-cafe.com/thefalls/"/>
+  </node>
+  <node id="11758804208" version="1" timestamp="2024-03-24T17:41:14Z" lat="33.9414937" lon="-83.4406232">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3065"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Target Athens 1453"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-20:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="phone" v="706-208-9379"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.starbucks.com/store-locator/store/1020528/target-athens-1453-3065-atlanta-hwy-athens-ga-30606-us"/>
+  </node>
+  <node id="11765221237" version="1" timestamp="2024-03-27T03:58:03Z" lat="33.9588197" lon="-83.3774436">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="265"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="branch" v="Athens"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/tacomamaathens/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/eatattacomama/"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Taco Mama"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-21:00; Su 11:00-20:00"/>
+    <tag k="phone" v="762-728-4675"/>
+    <tag k="website" v="https://tacomamaonline.com/"/>
+  </node>
+  <node id="11766736646" version="1" timestamp="2024-03-27T19:23:46Z" lat="33.9571959" lon="-83.3702809">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="245"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Oconee Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/Blenderzathens"/>
+    <tag k="cuisine" v="juice"/>
+    <tag k="name" v="Blenderz Smoothies &amp; Bowls"/>
+    <tag k="website" v="https://blenderz.com/"/>
+  </node>
+  <node id="11772432238" version="1" timestamp="2024-03-29T21:24:17Z" lat="33.9949864" lon="-83.3798352">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+  </node>
+  <node id="11774202510" version="1" timestamp="2024-03-30T20:04:54Z" lat="33.9600207" lon="-83.3772386">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11774202511" version="1" timestamp="2024-03-30T20:04:54Z" lat="33.9600266" lon="-83.377218">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="newspapers"/>
+  </node>
+  <node id="11776000209" version="1" timestamp="2024-03-31T19:02:45Z" lat="33.9518025" lon="-83.3625096">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Lickin Chicken"/>
+  </node>
+  <node id="11812429294" version="2" timestamp="2024-04-12T18:50:37Z" lat="33.9959303" lon="-83.3334407">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="bar" v="no"/>
+    <tag k="brand" v="Starbucks"/>
+    <tag k="brand:wikidata" v="Q37158"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="highchair" v="yes"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Starbucks"/>
+    <tag k="official_name" v="Starbucks Coffee"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="11816824211" version="1" timestamp="2024-04-14T15:55:06Z" lat="33.9599917" lon="-83.3839262">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/puntacanakitchen/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/puntacanaathensga"/>
+    <tag k="name" v="Punta Cana Latin Grill"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00, Su 11:00-20:00"/>
+  </node>
+  <node id="11816831093" version="1" timestamp="2024-04-14T16:08:50Z" lat="33.9601257" lon="-83.3822762">
+    <tag k="addr:housenumber" v="195"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/poquitosathensga/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/poquitos_athensga/"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Poquitos"/>
+    <tag k="opening_hours" v="Su-Th 11:00-21:00; Fr-Sa 11:00-22:00"/>
+    <tag k="phone" v="706-850-8706"/>
+    <tag k="website" v="https://poquitosathens.com/"/>
+  </node>
+  <node id="11816831094" version="1" timestamp="2024-04-14T16:08:50Z" lat="33.9601407" lon="-83.3824016">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="199"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Prince Avenue"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Emmy Squared Pizza"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa-Su 10:00-22:00"/>
+    <tag k="phone" v="(762) 315-4005"/>
+    <tag k="website" v="https://www.emmysquaredpizza.com/location/athens-ga/"/>
+  </node>
+  <node id="11820160313" version="1" timestamp="2024-04-15T21:58:55Z" lat="33.9387619" lon="-83.4538009">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="3495"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Atlanta Highway"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/travelingchickn"/>
+    <tag k="cuisine" v="wings;breakfast"/>
+    <tag k="name" v="Traveling Chick&apos;n"/>
+  </node>
+  <node id="11837327036" version="2" timestamp="2024-06-05T14:00:49Z" lat="33.952248" lon="-83.3776371">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Rothenberger Café"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-17:00"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="website" v="https://dining.uga.edu/locations/rothenberger-cafe/"/>
+    <tag k="website:menu" v="https://dining.uga.edu/cafemenu/"/>
+  </node>
+  <node id="11920038650" version="1" timestamp="2024-05-20T15:14:56Z" lat="33.9168819" lon="-83.4420328">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1880"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Epps Bridge Parkway"/>
+    <tag k="addr:unit" v="101"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="branch" v="Epps Bridge"/>
+    <tag k="cuisine" v="coffee_shop"/>
+    <tag k="drive_through" v="yes"/>
+    <tag k="name" v="Jittery Joe&apos;s"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-20:00; Sa-Su 07:00-20:00"/>
+  </node>
+  <node id="11920038651" version="1" timestamp="2024-05-20T15:14:56Z" lat="33.9168145" lon="-83.4420795">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1880"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Epps Bridge Parkway"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="branch" v="Athens - Epps Bridge"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="Barberitos"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-22:00; Su 11:00-21:00"/>
+    <tag k="website" v="https://barberitos.com/store/athens-epps-bridge/"/>
+  </node>
+  <node id="11920038655" version="1" timestamp="2024-05-20T15:14:56Z" lat="33.9165918" lon="-83.4422787">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="American Deli"/>
+    <tag k="brand:wikidata" v="Q119993570"/>
+    <tag k="cuisine" v="american"/>
+    <tag k="name" v="American Deli"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="11920038664" version="1" timestamp="2024-05-20T15:14:56Z" lat="33.916734" lon="-83.4434376">
+    <tag k="alt_name" v="Dunkin&apos;"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Dunkin&apos;"/>
+    <tag k="brand:wikidata" v="Q847743"/>
+    <tag k="cuisine" v="donut;coffee_shop"/>
+    <tag k="name" v="Dunkin&apos; Donuts"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="11920038667" version="1" timestamp="2024-05-20T15:14:56Z" lat="33.9159795" lon="-83.4439591">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="1850"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Epps Bridge Parkway"/>
+    <tag k="addr:unit" v="109"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza;sandwich"/>
+    <tag k="name" v="Newk&apos;s Eatery"/>
+    <tag k="opening_hours" v="Mo-Su 10:30-21:00"/>
+    <tag k="website" v="https://locations.newks.com/ga/athens/1850-epps-bridge-pkwy/"/>
+  </node>
+  <node id="11938545993" version="1" timestamp="2024-05-28T00:46:31Z" lat="33.922357" lon="-83.4414829">
+    <tag k="amenity" v="pub"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/Catch22gastropub"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/catch22gp/"/>
+    <tag k="contact:twitter" v="https://twitter.com/Catch22gp"/>
+    <tag k="name" v="Catch 22 Gastropub"/>
+    <tag k="opening_hours" v="Mo-We 11:00-21:00; Th-Fr 11:00-22:30; Sa 11:00-21:30"/>
+    <tag k="website" v="http://www.catch22gp.com/"/>
+  </node>
+  <node id="11939825921" version="1" timestamp="2024-05-28T14:29:50Z" lat="33.9636013" lon="-83.4031229">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich;burger;pizza;salad"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="fast_food" v="cafeteria"/>
+    <tag k="name" v="The Niche Dining Commons"/>
+    <tag k="operator" v="University of Georgia Dining Services"/>
+    <tag k="website" v="https://dining.uga.edu/locations/niche/"/>
+  </node>
+  <node id="12198091539" version="1" timestamp="2024-09-25T01:54:25Z" lat="33.9455692" lon="-83.4103555">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="196"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Alps Road"/>
+    <tag k="addr:unit" v="133"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="mexican"/>
+    <tag k="name" v="La Parrilla"/>
+    <tag k="opening_date" v="2024-10-01"/>
+    <tag k="opening_hours" v="Su-We 11:00-22:00; Th-Sa 11:00-22:30"/>
+    <tag k="website" v="https://laparrilla.com/store/athens/"/>
+  </node>
+  <node id="12292411681" version="1" timestamp="2024-10-27T20:28:04Z" lat="33.9929305" lon="-83.4369689">
+    <tag k="addr:country" v="US"/>
+    <tag k="addr:housenumber" v="5223"/>
+    <tag k="addr:postcode" v="30606"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="Jefferson Road"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="McDonald&apos;s"/>
+    <tag k="brand:wikidata" v="Q38076"/>
+    <tag k="check_date" v="2024-02-01"/>
+    <tag k="check_date:opening_hours" v="2024-02-01"/>
+    <tag k="check_date:opening_hours:drive_through" v="2024-02-01"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="drive_through" v="yes"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="McDonald&apos;s"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:drive_through" v="24/7"/>
+    <tag k="phone" v="+1 706-357-9207"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="https://www.mcdonalds.com/us/en-us/location/ga/athens/5223-jefferson-road/40471.html"/>
+  </node>
+  <node id="12337611840" version="1" timestamp="2024-11-13T17:44:00Z" lat="33.9950284" lon="-83.3339551">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Jersey Mike’s Subs"/>
+  </node>
+  <node id="12337611844" version="1" timestamp="2024-11-13T17:44:00Z" lat="33.9950158" lon="-83.3340171">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Tokyo Express Hibachi Grill"/>
+  </node>
+  <node id="12337658651" version="2" timestamp="2024-12-09T00:00:29Z" lat="33.9568717" lon="-83.3827386">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="174"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Finley Street"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Daydreamer Cafe"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-15:00"/>
+    <tag k="website" v="https://www.daydreamer.coffee/"/>
+  </node>
+  <node id="12537616069" version="1" timestamp="2025-01-28T02:20:23Z" lat="33.9575598" lon="-83.3769959">
+    <tag k="addr:city" v="Athens"/>
+    <tag k="addr:housenumber" v="101"/>
+    <tag k="addr:postcode" v="30601"/>
+    <tag k="addr:state" v="GA"/>
+    <tag k="addr:street" v="North Lumpkin Street"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="brand" v="Panera Bread"/>
+    <tag k="brand:wikidata" v="Q7130852"/>
+    <tag k="cuisine" v="sandwich;bakery"/>
+    <tag k="drive_through" v="no"/>
+    <tag k="name" v="Panera Bread"/>
+    <tag k="short_name" v="Panera"/>
+    <tag k="start_date" v="2025-01-15"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+</osm>
