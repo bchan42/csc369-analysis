@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_650f6c864a6e3aae2937bc5f8a03b89b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_650f6c864a6e3aae2937bc5f8a03b89b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_650f6c864a6e3aae2937bc5f8a03b89b = L.map(
+                "map_650f6c864a6e3aae2937bc5f8a03b89b",
+                {
+                    center: [36.5, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ec25b9d4ce7b06b26173f621cd3183b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8ec25b9d4ce7b06b26173f621cd3183b.addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var marker_f51f4e373e0669cfa7a18099f56cad65 = L.marker(
+                [35.269265, -120.670827],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_262b06fa48fae17c09acb70604205b21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f51f4e373e0669cfa7a18099f56cad65.setIcon(icon_262b06fa48fae17c09acb70604205b21);
+        
+    
+        var popup_c851e7763762ad182f7358b69a875f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_454c681a4689b2ac7d07c55a6e1eb1fc = $(`<div id="html_454c681a4689b2ac7d07c55a6e1eb1fc" style="width: 100.0%; height: 100.0%;">Subway in San Luis Obispo (2.20 mi)</div>`)[0];
+                popup_c851e7763762ad182f7358b69a875f33.setContent(html_454c681a4689b2ac7d07c55a6e1eb1fc);
+            
+        
+
+        marker_f51f4e373e0669cfa7a18099f56cad65.bindPopup(popup_c851e7763762ad182f7358b69a875f33)
+        ;
+
+        
+    
+    
+            var marker_fc548814d60847227550f4c4ba587920 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_7160a4479445836f4fefe9fbd466a8a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc548814d60847227550f4c4ba587920.setIcon(icon_7160a4479445836f4fefe9fbd466a8a8);
+        
+    
+        var popup_fb17e147d7ced0a66091d61c6b2686e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8661076b034485e187ac5cd33c0f8c23 = $(`<div id="html_8661076b034485e187ac5cd33c0f8c23" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_fb17e147d7ced0a66091d61c6b2686e2.setContent(html_8661076b034485e187ac5cd33c0f8c23);
+            
+        
+
+        marker_fc548814d60847227550f4c4ba587920.bindPopup(popup_fb17e147d7ced0a66091d61c6b2686e2)
+        ;
+
+        
+    
+    
+            var poly_line_e59596b0305e5a98b407b22de368dc35 = L.polyline(
+                [[35.3004, -120.6625], [35.269265, -120.670827]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_e59596b0305e5a98b407b22de368dc35.bindTooltip(
+                `<div>
+                     2.20 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e997581d24521cbcd7a312561396bf72 = L.marker(
+                [35.3008774, -120.6632937],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_47c041acf7f987d5d9a7ed509d0b0cd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e997581d24521cbcd7a312561396bf72.setIcon(icon_47c041acf7f987d5d9a7ed509d0b0cd4);
+        
+    
+        var popup_315c2eda2fbd415186ee3ec6e32b8f75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caac81de8e558c9947daa33d4607187c = $(`<div id="html_caac81de8e558c9947daa33d4607187c" style="width: 100.0%; height: 100.0%;">Subway in San Luis Obispo (0.06 mi)</div>`)[0];
+                popup_315c2eda2fbd415186ee3ec6e32b8f75.setContent(html_caac81de8e558c9947daa33d4607187c);
+            
+        
+
+        marker_e997581d24521cbcd7a312561396bf72.bindPopup(popup_315c2eda2fbd415186ee3ec6e32b8f75)
+        ;
+
+        
+    
+    
+            var marker_4aefd4df6a75ccd86387d2628064fe56 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_5c9947d75a92899893a62c898113cd58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4aefd4df6a75ccd86387d2628064fe56.setIcon(icon_5c9947d75a92899893a62c898113cd58);
+        
+    
+        var popup_6da629bfce44c7f9251353cda81b9044 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0c56297ff841d6bc130c76dbd089344 = $(`<div id="html_b0c56297ff841d6bc130c76dbd089344" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_6da629bfce44c7f9251353cda81b9044.setContent(html_b0c56297ff841d6bc130c76dbd089344);
+            
+        
+
+        marker_4aefd4df6a75ccd86387d2628064fe56.bindPopup(popup_6da629bfce44c7f9251353cda81b9044)
+        ;
+
+        
+    
+    
+            var poly_line_77e0161c9a48ff221c60741718a800fa = L.polyline(
+                [[35.3004, -120.6625], [35.3008774, -120.6632937]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_77e0161c9a48ff221c60741718a800fa.bindTooltip(
+                `<div>
+                     0.06 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e781af17e098de1615dd5ff3bbd93d49 = L.marker(
+                [35.2597708, -120.648437],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_1d94db514db515055b585578d8e5316c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e781af17e098de1615dd5ff3bbd93d49.setIcon(icon_1d94db514db515055b585578d8e5316c);
+        
+    
+        var popup_fafac78abeb2af6a7add67d144334397 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e72a44badcfd2a4d57f3fdac4e980917 = $(`<div id="html_e72a44badcfd2a4d57f3fdac4e980917" style="width: 100.0%; height: 100.0%;">Subway in San Luis Obispo (2.91 mi)</div>`)[0];
+                popup_fafac78abeb2af6a7add67d144334397.setContent(html_e72a44badcfd2a4d57f3fdac4e980917);
+            
+        
+
+        marker_e781af17e098de1615dd5ff3bbd93d49.bindPopup(popup_fafac78abeb2af6a7add67d144334397)
+        ;
+
+        
+    
+    
+            var marker_173a69ee85ded06e3e1118d42d5a7609 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_bb54a90ef8afd95230c091578deaff75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_173a69ee85ded06e3e1118d42d5a7609.setIcon(icon_bb54a90ef8afd95230c091578deaff75);
+        
+    
+        var popup_5b30939c9cf26dd6a394448547b1d744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e2d7a6ff231676d2db5970d6eeb9969 = $(`<div id="html_9e2d7a6ff231676d2db5970d6eeb9969" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_5b30939c9cf26dd6a394448547b1d744.setContent(html_9e2d7a6ff231676d2db5970d6eeb9969);
+            
+        
+
+        marker_173a69ee85ded06e3e1118d42d5a7609.bindPopup(popup_5b30939c9cf26dd6a394448547b1d744)
+        ;
+
+        
+    
+    
+            var poly_line_b0e708ce928dcd687f4b7799f4a9ff2f = L.polyline(
+                [[35.3004, -120.6625], [35.2597708, -120.648437]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_b0e708ce928dcd687f4b7799f4a9ff2f.bindTooltip(
+                `<div>
+                     2.91 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_030da808a630a7e9eda8b39a4be4c1c8 = L.marker(
+                [35.3072205, -120.6593383],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_9b8abd9b0f11a2d793de8ee49d6fb336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_030da808a630a7e9eda8b39a4be4c1c8.setIcon(icon_9b8abd9b0f11a2d793de8ee49d6fb336);
+        
+    
+        var popup_212baf8dfb1cf94997ae958b43f64827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b60cb59f48c4ce6e33c317035fa40bdd = $(`<div id="html_b60cb59f48c4ce6e33c317035fa40bdd" style="width: 100.0%; height: 100.0%;">Subway in San Luis Obispo (0.50 mi)</div>`)[0];
+                popup_212baf8dfb1cf94997ae958b43f64827.setContent(html_b60cb59f48c4ce6e33c317035fa40bdd);
+            
+        
+
+        marker_030da808a630a7e9eda8b39a4be4c1c8.bindPopup(popup_212baf8dfb1cf94997ae958b43f64827)
+        ;
+
+        
+    
+    
+            var marker_ceccaa9685430e5dfac17c67ac6a5db8 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_43dd8585e294e998cbe773604b0f70ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ceccaa9685430e5dfac17c67ac6a5db8.setIcon(icon_43dd8585e294e998cbe773604b0f70ac);
+        
+    
+        var popup_1ad6096790cb29db95952d159054bf65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5066c455363721ae9a2505ef2ff248d = $(`<div id="html_c5066c455363721ae9a2505ef2ff248d" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_1ad6096790cb29db95952d159054bf65.setContent(html_c5066c455363721ae9a2505ef2ff248d);
+            
+        
+
+        marker_ceccaa9685430e5dfac17c67ac6a5db8.bindPopup(popup_1ad6096790cb29db95952d159054bf65)
+        ;
+
+        
+    
+    
+            var poly_line_90dddbe91c003e2da3b235f8b5c783a1 = L.polyline(
+                [[35.3004, -120.6625], [35.3072205, -120.6593383]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_90dddbe91c003e2da3b235f8b5c783a1.bindTooltip(
+                `<div>
+                     0.50 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_feea4028a755af7aff83f726deca4dc5 = L.marker(
+                [35.258247, -120.6912206],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_8d1ffc46367478075a69f29a5c0cc7e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_feea4028a755af7aff83f726deca4dc5.setIcon(icon_8d1ffc46367478075a69f29a5c0cc7e5);
+        
+    
+        var popup_590311dba0acf3a1b68d72425075100e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c18224eb468fd6862e00f709b357e2eb = $(`<div id="html_c18224eb468fd6862e00f709b357e2eb" style="width: 100.0%; height: 100.0%;">Subway in San Luis Obispo (3.33 mi)</div>`)[0];
+                popup_590311dba0acf3a1b68d72425075100e.setContent(html_c18224eb468fd6862e00f709b357e2eb);
+            
+        
+
+        marker_feea4028a755af7aff83f726deca4dc5.bindPopup(popup_590311dba0acf3a1b68d72425075100e)
+        ;
+
+        
+    
+    
+            var marker_aa97f6ebe4fdf7fde4548c762b6ab5d3 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_b1f12fd810e1ec74f9744342b31f08b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa97f6ebe4fdf7fde4548c762b6ab5d3.setIcon(icon_b1f12fd810e1ec74f9744342b31f08b7);
+        
+    
+        var popup_6e693023bc6445e5b9aaaaa687fa2ced = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_302e29dec4c4db26dca94eba8a680c42 = $(`<div id="html_302e29dec4c4db26dca94eba8a680c42" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_6e693023bc6445e5b9aaaaa687fa2ced.setContent(html_302e29dec4c4db26dca94eba8a680c42);
+            
+        
+
+        marker_aa97f6ebe4fdf7fde4548c762b6ab5d3.bindPopup(popup_6e693023bc6445e5b9aaaaa687fa2ced)
+        ;
+
+        
+    
+    
+            var poly_line_088b299ed849a72cd4cac56809ed2ca9 = L.polyline(
+                [[35.3004, -120.6625], [35.258247, -120.6912206]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_088b299ed849a72cd4cac56809ed2ca9.bindTooltip(
+                `<div>
+                     3.33 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47b8ab8cff1520c3d1e60deb525693c7 = L.marker(
+                [38.5434952, -121.7385361],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_92eede4b3a09a61919348fbd75481089 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47b8ab8cff1520c3d1e60deb525693c7.setIcon(icon_92eede4b3a09a61919348fbd75481089);
+        
+    
+        var popup_5221340fe81b7f144ecdea98f212ce29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a089b1b655e4b99c0eca0930e724cdff = $(`<div id="html_a089b1b655e4b99c0eca0930e724cdff" style="width: 100.0%; height: 100.0%;">Subway in Davis (0.14 mi)</div>`)[0];
+                popup_5221340fe81b7f144ecdea98f212ce29.setContent(html_a089b1b655e4b99c0eca0930e724cdff);
+            
+        
+
+        marker_47b8ab8cff1520c3d1e60deb525693c7.bindPopup(popup_5221340fe81b7f144ecdea98f212ce29)
+        ;
+
+        
+    
+    
+            var marker_c87f6b23685713ac2ed4cc0a34195e57 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_a9206b0dd9bb1582751512a6f0891481 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c87f6b23685713ac2ed4cc0a34195e57.setIcon(icon_a9206b0dd9bb1582751512a6f0891481);
+        
+    
+        var popup_308dc639c8161078ad38a29dfcd63311 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e04b3af3259cb5d84e39470e147ac2e = $(`<div id="html_1e04b3af3259cb5d84e39470e147ac2e" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_308dc639c8161078ad38a29dfcd63311.setContent(html_1e04b3af3259cb5d84e39470e147ac2e);
+            
+        
+
+        marker_c87f6b23685713ac2ed4cc0a34195e57.bindPopup(popup_308dc639c8161078ad38a29dfcd63311)
+        ;
+
+        
+    
+    
+            var poly_line_3a9d19099f8c5d3cc2aeefe27ec04007 = L.polyline(
+                [[38.5449, -121.7405], [38.5434952, -121.7385361]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_3a9d19099f8c5d3cc2aeefe27ec04007.bindTooltip(
+                `<div>
+                     0.14 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8c789a631bdf44f8d5f876c37dff2101 = L.marker(
+                [38.5503117, -121.6935776],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_362a147ea84db81a1ea76fd85f0b1871 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c789a631bdf44f8d5f876c37dff2101.setIcon(icon_362a147ea84db81a1ea76fd85f0b1871);
+        
+    
+        var popup_09e164b472943bd8b1ae992700b44026 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33776a59f2b86c1dd49acd0036a64feb = $(`<div id="html_33776a59f2b86c1dd49acd0036a64feb" style="width: 100.0%; height: 100.0%;">Subway in Davis (2.57 mi)</div>`)[0];
+                popup_09e164b472943bd8b1ae992700b44026.setContent(html_33776a59f2b86c1dd49acd0036a64feb);
+            
+        
+
+        marker_8c789a631bdf44f8d5f876c37dff2101.bindPopup(popup_09e164b472943bd8b1ae992700b44026)
+        ;
+
+        
+    
+    
+            var marker_99ec58897b5ad6427a8f1c25bc7e90aa = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_ecd85fa85d3ace16efe3401f894dbd8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_99ec58897b5ad6427a8f1c25bc7e90aa.setIcon(icon_ecd85fa85d3ace16efe3401f894dbd8f);
+        
+    
+        var popup_fab179c346f165e6875b63808f7eb624 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45028e53aed8dcb4da6d1e04869c4561 = $(`<div id="html_45028e53aed8dcb4da6d1e04869c4561" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_fab179c346f165e6875b63808f7eb624.setContent(html_45028e53aed8dcb4da6d1e04869c4561);
+            
+        
+
+        marker_99ec58897b5ad6427a8f1c25bc7e90aa.bindPopup(popup_fab179c346f165e6875b63808f7eb624)
+        ;
+
+        
+    
+    
+            var poly_line_cd5d9aff934264674e40e012e270cba3 = L.polyline(
+                [[38.5449, -121.7405], [38.5503117, -121.6935776]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_cd5d9aff934264674e40e012e270cba3.bindTooltip(
+                `<div>
+                     2.57 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_64658a26254af2814953084133b6cf8b = L.marker(
+                [38.5476226, -121.7593509],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_5b49542c2a706e374c3e68e2f8606f28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64658a26254af2814953084133b6cf8b.setIcon(icon_5b49542c2a706e374c3e68e2f8606f28);
+        
+    
+        var popup_f97e0d2012da9ba3a4d78221ed39ccb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffb7ccda8195b028aa10a44bea4c781e = $(`<div id="html_ffb7ccda8195b028aa10a44bea4c781e" style="width: 100.0%; height: 100.0%;">Subway in Davis (1.04 mi)</div>`)[0];
+                popup_f97e0d2012da9ba3a4d78221ed39ccb5.setContent(html_ffb7ccda8195b028aa10a44bea4c781e);
+            
+        
+
+        marker_64658a26254af2814953084133b6cf8b.bindPopup(popup_f97e0d2012da9ba3a4d78221ed39ccb5)
+        ;
+
+        
+    
+    
+            var marker_0a2e0af5142165fe77834f39dc109637 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_de87778772ca1ac0356814bf669c890f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a2e0af5142165fe77834f39dc109637.setIcon(icon_de87778772ca1ac0356814bf669c890f);
+        
+    
+        var popup_26a567af49080a86584aef060f200987 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbb7f2dc04db5d386cb9145faeca95bb = $(`<div id="html_cbb7f2dc04db5d386cb9145faeca95bb" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_26a567af49080a86584aef060f200987.setContent(html_cbb7f2dc04db5d386cb9145faeca95bb);
+            
+        
+
+        marker_0a2e0af5142165fe77834f39dc109637.bindPopup(popup_26a567af49080a86584aef060f200987)
+        ;
+
+        
+    
+    
+            var poly_line_6e994243dcf5f2fba6a87bb0779afb64 = L.polyline(
+                [[38.5449, -121.7405], [38.5476226, -121.7593509]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_6e994243dcf5f2fba6a87bb0779afb64.bindTooltip(
+                `<div>
+                     1.04 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f0f45ff5a850dc329494646e7b9716e = L.marker(
+                [38.45741, -121.842767],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_fd1c94c0877b4259140192f4c1470d63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0f0f45ff5a850dc329494646e7b9716e.setIcon(icon_fd1c94c0877b4259140192f4c1470d63);
+        
+    
+        var popup_f2940953c3a18cee222dea9fa4d8f521 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5292eafa66d9403147e7eb4fb92f81e = $(`<div id="html_f5292eafa66d9403147e7eb4fb92f81e" style="width: 100.0%; height: 100.0%;">Subway in Davis (8.19 mi)</div>`)[0];
+                popup_f2940953c3a18cee222dea9fa4d8f521.setContent(html_f5292eafa66d9403147e7eb4fb92f81e);
+            
+        
+
+        marker_0f0f45ff5a850dc329494646e7b9716e.bindPopup(popup_f2940953c3a18cee222dea9fa4d8f521)
+        ;
+
+        
+    
+    
+            var marker_3dda0f3c1442a9f90a26628fc8147f5b = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_409ccf9b7ab07b090db7e3c4093d9667 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3dda0f3c1442a9f90a26628fc8147f5b.setIcon(icon_409ccf9b7ab07b090db7e3c4093d9667);
+        
+    
+        var popup_82edc7ca51187396c071e8b70097b088 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ab65d96522c79e7f753dee1f0f89431 = $(`<div id="html_8ab65d96522c79e7f753dee1f0f89431" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_82edc7ca51187396c071e8b70097b088.setContent(html_8ab65d96522c79e7f753dee1f0f89431);
+            
+        
+
+        marker_3dda0f3c1442a9f90a26628fc8147f5b.bindPopup(popup_82edc7ca51187396c071e8b70097b088)
+        ;
+
+        
+    
+    
+            var poly_line_82235b6571510cde4a1021bc7ba55827 = L.polyline(
+                [[38.5449, -121.7405], [38.45741, -121.842767]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_82235b6571510cde4a1021bc7ba55827.bindTooltip(
+                `<div>
+                     8.19 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d0ea7fc70bd7aaa928e3bd4187d5ed23 = L.marker(
+                [38.4717151, -121.8198165],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_5b499cb5bed52ba0c4379866b7cfd5a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d0ea7fc70bd7aaa928e3bd4187d5ed23.setIcon(icon_5b499cb5bed52ba0c4379866b7cfd5a4);
+        
+    
+        var popup_d00d5070e993439e2e720c5fc2c2737e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f54aeb198c7ab1bd3ed72a06317f46 = $(`<div id="html_b4f54aeb198c7ab1bd3ed72a06317f46" style="width: 100.0%; height: 100.0%;">Subway in Davis (6.63 mi)</div>`)[0];
+                popup_d00d5070e993439e2e720c5fc2c2737e.setContent(html_b4f54aeb198c7ab1bd3ed72a06317f46);
+            
+        
+
+        marker_d0ea7fc70bd7aaa928e3bd4187d5ed23.bindPopup(popup_d00d5070e993439e2e720c5fc2c2737e)
+        ;
+
+        
+    
+    
+            var marker_d1be54836e9e16bc56d94d5acd2212dd = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_6ce45f7dcbb6fe8a8caf27d0d1a3c569 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d1be54836e9e16bc56d94d5acd2212dd.setIcon(icon_6ce45f7dcbb6fe8a8caf27d0d1a3c569);
+        
+    
+        var popup_bdbd17237591c594ea954734dc44829e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa5b68c4c84acda46a4cbeb0c40f6165 = $(`<div id="html_aa5b68c4c84acda46a4cbeb0c40f6165" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_bdbd17237591c594ea954734dc44829e.setContent(html_aa5b68c4c84acda46a4cbeb0c40f6165);
+            
+        
+
+        marker_d1be54836e9e16bc56d94d5acd2212dd.bindPopup(popup_bdbd17237591c594ea954734dc44829e)
+        ;
+
+        
+    
+    
+            var poly_line_7b363db17e405a31788f8127d49e1434 = L.polyline(
+                [[38.5449, -121.7405], [38.4717151, -121.8198165]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_7b363db17e405a31788f8127d49e1434.bindTooltip(
+                `<div>
+                     6.63 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_097645dde25d450c9436913d2fabbcca = L.marker(
+                [38.5616923, -121.7693918],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_86c03cfacb936dd854c9c2f622bb7ca5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_097645dde25d450c9436913d2fabbcca.setIcon(icon_86c03cfacb936dd854c9c2f622bb7ca5);
+        
+    
+        var popup_c8b2f7273b6c369932f0593ce371b592 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_581f2ddc846abd37243366a61540a1c5 = $(`<div id="html_581f2ddc846abd37243366a61540a1c5" style="width: 100.0%; height: 100.0%;">Subway in Davis (1.95 mi)</div>`)[0];
+                popup_c8b2f7273b6c369932f0593ce371b592.setContent(html_581f2ddc846abd37243366a61540a1c5);
+            
+        
+
+        marker_097645dde25d450c9436913d2fabbcca.bindPopup(popup_c8b2f7273b6c369932f0593ce371b592)
+        ;
+
+        
+    
+    
+            var marker_e3ac4b16420684acfaa83c1849370687 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_a2cff145d28da9bb5e105902ae67c49c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e3ac4b16420684acfaa83c1849370687.setIcon(icon_a2cff145d28da9bb5e105902ae67c49c);
+        
+    
+        var popup_04f6e47e3577c7c4cb330de68f7b91fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7819d0080a97e5359c2b530d4512eb23 = $(`<div id="html_7819d0080a97e5359c2b530d4512eb23" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_04f6e47e3577c7c4cb330de68f7b91fc.setContent(html_7819d0080a97e5359c2b530d4512eb23);
+            
+        
+
+        marker_e3ac4b16420684acfaa83c1849370687.bindPopup(popup_04f6e47e3577c7c4cb330de68f7b91fc)
+        ;
+
+        
+    
+    
+            var poly_line_1fd1110eda587e8d51565c490ca63df4 = L.polyline(
+                [[38.5449, -121.7405], [38.5616923, -121.7693918]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_1fd1110eda587e8d51565c490ca63df4.bindTooltip(
+                `<div>
+                     1.95 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_873f61fb9d763d53a72258959240c97a = L.marker(
+                [33.9401019, -83.4753332],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_71fe8b835dc9624d70d7c5b28f4cd4bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_873f61fb9d763d53a72258959240c97a.setIcon(icon_71fe8b835dc9624d70d7c5b28f4cd4bf);
+        
+    
+        var popup_74d1e03457463281638ec0e09e4a29dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e8d52467ae7266e87b4e48cddd9e533 = $(`<div id="html_1e8d52467ae7266e87b4e48cddd9e533" style="width: 100.0%; height: 100.0%;">Subway in Athens (5.86 mi)</div>`)[0];
+                popup_74d1e03457463281638ec0e09e4a29dd.setContent(html_1e8d52467ae7266e87b4e48cddd9e533);
+            
+        
+
+        marker_873f61fb9d763d53a72258959240c97a.bindPopup(popup_74d1e03457463281638ec0e09e4a29dd)
+        ;
+
+        
+    
+    
+            var marker_6876a060865840e427f5429f89ad1d1b = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            var icon_7a74fd7a373c57f27c8397b13b0ee76f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6876a060865840e427f5429f89ad1d1b.setIcon(icon_7a74fd7a373c57f27c8397b13b0ee76f);
+        
+    
+        var popup_ca9901f61063aea0e2951537d317477c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01da08f6ca273f369472e7ec9ab8093f = $(`<div id="html_01da08f6ca273f369472e7ec9ab8093f" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_ca9901f61063aea0e2951537d317477c.setContent(html_01da08f6ca273f369472e7ec9ab8093f);
+            
+        
+
+        marker_6876a060865840e427f5429f89ad1d1b.bindPopup(popup_ca9901f61063aea0e2951537d317477c)
+        ;
+
+        
+    
+    
+            var poly_line_5aa19271e48457cbbc6d29d6feedd771 = L.polyline(
+                [[33.95, -83.374], [33.9401019, -83.4753332]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_650f6c864a6e3aae2937bc5f8a03b89b);
+        
+    
+            poly_line_5aa19271e48457cbbc6d29d6feedd771.bindTooltip(
+                `<div>
+                     5.86 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

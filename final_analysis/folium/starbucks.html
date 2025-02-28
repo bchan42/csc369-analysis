@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2791b81eec21604f5a8f4285d4ff6f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b2791b81eec21604f5a8f4285d4ff6f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b2791b81eec21604f5a8f4285d4ff6f1 = L.map(
+                "map_b2791b81eec21604f5a8f4285d4ff6f1",
+                {
+                    center: [36.5, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2a21b06d063063145f97876fad695496 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2a21b06d063063145f97876fad695496.addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var marker_53f51c2df60c6c962cf2a3a44de613d0 = L.marker(
+                [35.2505, -120.642315],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_056d3172e740174e5d034cf88961c305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_53f51c2df60c6c962cf2a3a44de613d0.setIcon(icon_056d3172e740174e5d034cf88961c305);
+        
+    
+        var popup_0aeeedd3d7c78a77ec67928591fb3d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f24db25e69b595c313075af1e1a6209 = $(`<div id="html_4f24db25e69b595c313075af1e1a6209" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (3.62 mi)</div>`)[0];
+                popup_0aeeedd3d7c78a77ec67928591fb3d3a.setContent(html_4f24db25e69b595c313075af1e1a6209);
+            
+        
+
+        marker_53f51c2df60c6c962cf2a3a44de613d0.bindPopup(popup_0aeeedd3d7c78a77ec67928591fb3d3a)
+        ;
+
+        
+    
+    
+            var marker_c423988f359b1e218eff9fa48a5772a8 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_1b174b1e3072af37e50886bbfb1e4fcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c423988f359b1e218eff9fa48a5772a8.setIcon(icon_1b174b1e3072af37e50886bbfb1e4fcb);
+        
+    
+        var popup_b61eb37703f997c5e99c87a745f4d6cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9295dc9d3df6e5d5c795ad57eb1cd11c = $(`<div id="html_9295dc9d3df6e5d5c795ad57eb1cd11c" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_b61eb37703f997c5e99c87a745f4d6cc.setContent(html_9295dc9d3df6e5d5c795ad57eb1cd11c);
+            
+        
+
+        marker_c423988f359b1e218eff9fa48a5772a8.bindPopup(popup_b61eb37703f997c5e99c87a745f4d6cc)
+        ;
+
+        
+    
+    
+            var poly_line_1e41a445ad45882cd8ed0b8012e1cb9c = L.polyline(
+                [[35.3004, -120.6625], [35.2505, -120.642315]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_1e41a445ad45882cd8ed0b8012e1cb9c.bindTooltip(
+                `<div>
+                     3.62 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3235b4f7d17a715b4db8685161741183 = L.marker(
+                [35.249171, -120.643033],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_ef84ef6b62846939c415cb1101c496ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3235b4f7d17a715b4db8685161741183.setIcon(icon_ef84ef6b62846939c415cb1101c496ce);
+        
+    
+        var popup_ac0c0ff5f87b9494d3a84327e6b03eea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b8d5b58065f34a7d4a5edf96331ef3a = $(`<div id="html_0b8d5b58065f34a7d4a5edf96331ef3a" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (3.70 mi)</div>`)[0];
+                popup_ac0c0ff5f87b9494d3a84327e6b03eea.setContent(html_0b8d5b58065f34a7d4a5edf96331ef3a);
+            
+        
+
+        marker_3235b4f7d17a715b4db8685161741183.bindPopup(popup_ac0c0ff5f87b9494d3a84327e6b03eea)
+        ;
+
+        
+    
+    
+            var marker_abb0a444451be97bbed70820f21af982 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_426bc14f4aad5211293c5e8636981ef5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_abb0a444451be97bbed70820f21af982.setIcon(icon_426bc14f4aad5211293c5e8636981ef5);
+        
+    
+        var popup_3a912ac868e7149c3db36088da30cfcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d94437a82ed6522fada135dfa0f21cc3 = $(`<div id="html_d94437a82ed6522fada135dfa0f21cc3" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_3a912ac868e7149c3db36088da30cfcc.setContent(html_d94437a82ed6522fada135dfa0f21cc3);
+            
+        
+
+        marker_abb0a444451be97bbed70820f21af982.bindPopup(popup_3a912ac868e7149c3db36088da30cfcc)
+        ;
+
+        
+    
+    
+            var poly_line_3db1f123597938aa8cc58bac5fe8a6ca = L.polyline(
+                [[35.3004, -120.6625], [35.249171, -120.643033]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_3db1f123597938aa8cc58bac5fe8a6ca.bindTooltip(
+                `<div>
+                     3.70 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fcddf03b025561b17cfa08fc0621985a = L.marker(
+                [35.3001765, -120.6587601],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_95eadadf47aaf5aa27839b217f9ebd35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fcddf03b025561b17cfa08fc0621985a.setIcon(icon_95eadadf47aaf5aa27839b217f9ebd35);
+        
+    
+        var popup_540a14c3a7338eb5ddfaa64eed914163 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c977f191fcaba8f1b8f84451e77d452 = $(`<div id="html_8c977f191fcaba8f1b8f84451e77d452" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (0.21 mi)</div>`)[0];
+                popup_540a14c3a7338eb5ddfaa64eed914163.setContent(html_8c977f191fcaba8f1b8f84451e77d452);
+            
+        
+
+        marker_fcddf03b025561b17cfa08fc0621985a.bindPopup(popup_540a14c3a7338eb5ddfaa64eed914163)
+        ;
+
+        
+    
+    
+            var marker_b62e62a6b327e54918f3ad48704b9c91 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_f01aa937888fb71d5eab84d90183343f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b62e62a6b327e54918f3ad48704b9c91.setIcon(icon_f01aa937888fb71d5eab84d90183343f);
+        
+    
+        var popup_5f97020b54fa569df8f1e47f3b2bc16d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fe415024ec39b55bba6b6ae8e950a35 = $(`<div id="html_9fe415024ec39b55bba6b6ae8e950a35" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_5f97020b54fa569df8f1e47f3b2bc16d.setContent(html_9fe415024ec39b55bba6b6ae8e950a35);
+            
+        
+
+        marker_b62e62a6b327e54918f3ad48704b9c91.bindPopup(popup_5f97020b54fa569df8f1e47f3b2bc16d)
+        ;
+
+        
+    
+    
+            var poly_line_eb1d42a273bc5ba38cb56997891bbec9 = L.polyline(
+                [[35.3004, -120.6625], [35.3001765, -120.6587601]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_eb1d42a273bc5ba38cb56997891bbec9.bindTooltip(
+                `<div>
+                     0.21 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b66c589dbd7afb0090de0479300d7464 = L.marker(
+                [35.2937201, -120.670955],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_e5682d3e40538d1e48ee471a0cab9a21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b66c589dbd7afb0090de0479300d7464.setIcon(icon_e5682d3e40538d1e48ee471a0cab9a21);
+        
+    
+        var popup_3c90da97e003cbe41811144d58d88ff6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b755dfe1e5522130b7dc0a8e8d3ec81e = $(`<div id="html_b755dfe1e5522130b7dc0a8e8d3ec81e" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (0.66 mi)</div>`)[0];
+                popup_3c90da97e003cbe41811144d58d88ff6.setContent(html_b755dfe1e5522130b7dc0a8e8d3ec81e);
+            
+        
+
+        marker_b66c589dbd7afb0090de0479300d7464.bindPopup(popup_3c90da97e003cbe41811144d58d88ff6)
+        ;
+
+        
+    
+    
+            var marker_4962409dfe09469819b7ddea75659dde = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_ab8f42f0b180ef3a36fb6679681acc72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4962409dfe09469819b7ddea75659dde.setIcon(icon_ab8f42f0b180ef3a36fb6679681acc72);
+        
+    
+        var popup_47b4f46b9bc4cad9d5b8ca21219afc36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96e14054da5a68e08fd3c821c696e86d = $(`<div id="html_96e14054da5a68e08fd3c821c696e86d" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_47b4f46b9bc4cad9d5b8ca21219afc36.setContent(html_96e14054da5a68e08fd3c821c696e86d);
+            
+        
+
+        marker_4962409dfe09469819b7ddea75659dde.bindPopup(popup_47b4f46b9bc4cad9d5b8ca21219afc36)
+        ;
+
+        
+    
+    
+            var poly_line_065706125c0d04837d4ca605814b4e71 = L.polyline(
+                [[35.3004, -120.6625], [35.2937201, -120.670955]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_065706125c0d04837d4ca605814b4e71.bindTooltip(
+                `<div>
+                     0.66 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_79e2782402e84cc09d8c99e59cd2f9e5 = L.marker(
+                [35.281795, -120.655646],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_d585fb01f97309cd00d4f4d4ef368c24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79e2782402e84cc09d8c99e59cd2f9e5.setIcon(icon_d585fb01f97309cd00d4f4d4ef368c24);
+        
+    
+        var popup_f8699154eb62e04c0f1913021de9c3eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8643bb2cf6d6a6ef644273615be6dbf3 = $(`<div id="html_8643bb2cf6d6a6ef644273615be6dbf3" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (1.34 mi)</div>`)[0];
+                popup_f8699154eb62e04c0f1913021de9c3eb.setContent(html_8643bb2cf6d6a6ef644273615be6dbf3);
+            
+        
+
+        marker_79e2782402e84cc09d8c99e59cd2f9e5.bindPopup(popup_f8699154eb62e04c0f1913021de9c3eb)
+        ;
+
+        
+    
+    
+            var marker_277b839fc9405983825907a49c58279f = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_997534662f4a60f28a5d043131c4aa7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_277b839fc9405983825907a49c58279f.setIcon(icon_997534662f4a60f28a5d043131c4aa7f);
+        
+    
+        var popup_546638ee109403ddfc8bee854f66d29a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb623bd7decb40334e85f68f56071cf1 = $(`<div id="html_bb623bd7decb40334e85f68f56071cf1" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_546638ee109403ddfc8bee854f66d29a.setContent(html_bb623bd7decb40334e85f68f56071cf1);
+            
+        
+
+        marker_277b839fc9405983825907a49c58279f.bindPopup(popup_546638ee109403ddfc8bee854f66d29a)
+        ;
+
+        
+    
+    
+            var poly_line_a621fbcbb3abf7ac51485a07de410bb7 = L.polyline(
+                [[35.3004, -120.6625], [35.281795, -120.655646]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_a621fbcbb3abf7ac51485a07de410bb7.bindTooltip(
+                `<div>
+                     1.34 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a867bc42196d4b59f9adb73d4508127 = L.marker(
+                [35.2631802, -120.6766176],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_73e7bfca119610f75664fe1b50fe124a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a867bc42196d4b59f9adb73d4508127.setIcon(icon_73e7bfca119610f75664fe1b50fe124a);
+        
+    
+        var popup_dc0eac66e1c66ea25706931d61bbe63a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eee942747303e34cb8094f579ebcc7d8 = $(`<div id="html_eee942747303e34cb8094f579ebcc7d8" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (2.69 mi)</div>`)[0];
+                popup_dc0eac66e1c66ea25706931d61bbe63a.setContent(html_eee942747303e34cb8094f579ebcc7d8);
+            
+        
+
+        marker_5a867bc42196d4b59f9adb73d4508127.bindPopup(popup_dc0eac66e1c66ea25706931d61bbe63a)
+        ;
+
+        
+    
+    
+            var marker_bf8279525da7bace6546c43506a02ca8 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_d9b866d77ab55385366968640a4d59f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf8279525da7bace6546c43506a02ca8.setIcon(icon_d9b866d77ab55385366968640a4d59f7);
+        
+    
+        var popup_7c672154ee830ebc233a3994487c7496 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a201ccedcbc18111c373c1e3911bba7 = $(`<div id="html_2a201ccedcbc18111c373c1e3911bba7" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_7c672154ee830ebc233a3994487c7496.setContent(html_2a201ccedcbc18111c373c1e3911bba7);
+            
+        
+
+        marker_bf8279525da7bace6546c43506a02ca8.bindPopup(popup_7c672154ee830ebc233a3994487c7496)
+        ;
+
+        
+    
+    
+            var poly_line_039eeee94f3d6f210e970ce15058400f = L.polyline(
+                [[35.3004, -120.6625], [35.2631802, -120.6766176]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_039eeee94f3d6f210e970ce15058400f.bindTooltip(
+                `<div>
+                     2.69 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40b09890c03c02f2d620475a9a635be8 = L.marker(
+                [35.3033415, -120.662752],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_126e3851f28d21712ddac0ed732b46ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_40b09890c03c02f2d620475a9a635be8.setIcon(icon_126e3851f28d21712ddac0ed732b46ff);
+        
+    
+        var popup_94a54e56f2518950fc58ce9e9ea86bc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_064a95bbbdb05cd290b274f0abcb9c5c = $(`<div id="html_064a95bbbdb05cd290b274f0abcb9c5c" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (0.20 mi)</div>`)[0];
+                popup_94a54e56f2518950fc58ce9e9ea86bc9.setContent(html_064a95bbbdb05cd290b274f0abcb9c5c);
+            
+        
+
+        marker_40b09890c03c02f2d620475a9a635be8.bindPopup(popup_94a54e56f2518950fc58ce9e9ea86bc9)
+        ;
+
+        
+    
+    
+            var marker_17ad1c4afc98711ae1b1165847dd4cdd = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_c62b6a22139f42e7a0d457dab28aab6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17ad1c4afc98711ae1b1165847dd4cdd.setIcon(icon_c62b6a22139f42e7a0d457dab28aab6f);
+        
+    
+        var popup_c1e08e09adf6c6ed632495721a7c84d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_289a5a66c798abdec56430f0928175d7 = $(`<div id="html_289a5a66c798abdec56430f0928175d7" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_c1e08e09adf6c6ed632495721a7c84d5.setContent(html_289a5a66c798abdec56430f0928175d7);
+            
+        
+
+        marker_17ad1c4afc98711ae1b1165847dd4cdd.bindPopup(popup_c1e08e09adf6c6ed632495721a7c84d5)
+        ;
+
+        
+    
+    
+            var poly_line_a862d34481853005751ebf6b021fbcb1 = L.polyline(
+                [[35.3004, -120.6625], [35.3033415, -120.662752]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_a862d34481853005751ebf6b021fbcb1.bindTooltip(
+                `<div>
+                     0.20 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a9bad8527347e56d1eff5a3f99034ea = L.marker(
+                [35.2523345, -120.685053],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_9ce92da5cfefe219a8741df36a730d76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4a9bad8527347e56d1eff5a3f99034ea.setIcon(icon_9ce92da5cfefe219a8741df36a730d76);
+        
+    
+        var popup_d60b77e8aea2bb2e32ede9d384eeac01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd40e7dc2c7b6301062902f5b51fd13d = $(`<div id="html_fd40e7dc2c7b6301062902f5b51fd13d" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (3.55 mi)</div>`)[0];
+                popup_d60b77e8aea2bb2e32ede9d384eeac01.setContent(html_fd40e7dc2c7b6301062902f5b51fd13d);
+            
+        
+
+        marker_4a9bad8527347e56d1eff5a3f99034ea.bindPopup(popup_d60b77e8aea2bb2e32ede9d384eeac01)
+        ;
+
+        
+    
+    
+            var marker_e2e2e57e1f3d14ffdbbf3ad85b7dd8c1 = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_bdc57d72fe70a768cc23a3e824a20d3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2e2e57e1f3d14ffdbbf3ad85b7dd8c1.setIcon(icon_bdc57d72fe70a768cc23a3e824a20d3a);
+        
+    
+        var popup_ba379754ed64a2a0553fd60fda1f7057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4e1d10a69d376b37254a37895313345 = $(`<div id="html_d4e1d10a69d376b37254a37895313345" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_ba379754ed64a2a0553fd60fda1f7057.setContent(html_d4e1d10a69d376b37254a37895313345);
+            
+        
+
+        marker_e2e2e57e1f3d14ffdbbf3ad85b7dd8c1.bindPopup(popup_ba379754ed64a2a0553fd60fda1f7057)
+        ;
+
+        
+    
+    
+            var poly_line_11ba2cc165d0ea2e5a8f639b67ca54b0 = L.polyline(
+                [[35.3004, -120.6625], [35.2523345, -120.685053]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_11ba2cc165d0ea2e5a8f639b67ca54b0.bindTooltip(
+                `<div>
+                     3.55 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f1244054810bfe24c0563458f7fcba6 = L.marker(
+                [35.2704023, -120.6566482],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_b446de5991317604989fe2cca5a3a3e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f1244054810bfe24c0563458f7fcba6.setIcon(icon_b446de5991317604989fe2cca5a3a3e5);
+        
+    
+        var popup_1f2a52a07cd5a7b8a596ae5c34bc7ca9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e7e67b4a5d736445eeca113727a5644 = $(`<div id="html_0e7e67b4a5d736445eeca113727a5644" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (2.09 mi)</div>`)[0];
+                popup_1f2a52a07cd5a7b8a596ae5c34bc7ca9.setContent(html_0e7e67b4a5d736445eeca113727a5644);
+            
+        
+
+        marker_7f1244054810bfe24c0563458f7fcba6.bindPopup(popup_1f2a52a07cd5a7b8a596ae5c34bc7ca9)
+        ;
+
+        
+    
+    
+            var marker_bfd85585af31dd7f3cccdfcb2e558e7b = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_819edfdbf2964542961e16cefe22e07c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bfd85585af31dd7f3cccdfcb2e558e7b.setIcon(icon_819edfdbf2964542961e16cefe22e07c);
+        
+    
+        var popup_93e547774c21d1880d547a0c56dbfd7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3525a7147b6616157b67129cb57a7fa7 = $(`<div id="html_3525a7147b6616157b67129cb57a7fa7" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_93e547774c21d1880d547a0c56dbfd7f.setContent(html_3525a7147b6616157b67129cb57a7fa7);
+            
+        
+
+        marker_bfd85585af31dd7f3cccdfcb2e558e7b.bindPopup(popup_93e547774c21d1880d547a0c56dbfd7f)
+        ;
+
+        
+    
+    
+            var poly_line_e9ebb7b1a1f14ba90bb7ae3ae6dfe1ee = L.polyline(
+                [[35.3004, -120.6625], [35.2704023, -120.6566482]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_e9ebb7b1a1f14ba90bb7ae3ae6dfe1ee.bindTooltip(
+                `<div>
+                     2.09 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d2649c268fd64ae83edac4a2c7755eae = L.marker(
+                [35.2808792, -120.6614347],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_0e7a416652cf6e1fa04919ef01ea61f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d2649c268fd64ae83edac4a2c7755eae.setIcon(icon_0e7a416652cf6e1fa04919ef01ea61f3);
+        
+    
+        var popup_f8777bde33fe8d84ed7d8e334b8494cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8dd2b5253e59c029eb19864a9da6211 = $(`<div id="html_b8dd2b5253e59c029eb19864a9da6211" style="width: 100.0%; height: 100.0%;">Starbucks in San Luis Obispo (1.35 mi)</div>`)[0];
+                popup_f8777bde33fe8d84ed7d8e334b8494cc.setContent(html_b8dd2b5253e59c029eb19864a9da6211);
+            
+        
+
+        marker_d2649c268fd64ae83edac4a2c7755eae.bindPopup(popup_f8777bde33fe8d84ed7d8e334b8494cc)
+        ;
+
+        
+    
+    
+            var marker_4e31266b2be69fccbb030790c24301af = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_880fd3658e72499f0045229390a6892f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4e31266b2be69fccbb030790c24301af.setIcon(icon_880fd3658e72499f0045229390a6892f);
+        
+    
+        var popup_1b98bf137ea24eb4edb65f2f252fad93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7a36c2373ebbda2bac7bb666e653761 = $(`<div id="html_d7a36c2373ebbda2bac7bb666e653761" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_1b98bf137ea24eb4edb65f2f252fad93.setContent(html_d7a36c2373ebbda2bac7bb666e653761);
+            
+        
+
+        marker_4e31266b2be69fccbb030790c24301af.bindPopup(popup_1b98bf137ea24eb4edb65f2f252fad93)
+        ;
+
+        
+    
+    
+            var poly_line_624f0e8042044fc95224f0348afb4673 = L.polyline(
+                [[35.3004, -120.6625], [35.2808792, -120.6614347]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_624f0e8042044fc95224f0348afb4673.bindTooltip(
+                `<div>
+                     1.35 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_01bc5f54299f7d3dabc1433c746ff496 = L.marker(
+                [38.5501286, -121.6947587],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_eeea6c5d47d79498b0985130f2513f73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_01bc5f54299f7d3dabc1433c746ff496.setIcon(icon_eeea6c5d47d79498b0985130f2513f73);
+        
+    
+        var popup_72f327fb387cdc53d5b249bdd174aaac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d75568e3dd54c8cf10d68abb96f8eb1 = $(`<div id="html_1d75568e3dd54c8cf10d68abb96f8eb1" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (2.50 mi)</div>`)[0];
+                popup_72f327fb387cdc53d5b249bdd174aaac.setContent(html_1d75568e3dd54c8cf10d68abb96f8eb1);
+            
+        
+
+        marker_01bc5f54299f7d3dabc1433c746ff496.bindPopup(popup_72f327fb387cdc53d5b249bdd174aaac)
+        ;
+
+        
+    
+    
+            var marker_944325fd1e531bbcdc8a61a0f367a617 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_f14bc0f4729ef9e53e25be66e8427ca8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_944325fd1e531bbcdc8a61a0f367a617.setIcon(icon_f14bc0f4729ef9e53e25be66e8427ca8);
+        
+    
+        var popup_416f594c2647c0dde59cfe4ee388337c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ec6f57c65841421acd0141cbf38da39 = $(`<div id="html_5ec6f57c65841421acd0141cbf38da39" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_416f594c2647c0dde59cfe4ee388337c.setContent(html_5ec6f57c65841421acd0141cbf38da39);
+            
+        
+
+        marker_944325fd1e531bbcdc8a61a0f367a617.bindPopup(popup_416f594c2647c0dde59cfe4ee388337c)
+        ;
+
+        
+    
+    
+            var poly_line_056b8123e2f7b6ab8456a949ebe2507b = L.polyline(
+                [[38.5449, -121.7405], [38.5501286, -121.6947587]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_056b8123e2f7b6ab8456a949ebe2507b.bindTooltip(
+                `<div>
+                     2.50 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d100d1b4f148a3bfb1f16d64742f3aa9 = L.marker(
+                [38.547152, -121.7604299],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_077f6bbb401872c3ad72a55e6c450e21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d100d1b4f148a3bfb1f16d64742f3aa9.setIcon(icon_077f6bbb401872c3ad72a55e6c450e21);
+        
+    
+        var popup_2e42dbed7498a39a5bb46e3422bc3266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55f7cae0e131d0b8b6e80f3e023d142d = $(`<div id="html_55f7cae0e131d0b8b6e80f3e023d142d" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (1.09 mi)</div>`)[0];
+                popup_2e42dbed7498a39a5bb46e3422bc3266.setContent(html_55f7cae0e131d0b8b6e80f3e023d142d);
+            
+        
+
+        marker_d100d1b4f148a3bfb1f16d64742f3aa9.bindPopup(popup_2e42dbed7498a39a5bb46e3422bc3266)
+        ;
+
+        
+    
+    
+            var marker_9192b44911773282dd5b46fe337c7f5c = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_94ed34657effe4b5f923209dab59a602 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9192b44911773282dd5b46fe337c7f5c.setIcon(icon_94ed34657effe4b5f923209dab59a602);
+        
+    
+        var popup_4fd006d1ef3780a39eea0cc5d11cb361 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c1fa93da9cb54a1896777306f53a9de = $(`<div id="html_7c1fa93da9cb54a1896777306f53a9de" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_4fd006d1ef3780a39eea0cc5d11cb361.setContent(html_7c1fa93da9cb54a1896777306f53a9de);
+            
+        
+
+        marker_9192b44911773282dd5b46fe337c7f5c.bindPopup(popup_4fd006d1ef3780a39eea0cc5d11cb361)
+        ;
+
+        
+    
+    
+            var poly_line_a91d251c1bc6175573898f8d9acba586 = L.polyline(
+                [[38.5449, -121.7405], [38.547152, -121.7604299]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_a91d251c1bc6175573898f8d9acba586.bindTooltip(
+                `<div>
+                     1.09 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_945778fe279ec8fd7e362d5889a9d6ce = L.marker(
+                [38.562568, -121.768905],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_61802da5e2dfffb4eb323cdbdf349ad7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_945778fe279ec8fd7e362d5889a9d6ce.setIcon(icon_61802da5e2dfffb4eb323cdbdf349ad7);
+        
+    
+        var popup_96c6d4afe9b3fa4289b072443382bf93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c49f2b6fbaf7efa37e2f67182e7ce910 = $(`<div id="html_c49f2b6fbaf7efa37e2f67182e7ce910" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (1.96 mi)</div>`)[0];
+                popup_96c6d4afe9b3fa4289b072443382bf93.setContent(html_c49f2b6fbaf7efa37e2f67182e7ce910);
+            
+        
+
+        marker_945778fe279ec8fd7e362d5889a9d6ce.bindPopup(popup_96c6d4afe9b3fa4289b072443382bf93)
+        ;
+
+        
+    
+    
+            var marker_2344034a858bc7211d597246184d56f5 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_e56e32cf4dee2c7b85b91434e0b2eab5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2344034a858bc7211d597246184d56f5.setIcon(icon_e56e32cf4dee2c7b85b91434e0b2eab5);
+        
+    
+        var popup_0dc084f041927bdcad36528971fb479f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3ecdcdfcc9bcbaa647bea1029e6d547 = $(`<div id="html_b3ecdcdfcc9bcbaa647bea1029e6d547" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_0dc084f041927bdcad36528971fb479f.setContent(html_b3ecdcdfcc9bcbaa647bea1029e6d547);
+            
+        
+
+        marker_2344034a858bc7211d597246184d56f5.bindPopup(popup_0dc084f041927bdcad36528971fb479f)
+        ;
+
+        
+    
+    
+            var poly_line_40ae80f0b49cef2fe9e6f56e6fd137d9 = L.polyline(
+                [[38.5449, -121.7405], [38.562568, -121.768905]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_40ae80f0b49cef2fe9e6f56e6fd137d9.bindTooltip(
+                `<div>
+                     1.96 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de707a241ec7658cc177f28b2096616a = L.marker(
+                [38.5413483, -121.725188],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_86b68b71f30eaab04e9f30c6552284a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de707a241ec7658cc177f28b2096616a.setIcon(icon_86b68b71f30eaab04e9f30c6552284a6);
+        
+    
+        var popup_ceaa5799254187bc9bbdea772e76e8ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3235331c863ef8c0707e64934fe7c637 = $(`<div id="html_3235331c863ef8c0707e64934fe7c637" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (0.86 mi)</div>`)[0];
+                popup_ceaa5799254187bc9bbdea772e76e8ad.setContent(html_3235331c863ef8c0707e64934fe7c637);
+            
+        
+
+        marker_de707a241ec7658cc177f28b2096616a.bindPopup(popup_ceaa5799254187bc9bbdea772e76e8ad)
+        ;
+
+        
+    
+    
+            var marker_371ddcbcb49775a3ee3c1c3148ce39ef = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_6eca7b88d181e2a411f540b378fb75ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_371ddcbcb49775a3ee3c1c3148ce39ef.setIcon(icon_6eca7b88d181e2a411f540b378fb75ff);
+        
+    
+        var popup_4e68f6f1e4bde5b382a2c5aca68be48d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f7d6fb080468979390940429430f55 = $(`<div id="html_44f7d6fb080468979390940429430f55" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_4e68f6f1e4bde5b382a2c5aca68be48d.setContent(html_44f7d6fb080468979390940429430f55);
+            
+        
+
+        marker_371ddcbcb49775a3ee3c1c3148ce39ef.bindPopup(popup_4e68f6f1e4bde5b382a2c5aca68be48d)
+        ;
+
+        
+    
+    
+            var poly_line_118216a8b1a029f39ae31ed2404b0236 = L.polyline(
+                [[38.5449, -121.7405], [38.5413483, -121.725188]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_118216a8b1a029f39ae31ed2404b0236.bindTooltip(
+                `<div>
+                     0.86 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d878d7980c59df5cbffa777695981879 = L.marker(
+                [38.4571518, -121.839145],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_7c9a95857e30413912ce8af495a3b1fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d878d7980c59df5cbffa777695981879.setIcon(icon_7c9a95857e30413912ce8af495a3b1fb);
+        
+    
+        var popup_87572ae3997f7d20d08b33c780461f5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9b4574af61e33156a29a268546d7259 = $(`<div id="html_b9b4574af61e33156a29a268546d7259" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (8.08 mi)</div>`)[0];
+                popup_87572ae3997f7d20d08b33c780461f5b.setContent(html_b9b4574af61e33156a29a268546d7259);
+            
+        
+
+        marker_d878d7980c59df5cbffa777695981879.bindPopup(popup_87572ae3997f7d20d08b33c780461f5b)
+        ;
+
+        
+    
+    
+            var marker_5e3bf6692a5d0cb95885ab2acf6ca153 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_1aa9f3a5d75e596d7f87b0823341dcfd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e3bf6692a5d0cb95885ab2acf6ca153.setIcon(icon_1aa9f3a5d75e596d7f87b0823341dcfd);
+        
+    
+        var popup_6df9bdbe57ecaa6b1ac7f970b1a2562d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d74a792f31c832e54a3d62e8bffc9e8e = $(`<div id="html_d74a792f31c832e54a3d62e8bffc9e8e" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_6df9bdbe57ecaa6b1ac7f970b1a2562d.setContent(html_d74a792f31c832e54a3d62e8bffc9e8e);
+            
+        
+
+        marker_5e3bf6692a5d0cb95885ab2acf6ca153.bindPopup(popup_6df9bdbe57ecaa6b1ac7f970b1a2562d)
+        ;
+
+        
+    
+    
+            var poly_line_4f31b3cdc68cc4ed64e99591146adbdf = L.polyline(
+                [[38.5449, -121.7405], [38.4571518, -121.839145]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_4f31b3cdc68cc4ed64e99591146adbdf.bindTooltip(
+                `<div>
+                     8.08 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_839d137c411f498857c95fdb7dd52367 = L.marker(
+                [38.456977, -121.8433959],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_4e11cfc485ae27e999ce5c2e7dc2add2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_839d137c411f498857c95fdb7dd52367.setIcon(icon_4e11cfc485ae27e999ce5c2e7dc2add2);
+        
+    
+        var popup_7149899f10bdcd60a4c43e8845204d3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0e4d531b5110bfc8a3f787a6faa7603 = $(`<div id="html_f0e4d531b5110bfc8a3f787a6faa7603" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (8.24 mi)</div>`)[0];
+                popup_7149899f10bdcd60a4c43e8845204d3f.setContent(html_f0e4d531b5110bfc8a3f787a6faa7603);
+            
+        
+
+        marker_839d137c411f498857c95fdb7dd52367.bindPopup(popup_7149899f10bdcd60a4c43e8845204d3f)
+        ;
+
+        
+    
+    
+            var marker_bcd1b6abb79009e08e745456566d949f = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_57b5a49ebe8eb5beab00ab16ab07ce60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bcd1b6abb79009e08e745456566d949f.setIcon(icon_57b5a49ebe8eb5beab00ab16ab07ce60);
+        
+    
+        var popup_5fc2cf9b77e08f6c7718df2d40f7fe8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6e33c2568624273dc4e135ebee8cc0b = $(`<div id="html_b6e33c2568624273dc4e135ebee8cc0b" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_5fc2cf9b77e08f6c7718df2d40f7fe8e.setContent(html_b6e33c2568624273dc4e135ebee8cc0b);
+            
+        
+
+        marker_bcd1b6abb79009e08e745456566d949f.bindPopup(popup_5fc2cf9b77e08f6c7718df2d40f7fe8e)
+        ;
+
+        
+    
+    
+            var poly_line_7bab6d715c4598e42da8df9ef766409a = L.polyline(
+                [[38.5449, -121.7405], [38.456977, -121.8433959]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_7bab6d715c4598e42da8df9ef766409a.bindTooltip(
+                `<div>
+                     8.24 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b93dfff61a87600f95a5d9c5b8fd957 = L.marker(
+                [38.5435347, -121.740234],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_3e08771144ea0f507ee9343f98537ea5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b93dfff61a87600f95a5d9c5b8fd957.setIcon(icon_3e08771144ea0f507ee9343f98537ea5);
+        
+    
+        var popup_63151bb484918d9dccb7eaa0c55ca0d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_685e54f7b75d2e08cfba9aec9d09d305 = $(`<div id="html_685e54f7b75d2e08cfba9aec9d09d305" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (0.10 mi)</div>`)[0];
+                popup_63151bb484918d9dccb7eaa0c55ca0d9.setContent(html_685e54f7b75d2e08cfba9aec9d09d305);
+            
+        
+
+        marker_5b93dfff61a87600f95a5d9c5b8fd957.bindPopup(popup_63151bb484918d9dccb7eaa0c55ca0d9)
+        ;
+
+        
+    
+    
+            var marker_24d21bc5d11098988d993a86ea2fd200 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_f2163cb70eec6e8efe942c39d200fd7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_24d21bc5d11098988d993a86ea2fd200.setIcon(icon_f2163cb70eec6e8efe942c39d200fd7c);
+        
+    
+        var popup_c14760c140009dd872514e8797ac7e0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f406f81444fbf200ef73618be753c2d9 = $(`<div id="html_f406f81444fbf200ef73618be753c2d9" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_c14760c140009dd872514e8797ac7e0e.setContent(html_f406f81444fbf200ef73618be753c2d9);
+            
+        
+
+        marker_24d21bc5d11098988d993a86ea2fd200.bindPopup(popup_c14760c140009dd872514e8797ac7e0e)
+        ;
+
+        
+    
+    
+            var poly_line_a534261ecb7072dd58cdb76951ccb389 = L.polyline(
+                [[38.5449, -121.7405], [38.5435347, -121.740234]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_a534261ecb7072dd58cdb76951ccb389.bindTooltip(
+                `<div>
+                     0.10 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbf74b8cc28ae3d10557b340c578fe74 = L.marker(
+                [38.4688858, -121.8218721],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_1742c2e3d6368b2c9584e37257d0c89a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dbf74b8cc28ae3d10557b340c578fe74.setIcon(icon_1742c2e3d6368b2c9584e37257d0c89a);
+        
+    
+        var popup_320aeed89ac70d462685ba65d8509c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_088025e742aaecc68ff11b43c2b8c5e4 = $(`<div id="html_088025e742aaecc68ff11b43c2b8c5e4" style="width: 100.0%; height: 100.0%;">Starbucks in Davis (6.85 mi)</div>`)[0];
+                popup_320aeed89ac70d462685ba65d8509c05.setContent(html_088025e742aaecc68ff11b43c2b8c5e4);
+            
+        
+
+        marker_dbf74b8cc28ae3d10557b340c578fe74.bindPopup(popup_320aeed89ac70d462685ba65d8509c05)
+        ;
+
+        
+    
+    
+            var marker_74f9aaed28d197f34f592cf50ef84932 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_18cb1193aedef29a13979914601c9122 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_74f9aaed28d197f34f592cf50ef84932.setIcon(icon_18cb1193aedef29a13979914601c9122);
+        
+    
+        var popup_e8c453c313336a433d75e938df0051c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d2881154ebdbb48f1197d133db6a2c9 = $(`<div id="html_6d2881154ebdbb48f1197d133db6a2c9" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_e8c453c313336a433d75e938df0051c6.setContent(html_6d2881154ebdbb48f1197d133db6a2c9);
+            
+        
+
+        marker_74f9aaed28d197f34f592cf50ef84932.bindPopup(popup_e8c453c313336a433d75e938df0051c6)
+        ;
+
+        
+    
+    
+            var poly_line_15667a8c21c9580221aa0afead20ef1c = L.polyline(
+                [[38.5449, -121.7405], [38.4688858, -121.8218721]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_15667a8c21c9580221aa0afead20ef1c.bindTooltip(
+                `<div>
+                     6.85 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5e11739cf4cbc235b95a45dcc642d7e = L.marker(
+                [33.9157875, -83.446578],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_ad845070bb3bfdca963c163a18a8e745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c5e11739cf4cbc235b95a45dcc642d7e.setIcon(icon_ad845070bb3bfdca963c163a18a8e745);
+        
+    
+        var popup_85acbf0eee6de36a5c703013e9d86e91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a18bac4f338ab100b87a949234947297 = $(`<div id="html_a18bac4f338ab100b87a949234947297" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (4.79 mi)</div>`)[0];
+                popup_85acbf0eee6de36a5c703013e9d86e91.setContent(html_a18bac4f338ab100b87a949234947297);
+            
+        
+
+        marker_c5e11739cf4cbc235b95a45dcc642d7e.bindPopup(popup_85acbf0eee6de36a5c703013e9d86e91)
+        ;
+
+        
+    
+    
+            var marker_a89dc732e64140ec10501a91c0e1f1d8 = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_26519156d0faafe10e1783758adf8e4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a89dc732e64140ec10501a91c0e1f1d8.setIcon(icon_26519156d0faafe10e1783758adf8e4a);
+        
+    
+        var popup_6bbfd2b937164320bd136db6c407e5a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c960899c11b90187259b8aab7c8c1ce = $(`<div id="html_0c960899c11b90187259b8aab7c8c1ce" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_6bbfd2b937164320bd136db6c407e5a6.setContent(html_0c960899c11b90187259b8aab7c8c1ce);
+            
+        
+
+        marker_a89dc732e64140ec10501a91c0e1f1d8.bindPopup(popup_6bbfd2b937164320bd136db6c407e5a6)
+        ;
+
+        
+    
+    
+            var poly_line_f2be165f7d9754938241e7b16cb8cb70 = L.polyline(
+                [[33.95, -83.374], [33.9157875, -83.446578]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_f2be165f7d9754938241e7b16cb8cb70.bindTooltip(
+                `<div>
+                     4.79 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b574002d28f8bd3bb2f6820b19281217 = L.marker(
+                [33.9461244, -83.4093752],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_1c23b7e30911e47f9401291123a30581 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b574002d28f8bd3bb2f6820b19281217.setIcon(icon_1c23b7e30911e47f9401291123a30581);
+        
+    
+        var popup_834a8d543ab8b51fb12e174bf82ab769 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b58047da5ba1a76a6910e30aa67278 = $(`<div id="html_23b58047da5ba1a76a6910e30aa67278" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (2.05 mi)</div>`)[0];
+                popup_834a8d543ab8b51fb12e174bf82ab769.setContent(html_23b58047da5ba1a76a6910e30aa67278);
+            
+        
+
+        marker_b574002d28f8bd3bb2f6820b19281217.bindPopup(popup_834a8d543ab8b51fb12e174bf82ab769)
+        ;
+
+        
+    
+    
+            var marker_f66f49cde076399bef62d5f77dec80f2 = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_34592aecb27ff9b9e67f44a7f93bdcc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f66f49cde076399bef62d5f77dec80f2.setIcon(icon_34592aecb27ff9b9e67f44a7f93bdcc7);
+        
+    
+        var popup_0804fb032ab0b8431c5e73143d73c2b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8598aceec0ecf00c22865e62f157e3f = $(`<div id="html_d8598aceec0ecf00c22865e62f157e3f" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_0804fb032ab0b8431c5e73143d73c2b8.setContent(html_d8598aceec0ecf00c22865e62f157e3f);
+            
+        
+
+        marker_f66f49cde076399bef62d5f77dec80f2.bindPopup(popup_0804fb032ab0b8431c5e73143d73c2b8)
+        ;
+
+        
+    
+    
+            var poly_line_0c00f142bbb38f3699c5d178babba92a = L.polyline(
+                [[33.95, -83.374], [33.9461244, -83.4093752]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_0c00f142bbb38f3699c5d178babba92a.bindTooltip(
+                `<div>
+                     2.05 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_747c2a57a4cb3283a027ca8bcde66a1f = L.marker(
+                [33.9217572, -83.3433746],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_e811cb279ce4f53944c16324224803bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_747c2a57a4cb3283a027ca8bcde66a1f.setIcon(icon_e811cb279ce4f53944c16324224803bb);
+        
+    
+        var popup_266b494ca5ae36323212a5c2b393565f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c77688f9fc146f2a176979a52e9db1fe = $(`<div id="html_c77688f9fc146f2a176979a52e9db1fe" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (2.62 mi)</div>`)[0];
+                popup_266b494ca5ae36323212a5c2b393565f.setContent(html_c77688f9fc146f2a176979a52e9db1fe);
+            
+        
+
+        marker_747c2a57a4cb3283a027ca8bcde66a1f.bindPopup(popup_266b494ca5ae36323212a5c2b393565f)
+        ;
+
+        
+    
+    
+            var marker_5e7320f30d72d4850f8febb61caafec7 = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_0bf0fbb9088280b3bd2b628b0d2b03bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e7320f30d72d4850f8febb61caafec7.setIcon(icon_0bf0fbb9088280b3bd2b628b0d2b03bb);
+        
+    
+        var popup_2542e3a062a6f0d801f975a78507cfc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fb6bf41474f0c6bf3ad3f02627c0f99 = $(`<div id="html_8fb6bf41474f0c6bf3ad3f02627c0f99" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_2542e3a062a6f0d801f975a78507cfc0.setContent(html_8fb6bf41474f0c6bf3ad3f02627c0f99);
+            
+        
+
+        marker_5e7320f30d72d4850f8febb61caafec7.bindPopup(popup_2542e3a062a6f0d801f975a78507cfc0)
+        ;
+
+        
+    
+    
+            var poly_line_b3641eceab5875295b86cdcca30825fe = L.polyline(
+                [[33.95, -83.374], [33.9217572, -83.3433746]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_b3641eceab5875295b86cdcca30825fe.bindTooltip(
+                `<div>
+                     2.62 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3a9b0e55620ee2f4471cebb2e50d08f = L.marker(
+                [33.9502334, -83.3747304],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_b73a32928b7b4fa7a331f4c4cd181085 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f3a9b0e55620ee2f4471cebb2e50d08f.setIcon(icon_b73a32928b7b4fa7a331f4c4cd181085);
+        
+    
+        var popup_095d76f9edfd72d2db66d443839bbb20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d2b24fecb1a3810b4881e872d64f53b = $(`<div id="html_7d2b24fecb1a3810b4881e872d64f53b" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (0.04 mi)</div>`)[0];
+                popup_095d76f9edfd72d2db66d443839bbb20.setContent(html_7d2b24fecb1a3810b4881e872d64f53b);
+            
+        
+
+        marker_f3a9b0e55620ee2f4471cebb2e50d08f.bindPopup(popup_095d76f9edfd72d2db66d443839bbb20)
+        ;
+
+        
+    
+    
+            var marker_e20107a217d6c1592696b2756cb6ce10 = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_17a547144949c66c28e4096cac1827b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e20107a217d6c1592696b2756cb6ce10.setIcon(icon_17a547144949c66c28e4096cac1827b6);
+        
+    
+        var popup_da967720c112bc9bddd631360a2d51ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8071db9176a038650eb1c45c71f03e60 = $(`<div id="html_8071db9176a038650eb1c45c71f03e60" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_da967720c112bc9bddd631360a2d51ef.setContent(html_8071db9176a038650eb1c45c71f03e60);
+            
+        
+
+        marker_e20107a217d6c1592696b2756cb6ce10.bindPopup(popup_da967720c112bc9bddd631360a2d51ef)
+        ;
+
+        
+    
+    
+            var poly_line_f67b3c3689bf70a824a9a3e5e9104e17 = L.polyline(
+                [[33.95, -83.374], [33.9502334, -83.3747304]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_f67b3c3689bf70a824a9a3e5e9104e17.bindTooltip(
+                `<div>
+                     0.04 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_95c5bf95630a49762865b62e67ec8881 = L.marker(
+                [33.9414937, -83.4406232],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_3105d0fcaeef3740764439f42b9f40a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_95c5bf95630a49762865b62e67ec8881.setIcon(icon_3105d0fcaeef3740764439f42b9f40a7);
+        
+    
+        var popup_db207829435ce65d243a479e5930e769 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7aa3baae1dc5b219334b2b586de6e631 = $(`<div id="html_7aa3baae1dc5b219334b2b586de6e631" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (3.87 mi)</div>`)[0];
+                popup_db207829435ce65d243a479e5930e769.setContent(html_7aa3baae1dc5b219334b2b586de6e631);
+            
+        
+
+        marker_95c5bf95630a49762865b62e67ec8881.bindPopup(popup_db207829435ce65d243a479e5930e769)
+        ;
+
+        
+    
+    
+            var marker_55ea9cf46ea6eb5d9af1b91e098bef3a = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_b4f3f57912de467349a9e06039dac749 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_55ea9cf46ea6eb5d9af1b91e098bef3a.setIcon(icon_b4f3f57912de467349a9e06039dac749);
+        
+    
+        var popup_9c6d486c8b1b12448b1b646965caecb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5272268d9082cddf6db55250395ff964 = $(`<div id="html_5272268d9082cddf6db55250395ff964" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_9c6d486c8b1b12448b1b646965caecb4.setContent(html_5272268d9082cddf6db55250395ff964);
+            
+        
+
+        marker_55ea9cf46ea6eb5d9af1b91e098bef3a.bindPopup(popup_9c6d486c8b1b12448b1b646965caecb4)
+        ;
+
+        
+    
+    
+            var poly_line_28cbeb36545a0ca715457805f97749c6 = L.polyline(
+                [[33.95, -83.374], [33.9414937, -83.4406232]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_28cbeb36545a0ca715457805f97749c6.bindTooltip(
+                `<div>
+                     3.87 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_33ef83eb850a0be3142ec21c215e69e4 = L.marker(
+                [33.9959303, -83.3334407],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_74a484d81b30e331014b46b424beb487 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_33ef83eb850a0be3142ec21c215e69e4.setIcon(icon_74a484d81b30e331014b46b424beb487);
+        
+    
+        var popup_9fd687e0564821a1814c1ee7f1903dfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_470dc9b3878bb0e817ce041665784a75 = $(`<div id="html_470dc9b3878bb0e817ce041665784a75" style="width: 100.0%; height: 100.0%;">Starbucks in Athens (3.93 mi)</div>`)[0];
+                popup_9fd687e0564821a1814c1ee7f1903dfd.setContent(html_470dc9b3878bb0e817ce041665784a75);
+            
+        
+
+        marker_33ef83eb850a0be3142ec21c215e69e4.bindPopup(popup_9fd687e0564821a1814c1ee7f1903dfd)
+        ;
+
+        
+    
+    
+            var marker_d6e4449a5be01ca6a4904f399522a814 = L.marker(
+                [33.95, -83.374],
+                {
+}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            var icon_e1d4bad53b0248046140db2e58cfc346 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d6e4449a5be01ca6a4904f399522a814.setIcon(icon_e1d4bad53b0248046140db2e58cfc346);
+        
+    
+        var popup_9a7e06abc1917c5ff74fafbb3ba9b34d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5976f1099bbeadaaba14f5300eeea6e1 = $(`<div id="html_5976f1099bbeadaaba14f5300eeea6e1" style="width: 100.0%; height: 100.0%;">Athens University</div>`)[0];
+                popup_9a7e06abc1917c5ff74fafbb3ba9b34d.setContent(html_5976f1099bbeadaaba14f5300eeea6e1);
+            
+        
+
+        marker_d6e4449a5be01ca6a4904f399522a814.bindPopup(popup_9a7e06abc1917c5ff74fafbb3ba9b34d)
+        ;
+
+        
+    
+    
+            var poly_line_b6c8e92b4563367da109ee3e62f946dc = L.polyline(
+                [[33.95, -83.374], [33.9959303, -83.3334407]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_b2791b81eec21604f5a8f4285d4ff6f1);
+        
+    
+            poly_line_b6c8e92b4563367da109ee3e62f946dc.bindTooltip(
+                `<div>
+                     3.93 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

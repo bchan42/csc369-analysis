@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_802623a4d3a837dc1b068fef4e6f6e93 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_802623a4d3a837dc1b068fef4e6f6e93" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_802623a4d3a837dc1b068fef4e6f6e93 = L.map(
+                "map_802623a4d3a837dc1b068fef4e6f6e93",
+                {
+                    center: [36.5, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03c06aa8cd78dd6b65f046b8b4529709 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_03c06aa8cd78dd6b65f046b8b4529709.addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var marker_349fa5097cae1c5a7317065dd4fdc87b = L.marker(
+                [35.2500877, -120.643591],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_983f4e5c8e4120dfcacca253a06eaebd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_349fa5097cae1c5a7317065dd4fdc87b.setIcon(icon_983f4e5c8e4120dfcacca253a06eaebd);
+        
+    
+        var popup_56e77d1bcbffe7eee9d1a4c7d842155f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e96307a57f5ce1f4eaf11b6a4fe7b3dd = $(`<div id="html_e96307a57f5ce1f4eaf11b6a4fe7b3dd" style="width: 100.0%; height: 100.0%;">Taco Bell in San Luis Obispo (3.63 mi)</div>`)[0];
+                popup_56e77d1bcbffe7eee9d1a4c7d842155f.setContent(html_e96307a57f5ce1f4eaf11b6a4fe7b3dd);
+            
+        
+
+        marker_349fa5097cae1c5a7317065dd4fdc87b.bindPopup(popup_56e77d1bcbffe7eee9d1a4c7d842155f)
+        ;
+
+        
+    
+    
+            var marker_df942d4d6e50a650d33a400d52eb303a = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_78c79e6cc763119362d8a07a5f138f3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df942d4d6e50a650d33a400d52eb303a.setIcon(icon_78c79e6cc763119362d8a07a5f138f3f);
+        
+    
+        var popup_f9a021aff3cab6f6ce255bafd5a696ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85849632a7c08298a4d3b96715e0645a = $(`<div id="html_85849632a7c08298a4d3b96715e0645a" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_f9a021aff3cab6f6ce255bafd5a696ba.setContent(html_85849632a7c08298a4d3b96715e0645a);
+            
+        
+
+        marker_df942d4d6e50a650d33a400d52eb303a.bindPopup(popup_f9a021aff3cab6f6ce255bafd5a696ba)
+        ;
+
+        
+    
+    
+            var poly_line_6943f18ec3f78ad9e1723eaf0fddef86 = L.polyline(
+                [[35.3004, -120.6625], [35.2500877, -120.643591]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            poly_line_6943f18ec3f78ad9e1723eaf0fddef86.bindTooltip(
+                `<div>
+                     3.63 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_24964a25fb725f090845cce6ee43abd2 = L.marker(
+                [35.3073695, -120.6588459],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_08bfdbc3d4b0730cb48d680d93d45417 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_24964a25fb725f090845cce6ee43abd2.setIcon(icon_08bfdbc3d4b0730cb48d680d93d45417);
+        
+    
+        var popup_3fee20083600cd73c07b97178cdf0a1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a34ba11de11d8d79814e288416089aa = $(`<div id="html_1a34ba11de11d8d79814e288416089aa" style="width: 100.0%; height: 100.0%;">Taco Bell in San Luis Obispo (0.52 mi)</div>`)[0];
+                popup_3fee20083600cd73c07b97178cdf0a1b.setContent(html_1a34ba11de11d8d79814e288416089aa);
+            
+        
+
+        marker_24964a25fb725f090845cce6ee43abd2.bindPopup(popup_3fee20083600cd73c07b97178cdf0a1b)
+        ;
+
+        
+    
+    
+            var marker_30a4d670b69fb413d3cc920d6f70890a = L.marker(
+                [35.3004, -120.6625],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_fc72838c6067d747da1c06ec5ddfe439 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_30a4d670b69fb413d3cc920d6f70890a.setIcon(icon_fc72838c6067d747da1c06ec5ddfe439);
+        
+    
+        var popup_567498763f6cadc075ce26ac6f966701 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_401130b6642d9bd78e1bd484718e8739 = $(`<div id="html_401130b6642d9bd78e1bd484718e8739" style="width: 100.0%; height: 100.0%;">San Luis Obispo University</div>`)[0];
+                popup_567498763f6cadc075ce26ac6f966701.setContent(html_401130b6642d9bd78e1bd484718e8739);
+            
+        
+
+        marker_30a4d670b69fb413d3cc920d6f70890a.bindPopup(popup_567498763f6cadc075ce26ac6f966701)
+        ;
+
+        
+    
+    
+            var poly_line_e0414ed747c7afc8b3e1a04fc84a3714 = L.polyline(
+                [[35.3004, -120.6625], [35.3073695, -120.6588459]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            poly_line_e0414ed747c7afc8b3e1a04fc84a3714.bindTooltip(
+                `<div>
+                     0.52 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70f6b2f4028b0ed703daf99c6c804883 = L.marker(
+                [38.5468573, -121.7400795],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_c979e936d163f3a60cd536f34e1244db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70f6b2f4028b0ed703daf99c6c804883.setIcon(icon_c979e936d163f3a60cd536f34e1244db);
+        
+    
+        var popup_697313741dccf525d78e695b32bccc3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ef7a79eef62f5e2fdfe88463bc09c2b = $(`<div id="html_9ef7a79eef62f5e2fdfe88463bc09c2b" style="width: 100.0%; height: 100.0%;">Taco Bell in Davis (0.14 mi)</div>`)[0];
+                popup_697313741dccf525d78e695b32bccc3f.setContent(html_9ef7a79eef62f5e2fdfe88463bc09c2b);
+            
+        
+
+        marker_70f6b2f4028b0ed703daf99c6c804883.bindPopup(popup_697313741dccf525d78e695b32bccc3f)
+        ;
+
+        
+    
+    
+            var marker_baa7e4eb53bbbe190d3975aba3b7d3b7 = L.marker(
+                [38.5449, -121.7405],
+                {
+}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            var icon_9b49ffcf6c680fa7bda5f8a2f08389c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_baa7e4eb53bbbe190d3975aba3b7d3b7.setIcon(icon_9b49ffcf6c680fa7bda5f8a2f08389c6);
+        
+    
+        var popup_5895a6de0cdf1cf49991ebd791af7b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdc7cabc7d9b7a1bc1f60873c7fad012 = $(`<div id="html_bdc7cabc7d9b7a1bc1f60873c7fad012" style="width: 100.0%; height: 100.0%;">Davis University</div>`)[0];
+                popup_5895a6de0cdf1cf49991ebd791af7b68.setContent(html_bdc7cabc7d9b7a1bc1f60873c7fad012);
+            
+        
+
+        marker_baa7e4eb53bbbe190d3975aba3b7d3b7.bindPopup(popup_5895a6de0cdf1cf49991ebd791af7b68)
+        ;
+
+        
+    
+    
+            var poly_line_d6aea3fe70ba5837f2191ac8f64144a8 = L.polyline(
+                [[38.5449, -121.7405], [38.5468573, -121.7400795]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_802623a4d3a837dc1b068fef4e6f6e93);
+        
+    
+            poly_line_d6aea3fe70ba5837f2191ac8f64144a8.bindTooltip(
+                `<div>
+                     0.14 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
