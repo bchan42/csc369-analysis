@@ -13,6 +13,8 @@ This folder contains Jupyter notebooks for analyzing food distribution and diver
 
 - **folium.ipynb** – Uses Folium to visualize food locations on interactive maps and saves them as HTML. The folium folder contains all the HTML maps. 
 
+- **final_analysis.ipynb** – Combines all visuals used in final analysis report in a single notebook (in addtion, any other visuals I tried). These include some data exploration visuals, and more map visuals with Folium like distance analysis and K-Mean Clustering techniques.
+
 
 Additional markdown files:
 - **analysis_proposal.md** – Initial proposal outlining the research questions and approach.
